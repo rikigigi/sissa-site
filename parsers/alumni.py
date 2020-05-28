@@ -15,7 +15,7 @@ def norm_y(y):
 def parse(alumni, url, find_all, elaborate_entry,class_='', **kwargs):
     response=URL.urlopen(url)
     html=response.read() 
-    s=BeautifulSoup(html,'html.parser')
+    s=BeautifulSoup(html,'html5lib')
     l=s.find_all(**find_all)
     for b in l:
         res=elaborate_entry(url,b,class_,**kwargs)
@@ -51,8 +51,9 @@ def elaborate_table(url,b,class_,**kwargs):
             try:
                 res['affiliation']=tds[kwargs['aff_col']]
             except:
-                res['affiliation']='?'
-    except:
+                res['affiliation']='<td class={}>?</td>'.format(class_)
+    except Exception as e:
+        eprint(e)
         eprint('failed to parse:')
         eprint(b)
         return
