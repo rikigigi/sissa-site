@@ -43,16 +43,21 @@ CSS="${CSS}
   font-size: inherit;
   font-family: inherit;
   & {
-    @include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));
+    /*@include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));*/
     font-weight: 900;
     color: \$button-color;
     padding: 1.25rem 2rem;
     background: \$white;
     text-transform: uppercase;
-    &:hover, &:focus, &:active {
-      letter-spacing: 0.125rem;
+    &:hover, &:focus {
+      font-weight: 1500; 
+      /*letter-spacing: 0.125rem;*/
     }
   }
+}
+span.clear {
+  clear:both;
+  display:block;
 }
 
 /*
@@ -92,6 +97,6 @@ $(button "${BUTTON_TXT[$idx]}" "${BUTTON_IMG[$idx]}" "${BUTTON_LINKS[$idx]}")
 "
 done
 CONTENT_BUTTONS="${CONTENT_BUTTONS}
-</div>
+<span class=\"clear\"></span></div>
 "
 

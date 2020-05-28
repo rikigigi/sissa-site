@@ -36,14 +36,19 @@
   font-size: inherit;
   font-family: inherit; }
   .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+    /*@include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));*/
     font-weight: 900;
     color: #ffaaaa;
     padding: 1.25rem 2rem;
     background: #ffffff;
     text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
+    .area-button:hover, .area-button:focus {
+      font-weight: 1500;
+      /*letter-spacing: 0.125rem;*/ }
+
+span.clear {
+  clear: both;
+  display: block; }
 
 /*
 @supports (display: grid) {
@@ -62,7 +67,7 @@
 }
 */
 .collapsible {
-  ackground-color: #777;
+  background-color: #777;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -82,874 +87,25 @@
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1; }
 
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
+div .block {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
 
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
+div .sp {
+  background-color: #ffdddd; }
 
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
+div .tpp {
+  background-color: #ffffcc; }
 
-.active, .collapsible:hover {
-  background-color: #555; }
+div .app {
+  background-color: #ddffff; }
 
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
+div .cm {
+  background-color: #ddffdd; }
 
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
-
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
-
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
-
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
-
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
-
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
-
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
-
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
-
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
-
-/*
-.button-div > * {
-  box-sizing: border-box;
-  &::before, &::after {
-    box-sizing: border-box;
-  }
-}
-*/
-.button-div {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
-
-.area-button {
-  position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: inherit;
-  font-family: inherit; }
-  .area-button {
-    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
-    font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
-    text-transform: uppercase; }
-    .area-button:hover, .area-button:focus, .area-button:active {
-      letter-spacing: 0.125rem; }
-
-/*
-@supports (display: grid) {
-  .button-div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.625rem;
-    grid-template-areas: ". main main ." ". main main .";
-  }
-  
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
-}
-*/
-.collapsible {
-  ackground-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px; }
-
-.active, .collapsible:hover {
-  background-color: #555; }
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1; }
+div .ap {
+  background-color: #fdf5e6; }
 </style>
 </head>
 <body>
@@ -984,13 +140,15 @@
   <a href='http://www.sissa.it/tpp/index.php' target='_blank'><button class="area-button" style="background: url('https://www.sissa.it/tpp/images/cloudchamber.png') no-repeat center center;">Teoretical Particle</button></a>
 </div>
 
-</div>
+<span class="clear"></span></div>
 
-
+<div class=intro>
 <p><strong><a href="https://www.sissa.it/dipartimento-di-eccellenza">Data Science Excellence Department Initiative (DS)</a></strong></p>
 
 <p><strong><a href="https://www.sissa.it/physics-teaching-offer" target="_blank">Teaching Offer</a></strong><br>
 <strong><a href="https://www.sissa.it/scientific-secretariat" target="_blank">Scientific Secretariat</a></strong></p>
+
+<div>
 
 <button class='collapsible'>Representatives</button>
 <div class='content'>
@@ -1046,12 +204,835 @@
 
 <button class='collapsible'>Alumni</button>
 <div class='content'>
-<p> a veeery long list .... <br> ... <br> ...so loooong <br></p>
+<table><thead><tr><th>Name</th><th>Year</th><th>Supervisor</th><th>Thesis</th><th>Position</th></tr></thead><tbody>
+<tr>
+<td class="sp">Paola Ruggiero</td>
+<td class="sp">2019</td>
+<td class="sp">Pasquale Calabrese</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/103181">Entanglement and correlations in one-dimensional quantum many-body systems</a></td>
+<td class="sp">Postdoc at University of Geneva, Switzerland</td>
+</tr>
+<tr>
+<td class="sp">Riccardo Ben Alì Zinati</td>
+<td class="sp">2019</td>
+<td class="sp">Andrea Gambassi,<br/>Alessandro Codello</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/103476">Universality: from discrete symmetry models to active matter systems</a></td>
+<td class="sp">Postdoc at Sorbonne Université, Paris, France</td>
+</tr>
+<tr>
+<td class="sp">Jacopo Sisti</td>
+<td class="sp">2019</td>
+<td class="sp">Erik Tonni</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/103394">Shape Dependence of Holographic Entanglement Entropy in AdS/BCFT and in Hyperscaling Violating Spacetimes</a></td>
+<td class="sp">Postdoc at University of Southampton, UK</td>
+</tr>
+<tr>
+<td class="sp">Márton Mestyán</td>
+<td class="sp">2019</td>
+<td class="sp">Pasquale Calabrese</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/103396">Relaxation phenomena in isolated integrable quantum systems</a></td>
+<td class="sp">Postdoc at University of Ljubljana, Slovenia</td>
+</tr>
+<tr>
+<td class="sp">Paolo Mazza</td>
+<td class="sp">2019</td>
+<td class="sp">Andrea Gambassi</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/103452">Non-equilibrium dynamics in one-dimensional constrained quantum statistical systems</a></td>
+<td class="sp">Postdoc at University of Tübingen, Germany</td>
+</tr>
+<tr>
+<td class="sp">Alessio Lerose</td>
+<td class="sp">2019</td>
+<td class="sp">Andrea Gambassi, <br/>
+Alessandro Silva</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/103470">Nonequilibrium phenomena in quantum many-body systems with long-range interactions</a></td>
+<td class="sp">Postdoc at University of Geneva, Switzerland</td>
+</tr>
+<tr>
+<td class="app">
+        Alessandro Davoli      </td>
+<td class="app">2019</td>
+<td class="app">
+        A. D. Simone      </td>
+<td class="app">
+        A journey in dark matter models with non-standard features      </td>
+<td class="app">
+        Private company (data science)      </td>
+</tr>
+<tr>
+<td class="app">
+        Jiaxin  Wang      </td>
+<td class="app">2019</td>
+<td class="app">
+        P. Ullio      </td>
+<td class="app">
+        Numerical approaches towards the galactic synchrotron emission      </td>
+<td class="app">
+        Postdoc Shanghai Jiao Tong University, China      </td>
+</tr>
+<tr>
+<td class="app">
+        Mihael  Petac      </td>
+<td class="app">2019</td>
+<td class="app">
+        P. Ullio      </td>
+<td class="app">
+        Galactic Dark Matter distribution and its implication for experimental searches      </td>
+<td class="app">
+        Postdoc in Montpellier, France (LUPM institute)      </td>
+</tr>
+<tr>
+<td class="sp">Alberto Pezzotta</td>
+<td class="sp">2018</td>
+<td class="sp">Antonio Celani</td>
+<td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/84114">Optimal search processes in physics and biology</a></td>
+<td class="sp">Postdoc at The Francis Crick Institute, London, UK</td>
+</tr>
+<tr>
+<td class="sp">Ryan Cubero</td>
+<td class="sp">2018</td>
+<td class="sp"> Matteo Marsili,<br/> Roudi Yasser</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/90676">Statistical mechanics of samples, efficient representations and criticality</a></td>
+<td class="sp">Postdoc at Kavli Institute for Systems Neuroscience, Trondheim, Norway</td>
+</tr>
+<tr>
+<td class="sp">Alvise Bastianello</td>
+<td class="sp">2018</td>
+<td class="sp">Giuseppe Mussardo,<br/>Andrea De Luca</td>
+<td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/83616">Aspects of quantum integrability: non-equilibrium dynamics, defects and hydrodynamics</a></td>
+<td class="sp">Postdoc at University of Amsterdam, Netherlands</td>
+</tr>
+<tr>
+<td class="sp">Estelle Inack</td>
+<td class="sp">2018</td>
+<td class="sp">Giuseppe Santoro,<br/>Sebastiano Pilati</td>
+<td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/83714">Simulating quantum annealing via projective quantum Monte Carlo algorithms</a></td>
+<td class="sp">Postdoc at Perimeter Institute, Waterloo, Canada</td>
+</tr>
+<tr>
+<td class="sp">Lorenzo Piroli</td>
+<td class="sp">2018</td>
+<td class="sp">Pasquale Calabrese</td>
+<td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/83596">Nonequilibrium Quantum States of Matter</a></td>
+<td class="sp">Postdoc at MPQ, Munich, Germany</td>
+</tr>
+<tr>
+<td class="app">
+        Rodrigo de León Ardón      </td>
+<td class="app">2018</td>
+<td class="app">
+        R. Percacci      </td>
+<td class="app">
+        Different formulations of Gravity and their equivalence at classical and quantum level      </td>
+<td class="app">
+        Research associate at ICTP      </td>
+</tr>
+<tr>
+<td class="app">
+        Yakefu Reyimuaji      </td>
+<td class="app">2018</td>
+<td class="app">
+        A. Romanino      </td>
+<td class="app">
+        Phenomenological Applications of Effective Field Theory: Neutrinos and LHC Physics      </td>
+<td class="app">
+        Post-doc at Chinese Academy of Sciences      </td>
+</tr>
+<tr>
+<td class="app">
+        Lorenzo Bordin      </td>
+<td class="app">2018</td>
+<td class="app">
+        P. Creminelli      </td>
+<td class="app">
+        Primordial Non-Gaussianity and Primordial Tensor Modes      </td>
+<td class="app">
+        Postdoctoral Fellow at Nottingham University      </td>
+</tr>
+<tr>
+<td class="app">
+        Vedran Skrinjar      </td>
+<td class="app">2018</td>
+<td class="app">
+        R. Percacci      </td>
+<td class="app">
+        Asymptotically Safe Quantum Field Theories in Perturbative Regime and Beyond      </td>
+<td class="app">
+        Consultant for Private Company      </td>
+</tr>
+<tr>
+<td class="app">
+        Costantino Pacilio      </td>
+<td class="app">2018</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        Black holes beyond general relativity: theoretical and phenomenological developments.      </td>
+<td class="app">
+        Master in High Performance Computing      </td>
+</tr>
+<tr>
+<td class="sp">João Pinto Barros</td>
+<td class="sp">2017</td>
+<td class="sp">Andrea Trombettoni,<br/>Marcello Dalmonte</td>
+<td class="sp"><a href="https://hdl.handle.net/20.500.11767/57731">Field and Gauge Theories with Ultracold Gauge Potentials and Fields</a></td>
+<td class="sp">Postdoc at University of Bern, Switzerland</td>
+</tr>
+<tr>
+<td class="sp">Gianni Mossi</td>
+<td class="sp">2017</td>
+<td class="sp">Antonello Scardicchio</td>
+<td class="sp"><a href="https://hdl.handle.net/20.500.11767/57711">The Transverse-Field Ising Spin Glass Model on the Bethe Lattice with an Application to Adiabatic Quantum Computing</a></td>
+<td class="sp">Quantum Research Scientist at NASA QuAIL, Mountain View, USA</td>
+</tr>
+<tr>
+<td class="app">
+        Ramit Dey      </td>
+<td class="app">2017</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        Thermodynamical Aspects of Gravity: From Event Horizon to Emergent Gravity      </td>
+<td class="app">
+        Postdoctoral fellowship at University of Western Ontario      </td>
+</tr>
+<tr>
+<td class="app">
+        Marco Letizia      </td>
+<td class="app">2017</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        Probing the spacetime fabric: from fundamental discreteness to quantum geometries      </td>
+<td class="app">
+        Post-doc at Perimeter Institute (Della Riccia funding)      </td>
+</tr>
+<tr>
+<td class="app">
+        Ernesto Lopez Fune      </td>
+<td class="app">2017</td>
+<td class="app">
+        P. Salucci      </td>
+<td class="app">
+        Dark Matter and Galaxy Rotation Curves      </td>
+<td class="app">
+        Postdoctoral Scientist at Laboratoire de Physique Nucléaire et de Hautes Energies ( LPNHE - UPMC / IN2P3 / CNRS)      </td>
+</tr>
+<tr>
+<td class="app">
+        Peter Labus      </td>
+<td class="app">2017</td>
+<td class="app">
+        R. Percacci      </td>
+<td class="app">
+        Matter Fields in Asymptotically Safe Quantum Field Theories of Gravity      </td>
+<td class="app">
+        Postdoctoral fellowship at Fraunhofer Institute for Industrial Mathematics ITWM      </td>
+</tr>
+<tr>
+<td class="sp">Alessio Chiocchetta</td>
+<td class="sp">2016</td>
+<td class="sp">Andrea Gambassi</td>
+<td class="sp"><a href="https://hdl.handle.net/20.500.11767/4909">A study on non-equilibrium dynamics in isolated and open quantum systems</a></td>
+<td class="sp">Postdoc at University of Cologne, Germany</td>
+</tr>
+<tr>
+<td class="sp">Cristiano De Nobili</td>
+<td class="sp">2016</td>
+<td class="sp">Erik Tonni</td>
+<td class="sp"><a href="https://hdl.handle.net/20.500.11767/4915">On entanglement negativity in 1+1 and 2+1 dimensional quantum systems</a></td>
+<td class="sp">Deep Learning Scientist at HARMAN Itl., Milano, Italy</td>
+</tr>
+<tr>
+<td class="sp">Thuong Nguyen</td>
+<td class="sp">2016</td>
+<td class="sp">Markus Müller</td>
+<td class="sp"><a href="https://hdl.handle.net/20.500.11767/4882">Magneto-transport and localization in disordered systems with local superconductive attraction</a></td>
+<td class="sp">Data Scientist at [24]7.ai, Mountain View, USA</td>
+</tr>
+<tr>
+<td class="sp">Valentina Ros</td>
+<td class="sp">2016</td>
+<td class="sp">Markus Müller,<br/>Antonello Scardicchio</td>
+<td class="sp"><a href="https://hdl.handle.net/20.500.11767/4906">Aspects of localization in disordered many-body quantum systems</a></td>
+<td class="sp">Postdoc at ENS, Paris, France</td>
+</tr>
+<tr>
+<td class="sp">Valerio Volpati</td>
+<td class="sp">2016</td>
+<td class="sp">Matteo Marsili</td>
+<td class="sp"><a href="https://hdl.handle.net/20.500.11767/4924">Statistical Mechanics approach to the sustainability of economic ecosystems</a></td>
+<td class="sp">Research Fellow at Capital Fund Managment, Paris, France</td>
+</tr>
+<tr>
+<td class="app">
+        Alessio Belenchia      </td>
+<td class="app">2016</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        Exploring Spacetime Phenomenology: From Lorentz Violations to Experimental Tests of Non-locality      </td>
+<td class="app">
+        Post-doc at IQOQI in Vienna      </td>
+</tr>
+<tr>
+<td class="app">
+        Alejandro Castedo Echeverri      </td>
+<td class="app">2016</td>
+<td class="app">
+        M. Serone      </td>
+<td class="app">
+        CFTs and the Bootstrap      </td>
+<td class="app">
+        Private Company       </td>
+</tr>
+<tr>
+<td class="app">
+        Elena Massara      </td>
+<td class="app">2016</td>
+<td class="app">
+        M. Viel, R. K. Sheth      </td>
+<td class="app">
+        Neutrinos and voids in modern cosmology      </td>
+<td class="app">
+        Postdoctoral Fellow at Berkeley University      </td>
+</tr>
+<tr>
+<td class="app">
+        Mauro Valli      </td>
+<td class="app">2016</td>
+<td class="app">
+        P. Ullio      </td>
+<td class="app">
+        A glimpse on Dark Matter particles shining through the gamma-ray Sky      </td>
+<td class="app">
+        Post-doc at INFN Rome      </td>
+</tr>
+<tr>
+<td class="sp">Andrea Coser</td>
+<td class="sp">2015</td>
+<td class="sp">Erik Tonni</td>
+<td class="sp"><a href="https://hdl.handle.net/20.500.11767/4849">Aspects of entanglement negativity in one dimensional critical systems</a></td>
+<td class="sp">Postdoc at Universidad Complutense de Madrid, Spain</td>
+</tr>
+<tr>
+<td class="sp">Francesca Pietracaprina</td>
+<td class="sp">2015</td>
+<td class="sp">Antonello Scardicchio</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4911">Investigating localization transitions with the forward approximation</a></td>
+?
+</tr>
+<tr>
+<td class="sp">Mauro Schiulaz</td>
+<td class="sp">2015</td>
+<td class="sp">Alessandro Silva<br/>Markus Müller</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4908">Ideal quantum glass transition: many-body localization without quenched disorder?</a></td>
+<td class="sp">Assistant Editor for PRX at the APS, New York, USA</td>
+</tr>
+<tr>
+<td class="sp">Alessio Squarcini</td>
+<td class="sp">2015</td>
+<td class="sp">Gesualdo Delfino</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4900">Phase separation and interfaces — exact results</a></td>
+<td class="sp">Postdoc at Max Planck, Stuttgart, Germany</td>
+</tr>
+<tr>
+<td class="app">
+        Emanuele Castorina      </td>
+<td class="app">2015</td>
+<td class="app">
+        R. K. Sheth, E. Sefusatti      </td>
+<td class="app">
+        Massive neutrinos and the Large Structure of the Universe      </td>
+<td class="app">
+        Post-doc at Berkeley Center for Cosmological Physics      </td>
+</tr>
+<tr>
+<td class="app">
+        Bethan Cropp      </td>
+<td class="app">2015</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        Strange horizons: understanding causal barriers beyond general relativity      </td>
+<td class="app">
+        Post-doc at University of Kerala, India      </td>
+</tr>
+<tr>
+<td class="app">
+        Michele Lucente      </td>
+<td class="app">2015</td>
+<td class="app">
+        A. Abada, G. Martinelli      </td>
+<td class="app">
+        Implication of Sterile Fermions in Particle Physics and Cosmology      </td>
+<td class="app">
+        Post-doc at CP3, University of Leuven      </td>
+</tr>
+<tr>
+<td class="app">
+        Gabriele Trevisan      </td>
+<td class="app">2015</td>
+<td class="app">
+        P. Creminelli      </td>
+<td class="app">
+        Aspects of inflationary cosmology      </td>
+<td class="app">
+        Post-doc at CCPP, New York University      </td>
+</tr>
+<tr>
+<td class="sp">Pierangelo Lombardo</td>
+<td class="sp">2014</td>
+<td class="sp">Andrea Gambassi<br/>Luca Dall’Asta</td>
+<td class="sp"><a href=" http://hdl.handle.net/20.500.11767/3864">Fluctuations effects in population genetics and in protein translation</a></td>
+<td class="sp">Data Scientist at aizoOn Technology Consulting, Turin, Italy
+</td>
+</tr>
+<tr>
+<td class="sp">Giuseppe Menegoz</td>
+<td class="sp">2014</td>
+<td class="sp">Alessandro Silva</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/3872">Prethermalization after a sudden quench in a weakly interacting Bose gas</a></td>
+<td class="sp">Software Developer at Nord Est Systems, Pordenone, Italy</td>
+</tr>
+<tr>
+<td class="sp">Pietro Smacchia</td>
+<td class="sp">2014</td>
+<td class="sp">Alessandro Silva</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4104">Out of equilibrium many-body systems: adiabaticity, statistics of observables and dynamical phase transitions</a></td>
+<td class="sp">Head of Data Science at Blockchain, London, UK</td>
+</tr>
+<tr>
+<td class="app">
+        Marko Simonovic      </td>
+<td class="app">2014</td>
+<td class="app">
+        P. Creminelli      </td>
+<td class="app">
+        Cosmological Consistency Relations      </td>
+<td class="app">
+        Post-doc at IAS in Princeton, New Jersey      </td>
+</tr>
+<tr>
+<td class="app">
+        David Marzocca      </td>
+<td class="app">2014</td>
+<td class="app">
+        A. Romanino, M. Serone      </td>
+<td class="app">
+        Higgs and beyond in the LHC era      </td>
+<td class="app">
+        Post-doc at University of Zurich      </td>
+</tr>
+<tr>
+<td class="app">
+        Carlo Pagani      </td>
+<td class="app">2014</td>
+<td class="app">
+        R. Percacci      </td>
+<td class="app">
+        Applications of the functional renormalization group in curved spacetime      </td>
+<td class="app">
+        Post-doc at Mainz University      </td>
+</tr>
+<tr>
+<td class="sp">Marco Beria</td>
+<td class="sp">2013</td>
+<td class="sp">Mussardo Giuseppe,<br/>Robert M. Konik<br/>Markus Müller</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4798">Numerical methods for quantum systems with infinite-dimensional space of states: two examples, two approaches</a></td>
+<td class="sp">Global Data Scientist at Allianz, Munich, Germany</td>
+</tr>
+<tr>
+<td class="sp">Luca Caniparoli</td>
+<td class="sp">2013</td>
+<td class="sp">Matteo Marsili</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4819">Statistical physics approaches to protein translation</a></td>
+<td class="sp">Sr Data Scientist at Boston Consulting Group, Milan, Italy</td>
+</tr>
+<tr>
+<td class="sp">Giancarlo De Luca</td>
+<td class="sp">2013</td>
+<td class="sp">Matteo Marsili</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4808">Decision Making in Complex Environments: an adaptive network approach</a></td>
+<td class="sp">Data Scientist R&amp;D at WYND, Paris, France</td>
+</tr>
+<tr>
+<td class="sp">Matteo Marcuzzi</td>
+<td class="sp">2013</td>
+<td class="sp"> Andrea Gambassi</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4805">A study on non-equilibrium dynamics in classical and quantum systems</a></td>
+<td class="sp">Research Fellow at The University of Nottingham, UK</td>
+</tr>
+<tr>
+<td class="sp">Jamir Marino</td>
+<td class="sp">2013</td>
+<td class="sp"> Alessandro Silva</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4109">Pre-Thermalization in Quantum Spin Chains</a></td>
+<td class="sp">Junior Professor at Mainz University,Germany</td>
+</tr>
+<tr>
+<td class="app">
+        Dario Bettoni      </td>
+<td class="app">2013</td>
+<td class="app">
+        S. Liberati
+<br/>C. Baccigalupi      </td>
+<td class="app">
+        Framing the dark: theory and phenomenology af a non-minimally coupled dark matter fluid      </td>
+<td class="app">
+        Post-doc position at Technion, Haifa (Israel)      </td>
+</tr>
+<tr>
+<td class="app">
+        Aurora Meroni      </td>
+<td class="app">2013</td>
+<td class="app">
+        S. Petcov      </td>
+<td class="app">
+        The nature of Massive Neutrinos and Unified Theories of Flavour      </td>
+<td class="app">
+        Post-doc at INFN Frascati      </td>
+</tr>
+<tr>
+<td class="app">
+        Giulio D'Odorico      </td>
+<td class="app">2013</td>
+<td class="app">
+        R. Percacci      </td>
+<td class="app">
+        Applications of the Functional Renormalization Group: from Statistical Models to Quantum Gravity      </td>
+<td class="app">
+        Post-doc at Radboud University Nijmegen      </td>
+</tr>
+<tr>
+<td class="app">
+        Hani Santosa      </td>
+<td class="app">2013</td>
+<td class="app">
+        P. Ullio      </td>
+<td class="app">
+        Dark Matter Indirect Detection and Subhalos      </td>
+<td class="app">
+        Lecturer at STKIP Surya, Banten, Indonesia      </td>
+</tr>
+<tr>
+<td class="sp">Francesco Buccheri</td>
+<td class="sp">2012</td>
+<td class="sp">Giuseppe Mussardo</td>
+<td class="sp"><a href="/statistical/tesi_phd1/thesis_buccheri.pdf">Matrix elements from algebraic Bethe anzatz: novel applications in statistical physics</a></td>
+<td class="sp">Postdoc at University of Düsseldorf, Germany</td>
+</tr>
+<tr>
+<td class="sp">Andrea De Luca</td>
+<td class="sp">2012</td>
+<td class="sp">Antonello Scardicchio</td>
+<td class="sp"><a>Entanglement and localization in low-dimensional quantum systems</a></td>
+<td class="sp">Permanent researcher at CNRS, Cergy University, France</td>
+</tr>
+<tr>
+<td class="sp">Francesco Mancarella</td>
+<td class="sp">2012</td>
+<td class="sp">Giuseppe Mussardo,<br/>Andrea Trombettoni</td>
+<td class="sp"><a href="/statistical/tesi_phd1/thesis_mancarella.pdf">Some Aspects of Anyon Thermodynamics and Chern–Simons Theory</a></td>
+<td class="sp">Senior Analyst at Danske Bank Corporates and Institutions, Denmark</td>
+</tr>
+<tr>
+<td class="sp">Iacopo Mastromatteo</td>
+<td class="sp">2012</td>
+<td class="sp"> Matteo Marsil</td>
+<td class="sp"><a href="/statistical/tesi_phd1/thesis_mastromatteo.pdf">On the typical properties of inverse problems in statistical mechanics</a></td>
+<td class="sp">Associated Researcher at CFM, France</td>
+</tr>
+<tr>
+<td class="sp">Jacopo Viti</td>
+<td class="sp">2012</td>
+<td class="sp">Gesualdo Delfino</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4717">Universal properties of two dimensional percolation</a></td>
+<td class="sp">Professor (Assistant) at UFRN, Brazil</td>
+</tr>
+<tr>
+<td class="sp">Xiao Quan Yu</td>
+<td class="sp">2012</td>
+<td class="sp">Markus Müller</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4785">Superfluidity and localization in Bosonic glasses</a></td>
+<td class="sp">Postdoc at University of Otago, New Zealand</td>
+</tr>
+<tr>
+<td class="app">
+        Giorgio Arcadi      </td>
+<td class="app">2012</td>
+<td class="app">
+        P. Ullio      </td>
+<td class="app">
+        Interplay between Generation Mechanisms and Detection of Supersymmetric Dark Matter in the LHC Era      </td>
+<td class="app">
+        Post-doc Invisible Fellowship, Goettingen University, Goettingen, Germany      </td>
+</tr>
+<tr>
+<td class="app">
+        Alessandro Lovato      </td>
+<td class="app">2012</td>
+<td class="app">
+        S. Fantoni
+<br/>O. Benhar      </td>
+<td class="app">
+        Ab initio calculations on nuclear matter properties including the effects of three-nucleons interaction      </td>
+<td class="app">
+        Post-doc at ALCF, Argonne National Laboratory      </td>
+</tr>
+<tr>
+<td class="app">
+        Angus Prain      </td>
+<td class="app">2012</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        The Analogue Gravity Challenge The bridge from Theory to Experiment      </td>
+<td class="app">
+        Post-doc at Bishop's University, Sherbrooke, Quebec, Canada      </td>
+</tr>
+<tr>
+<td class="app">
+        Maryam Tavakoli      </td>
+<td class="app">2012</td>
+<td class="app">
+        P. Ullio      </td>
+<td class="app">
+        Porperties of Interstellar Medium and Cosmic Rays Propagation; Impacts on Indirect Dark Matter Searches      </td>
+<td class="app">
+        Long term visitor at DESY      </td>
+</tr>
+<tr>
+<td class="sp">Laura Foini</td>
+<td class="sp">2011</td>
+<td class="sp">Francesco Zamponi, <br/>Andrea Gambassi</td>
+<td class="sp"><a href="/statistical/tesi_phd1/thesis_foini.pdf">Quantum optimization problems and glassy systems</a></td>
+<td class="sp">Permanent researcher at CNRS, IPhT Saclay, France</td>
+</tr>
+<tr>
+<td class="sp">Giuseppe Brandino</td>
+<td class="sp">2011</td>
+<td class="sp">Giuseppe Mussardo</td>
+<td class="sp"><a href="/statistical/tesi_phd/brandino.pdf">Perturbed CFT: Integrability, non-integrability and the level spacing conjecture</a></td>
+<td class="sp">R&amp;D responsible at eXact-lab S.R.L., Italy</td>
+</tr>
+<tr>
+<td class="sp">Michele Burrello</td>
+<td class="sp">2011</td>
+<td class="sp">Giuseppe Mussardo,<br/>Andrea Trombettoni</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4127">Topological Quantum Computation, Anyons and non-Abelian Gauge Potentials</a></td>
+<td class="sp">Professor (Assistant) at University of Copenhagen , Denmark</td>
+</tr>
+<tr>
+<td class="sp">Davide Fioretto</td>
+<td class="sp">2011</td>
+<td class="sp">Giuseppe Mussardo</td>
+<td class="sp"><a href="/statistical/tesi_phd/fioretto.pdf">Integrability and Out of Equilibrium Quantum Dynamics</a></td>
+<td class="sp">Quant Trader at Exane, UK</td>
+</tr>
+<tr>
+<td class="sp">Giacomo Gori</td>
+<td class="sp">2011</td>
+<td class="sp">Andrea Trombettoni</td>
+<td class="sp"><a href="/statistical/tesi_phd/gori.pdf">Dipolar interaction: general concepts and application to cold atoms</a></td>
+<td class="sp">Postdoc at ITP Heidelberg</td>
+</tr>
+<tr>
+<td class="sp">Tommaso Macrì</td>
+<td class="sp">2011</td>
+<td class="sp">Andrea Trombettoni</td>
+<td class="sp"><a href="/statistical/tesi_phd/macri.pdf">Cold Atom Fermi Systems</a></td>
+<td class="sp">Assistant Professor at UFRN, Natal, Brasil</td>
+</tr>
+<tr>
+<td class="app">
+        Vincenzo Vitagliano      </td>
+<td class="app">2011</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        Gravity beyond General Relativity:
+theory and phenomenology      </td>
+<td class="app">
+        Post-doc at CENTRA, Lisbon, Portugal      </td>
+</tr>
+<tr>
+<td class="app">
+        Adriano Contillo      </td>
+<td class="app">2011</td>
+<td class="app">
+        R. Percacci
+<br/>A. Bonanno      </td>
+<td class="app">
+        Renormalisation group improvement of the early universe dynamics      </td>
+<td class="app">
+        Post-doc at the Institute of Physics, University of Mainz      </td>
+</tr>
+<tr>
+<td class="sp">Serena Bradde</td>
+<td class="sp">2010</td>
+<td class="sp">Riccardo Zecchina, <br/> Giuseppe Mussardo</td>
+<td class="sp"><a href="/statistical/tesi_phd/bradde.pdf">The Isomorphism Problem: A Belief Propagation Approach</a></td>
+<td class="sp">Editor for PRE  at APS, New York, USA</td>
+</tr>
+<tr>
+<td class="sp">Fabio Caccioli</td>
+<td class="sp">2010</td>
+<td class="sp">Matteo Marsili</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/4149">Financial markets as disordered interacting systems: information, risk and illiquidity</a></td>
+<td class="sp">Professor at UCL, London, UK</td>
+</tr>
+<tr>
+<td class="sp">Elena Canovi</td>
+<td class="sp">2010</td>
+<td class="sp">Giuseppe Santoro,<br/>Rosario Fazio,<br/>Alessandro Silva</td>
+<td class="sp"><a href="/statistical/tesi_phd/canovi.pdf">Quench dynamics of many-body systems</a></td>
+<td class="sp">Software developer at Sinapsi, L’Aquila, Italy</td>
+</tr>
+<tr>
+<td class="sp">Daniele De Martino</td>
+<td class="sp">2010</td>
+<td class="sp">Matteo Marsili</td>
+<td class="sp"><a href="/statistical/tesi_phd/de_martino.pdf">Phase transistions on heterogeneous random graphs: some case studies</a></td>
+<td class="sp">Permanent researcher at CNR, Italy</td>
+</tr>
+<tr>
+<td class="sp">Luca Lepori</td>
+<td class="sp">2010</td>
+<td class="sp">Giuseppe Mussardo,<br/>Andrea Trombettoni</td>
+<td class="sp"><a href="/statistical/tesi_phd/lepori.pdf">QFT emerging models in condensed matter systems</a></td>
+<td class="sp">Postdoc at IIT (Genova), Italy</td>
+</tr>
+<tr>
+<td class="app">
+        Guido D'Amico      </td>
+<td class="app">2010</td>
+<td class="app">
+        P. Creminelli      </td>
+<td class="app">
+        Dark Energy and Non-Gaussianity through the Large Scale Structure      </td>
+<td class="app">
+        Post-doc at Center for Cosmology and Particle Physics, New York University      </td>
+</tr>
+<tr>
+<td class="app">
+        Jorge Ivan Noreña Sanchez      </td>
+<td class="app">2010</td>
+<td class="app">
+        P. Creminelli      </td>
+<td class="app">
+        Topics on cosmological non-Gaussianity      </td>
+<td class="app">
+        Post-doc at ICC, University of Barcelona      </td>
+</tr>
+<tr>
+<td class="app">
+        Marco Nardecchia      </td>
+<td class="app">2010</td>
+<td class="app">
+        A. Romanino      </td>
+<td class="app">
+        Phenomenological aspects of supersymmetry breaking      </td>
+<td class="app">
+        Research associate, DAMTP, University of Cambridge      </td>
+</tr>
+<tr>
+<td class="app">
+        Omar Zanusso      </td>
+<td class="app">2010</td>
+<td class="app">
+        R. Percacci      </td>
+<td class="app">
+        Selected applications of functional renormalization group      </td>
+<td class="app">
+        Post-doc at Radboud University Nijmegen, Germany      </td>
+</tr>
+<tr>
+<td class="app">
+        Gaurav Narain      </td>
+<td class="app">2010</td>
+<td class="app">
+        R. Percacci      </td>
+<td class="app">
+        Renormalization group studies of scalar-tensor theories of gravity      </td>
+<td class="app">
+        Post-doc at The Institute of Mathematical Sciences, Taramani, India      </td>
+</tr>
+<tr>
+<td class="app">
+        Lorenzo Sindoni      </td>
+<td class="app">2009</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        Emergent Gravity : The Analogue Models Perspective      </td>
+<td class="app">
+        Post-doc at Albert Einstein Institute, Golm, Germany      </td>
+</tr>
+<tr>
+<td class="app">
+        Luca Maccione      </td>
+<td class="app">2008</td>
+<td class="app">
+        S. Liberati,
+<br/>A. Celotti      </td>
+<td class="app">
+        High Energy Astrophysics, Cosmic Rays and Fundamental Physics      </td>
+<td class="app">
+        TNG Technology Consulting GmbH      </td>
+</tr>
+<tr>
+<td class="app">
+        Christiane Frigerio Martins      </td>
+<td class="app">2008</td>
+<td class="app">
+        P. Salucci      </td>
+<td class="app">
+        The distribution of the dark matter in galaxies as the imprint of its nature      </td>
+<td class="app">
+        Researcher at Universidade Federal Fluminense, Brazil      </td>
+</tr>
+<tr>
+<td class="app">
+        Marco Regis      </td>
+<td class="app">2008</td>
+<td class="app">
+        P. Ullio      </td>
+<td class="app">
+        Aspects of WIMP dark matter: Multi-wavelength signals and extra-dimension scenarios      </td>
+<td class="app">
+        Post-doc at Cape Town University      </td>
+</tr>
+<tr>
+<td class="app">
+        Christoph Rahmede      </td>
+<td class="app">2008</td>
+<td class="app">
+        R. Percacci,
+<br/>S. Liberati      </td>
+<td class="app">
+        Investigating the ultraviolet  properties of gravity with a Wilsonian renormalization group equation      </td>
+<td class="app">
+        Researcher at Karlsruhe University      </td>
+</tr>
+<tr>
+<td class="app">
+        Thomas Sotiriou      </td>
+<td class="app">2007</td>
+<td class="app">
+        S. Liberati
+<br/>J. Miller      </td>
+<td class="app">
+        Modified Actions for Gravity: Theory and Phenomenology      </td>
+<td class="app">
+        Reader at the Nottingham University      </td>
+</tr>
+</tbody></table>
 </div>
 
 <button class='collapsible'>Grants</button>
 <div class='content'>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">
@@ -1064,7 +1045,7 @@ New states of Entangled Matter Out of equilibrium (NEMO)
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Low dimensional quantum systems: theory, experiments and simulations
@@ -1072,7 +1053,7 @@ New states of Entangled Matter Out of equilibrium (NEMO)
 <p>2019–2022</p>
 <ul>
 This collaborative project from Italian ministry of research includes five research units: Trieste (<a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a> and <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a>), Florence experiment (Leonardo Fallani), Florence theory (Andrea Cappelli and Filippo Colomo), Padova (Simone Montangero), Pisa (Davide Rossini). National and SISSA coordinator: <a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a>. Total budget ca. 800 k€, SISSA budget ca. 160 k€.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Coarse-grained description for non-equilibrium system and transport phenomena (CO-NEST)
@@ -1080,28 +1061,34 @@ This collaborative project from Italian ministry of research includes five resea
 <p>2019–2022</p>
 <ul>
 This collaborative project from Italian ministry of research includes five research units: Trieste (<a href="https://www.statphys.sissa.it/wordpress/?page_id=1714">Andrea Gambassi</a>, local SISSA coordinator and Stefano Ruffo), University of Rome “La Sapienza” (Angelo Vulpiani, national coordinator), CNR (Andrea Puglisi, Fabio Cecconi, Andrea Baldassarri, Paolo Politi), University of Camerino (Umberto Marini Bettolo Marconi), University of Florence (Roberto Livi, Stefano Lepri, Lapo Casetti), University of Campania “Vanvitelli” (Eugenio Lippiello). Total budget ca. 1 115 k€, SISSA budget 178 k€.</ul></div></div>
-<tbody>
-<tr style="">
+<div class="block tpp">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  Prin project "The consequences of flavour: from precision measurements to fundamental physics" (2017L5W2PT) </strong>(2019/ 2022) <br style=""/>
-<p style="">The goal of this project is to study the origin of masses and flavour mixings of the elementary fermions, deriving experimental and theoretical implications of possible solutions to the flavour problem. On one
+<span>
+<p>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015MP2CX4">
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  Prin project "The consequences of flavour: from precision measurements to fundamental physics" (2017L5W2PT) </strong>(2019/ 2022) <br/>
+<p>The goal of this project is to study the origin of masses and flavour mixings of the elementary fermions, deriving experimental and theoretical implications of possible solutions to the flavour problem. On one
 hand, this will be done by means of theoretical investigation, following a new direction of research in which flavour arises as an accidental consequence of dynamical properties of a more fundamental theory.
 On the other hand, we will explore the phenomenology of new physics models in the flavour sector, taking advantage of the large amount of data that experiments will provide in the coming years. We will
 exploit the interplay of flavour and electroweak precision measurements and high-energy searches at colliders. Particular attention will be given to the study of lepton flavour universality violations, a topic that
 will be at the core of theoretical and experimental investigation in particle physics in the next few years. In this respect, we will study models that aim to explain in a coherent way the various experimental
-anomalies observed in B meson decays. <p style=""></p>
-<p style="">The  collaboration will include young researchers  from INFN (Pisa,Trieste,Firenze) SISSA and La Sapienza. The main part of the funding will be used for hiring young postdoctoral researchers in order to form a strong and competitive team.
-<p style=""></p>
-<br style=""/>
-<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2017L5W2PT" style="">
+anomalies observed in B meson decays. <p></p>
+<p>The  collaboration will include young researchers  from INFN (Pisa,Trieste,Firenze) SISSA and La Sapienza. The main part of the funding will be used for hiring young postdoctoral researchers in order to form a strong and competitive team.
+<p></p>
+<br/>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2017L5W2PT">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></div>
-</tr>
-</tbody>
-<div class="block">
+</p></p>
+
+</div>
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Strongly interacting systems in confined geometries
@@ -1109,8 +1096,8 @@ anomalies observed in B meson decays. <p style=""></p>
 <p>2018–2021 </p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Italian responsible of this Italy–Hungary Joint Project (Accordo di Cooperazione Scientifica CNR/MTA Ungheria); Hungarian responsible: Istvan Nandori.</ul></div></div>
-<div class="block"><p>ASI-Euclid (2018/21, missioni)                                                                            --> Baccigalupi</p></div>
-<div class="block">
+<div class="block ap"><p>ASI-Euclid (2018/21, missioni)                                                                            --> Baccigalupi</p></div>
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Quantum Technologies with Ultra-Cold Atoms
@@ -1118,7 +1105,7 @@ anomalies observed in B meson decays. <p style=""></p>
 <p>2017–2021</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Vice-Chair of the COST Action CA16221.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">NV centers for the test of the Quantum Jarzynski Equality (NVQJE)
@@ -1126,7 +1113,7 @@ anomalies observed in B meson decays. <p style=""></p>
 <p>2019–2020</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Co-Recipient of MIT–FVG Collaboration Grant with P. Cappellaro (MIT) and S. Ruffo (SISSA).</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Phases of ergodic and localized dynamics and applications to quantum computing
@@ -1138,43 +1125,57 @@ Total budget: 72 000 $ to support graduate students and postdocs.
 </ul>
 </div>
 </div>
-<tbody>
-<tr style="">
+<div class="block tpp">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  Prin project "Non-Perturbative Aspects of Gauge Theories and Strings" (2015MP2CX4) </strong> (Feb 2017/ Feb 2020) <br style=""/>
-<p style="">The purpose of this project is to promote the study of (supersymmetric) gauge theories and of string theory with particular emphasis on their non-perturbative aspects.<p style=""></p>
-<p style="">The main tools that will be used to go beyond perturbation theory and get a handle on the strongly coupled dynamics are supersymmetry and holography. They both find a natural embedding in string theory. Over the years string theory has emerged as a compelling candidate for a unified quantum theory of all fundamental interactions including gravity, and has also provided many successful ideas to study quantum field theories not only in their perturbative regime but also at strong coupling.<p style=""></p>
-<p style="">The primary challenge of this project is to establish a more solid and predictive connection among the various aspects of this research field. This project will be devoted to explore in particular the following topics:<p style=""></p>
-<p style="">A) Supersymmetric Gauge Theories <br style=""/>
-B) Holography <br style=""/>
-C) Instanton Effects in Gauge and String Theories<p style=""></p>
-<p style="">The participants in this project have complementary expertise, cover a wide range of topics in string and quantum field theories and have a good record of collaborations and interactions among them. In the past they have achieved several important results whose relevance is internationally acknowledged, as demonstrated by the number of “top-cited” papers they have published. All participants have been involved in past PRIN projects and have been members of European research and training networks in string theory and quantum field theory for many years. <p style=""></p>
-<p style="">This project consists of the elaboration of theoretical models within a rapidly evolving context, which requires close contact and frequent interactions among scientists. Thus, to increase collaborations among the participating teams, we plan to organize common activities, for example informal workshops and periodic meetings, and to promote mobility of the participants. A substantial part of the budget will be devoted to hiring and training young post-docs.<p style=""></p>
-<br style=""/>
-<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015MP2CX4" style="">
+<span>
+<p>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015MP2CX4">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  Prin project "Non-Perturbative Aspects of Gauge Theories and Strings" (2015MP2CX4) </strong> (Feb 2017/ Feb 2020) <br/>
+<p>The purpose of this project is to promote the study of (supersymmetric) gauge theories and of string theory with particular emphasis on their non-perturbative aspects.<p></p>
+<p>The main tools that will be used to go beyond perturbation theory and get a handle on the strongly coupled dynamics are supersymmetry and holography. They both find a natural embedding in string theory. Over the years string theory has emerged as a compelling candidate for a unified quantum theory of all fundamental interactions including gravity, and has also provided many successful ideas to study quantum field theories not only in their perturbative regime but also at strong coupling.<p></p>
+<p>The primary challenge of this project is to establish a more solid and predictive connection among the various aspects of this research field. This project will be devoted to explore in particular the following topics:<p></p>
+<p>A) Supersymmetric Gauge Theories <br/>
+B) Holography <br/>
+C) Instanton Effects in Gauge and String Theories<p></p>
+<p>The participants in this project have complementary expertise, cover a wide range of topics in string and quantum field theories and have a good record of collaborations and interactions among them. In the past they have achieved several important results whose relevance is internationally acknowledged, as demonstrated by the number of “top-cited” papers they have published. All participants have been involved in past PRIN projects and have been members of European research and training networks in string theory and quantum field theory for many years. <p></p>
+<p>This project consists of the elaboration of theoretical models within a rapidly evolving context, which requires close contact and frequent interactions among scientists. Thus, to increase collaborations among the participating teams, we plan to organize common activities, for example informal workshops and periodic meetings, and to promote mobility of the participants. A substantial part of the budget will be devoted to hiring and training young post-docs.<p></p>
+<br/>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015MP2CX4">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></p></p></p></p></div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
+</p></p></p></p></p></p>
 
-<div style="" valign="top">
-<p style="">
-<strong style="">PRIN project "Search for the Fundamental Laws and Constituents" (2015P5SBHT_002)  </strong> (Feb 2017/ Feb 2020)<br style=""/>
-<p style="">The discovery of a light, weakly interacting Higgs particle is the crowning achievement of the Standard Model, which completes a long series of tremendous successes. In spite of this, however, most of the fundamental questions about the constituents and the forces of Nature, and about the structure and composition of our Universe, remain unanswered. We mention here: the origin of the Higgs sector responsible for electroweak symmetry breaking (EWSB) and the generation of the masses of the fundamental particles; the origin and properties of flavor; the extreme weakness of gravity compared to the other forces in Nature and its quantization; matter antimatter asymmetry; inflation; the origin of dark matter (DM) and dark energy in the Universe. Each of these questions represents by itself a strong theoretical reason to go beyond the SM and it is conceivable that many of them have a common explanation.<p style=""></p>
-<p style="">A deeper picture can only emerge from a combined approach which tries to explore simultaneously the experimental information coming from the energy frontier (precision measurements of the Higgs properties and searches of new particles at LHC), the intensity frontier (quark and lepton flavour physics) and the astroparticle and cosmological frontier. The main goal of this project consists in identifying coherent explanations of the different phenomena and fundamental questions by combining the vast experimental information coming from the forthcoming experiments, in particular from the LHC, with the most advanced theoretical developments. This objective requires a global strategy that makes use of strong competences in several different fields of investigation. In order to achieve this goal, we put together some of the leading particle physics theorists operating in Firenze, Napoli, Padova, Roma La Sapienza, Roma Tre, SNS and SISSA into a very experienced and strong team.<p style=""></p>
-<br style=""/>
-<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015P5SBHT 	" style="">
+</div>
+<div class="block tpp">
+
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>PRIN project "Search for the Fundamental Laws and Constituents" (2015P5SBHT_002)  </strong> (Feb 2017/ Feb 2020)<br/>
+<p>The discovery of a light, weakly interacting Higgs particle is the crowning achievement of the Standard Model, which completes a long series of tremendous successes. In spite of this, however, most of the fundamental questions about the constituents and the forces of Nature, and about the structure and composition of our Universe, remain unanswered. We mention here: the origin of the Higgs sector responsible for electroweak symmetry breaking (EWSB) and the generation of the masses of the fundamental particles; the origin and properties of flavor; the extreme weakness of gravity compared to the other forces in Nature and its quantization; matter antimatter asymmetry; inflation; the origin of dark matter (DM) and dark energy in the Universe. Each of these questions represents by itself a strong theoretical reason to go beyond the SM and it is conceivable that many of them have a common explanation.<p></p>
+<p>A deeper picture can only emerge from a combined approach which tries to explore simultaneously the experimental information coming from the energy frontier (precision measurements of the Higgs properties and searches of new particles at LHC), the intensity frontier (quark and lepton flavour physics) and the astroparticle and cosmological frontier. The main goal of this project consists in identifying coherent explanations of the different phenomena and fundamental questions by combining the vast experimental information coming from the forthcoming experiments, in particular from the LHC, with the most advanced theoretical developments. This objective requires a global strategy that makes use of strong competences in several different fields of investigation. In order to achieve this goal, we put together some of the leading particle physics theorists operating in Firenze, Napoli, Padova, Roma La Sapienza, Roma Tre, SNS and SISSA into a very experienced and strong team.<p></p>
+<br/>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015P5SBHT 	">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></div>
-</tr>
-</tbody>
-<div class="block">
+</p></p>
+
+</div>
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">New approaches to Quantum Many-Body systems via Entanglement
@@ -1185,7 +1186,7 @@ Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=172
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Functional and Renormalization Group Methods in Quantum and Statistical Physics
@@ -1193,7 +1194,7 @@ Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=172
 <p>2019</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is CNR responsible in the ACRI project “Functional and Renormalization Group Methods in Quantum and Statistical Physics”. The project is coordinated by Gian Paolo Vacca (INFN – Bologna), and sponsored by ACRI (Associazione di Fondazioni e Casse di Risparmio Spa) under the Young Investigator Training Program 2018, intended to foster young international researchers and to promote their scientific collaboration with a network of Italian research institutions. It includes an opening for short term individual research fellowships: 6 young researchers will visit Trieste in September 2019 for a month. Within the project, the conference “<a href="https://indico.ectstar.eu/event/50/">Functional and Renormalization-Group methods – Italian Meeting (FRGIM 2019)</a>” will be organized, taking place at ECT*, Trento, in the days 16-20 September 2019.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Young Investigator Training Program 2017
@@ -1205,7 +1206,7 @@ Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=172
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Finanziamento delle Attività Base di Ricerca (FFABR)
@@ -1218,7 +1219,7 @@ FFABR was a special fund (active only in 2017, 3 000 €) of the Italian Minis
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle"> Iniziativa specifica INFN
@@ -1228,54 +1229,81 @@ All permanent members of the group participate to the “Iniziativa specifica IN
 </ul>
 </div>
 </div>
-<tbody>
-<tr style="">
+<div class="block tpp">
 
-<div style="" valign="top">
-<p style="">
-<a href="research/prevprojects.php" style="">Past Projects. </a>
-<br style=""/>
+<span>
+<p>
+<a href="research/research.php">
+<br/>
+</a>
 </p>
+</span>
+
+
+<p>
+<a href="research/prevprojects.php">Past Projects. </a>
+<br/>
+</p>
+
+
 </div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
+<div class="block app">
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style="">PRIN  - LISA - PHASE A: Gravitational Waves from Massive Black Holes in "The Gravitational Universe"</strong></p></div></tr></tbody>
-<tbody>
-<tr style="">
+<span>
+<p>
+</p>
+</span>
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style="">Elusives</strong>
-<a href="http://www.elusives.eu/" style="" target="_blank">Elusives</a> is a European ITN project (H2020-MSCA-ITN-2015//674896-ELUSIVES, April 2016-March 2020), which focuses on Neutrino and Dark Matter phenomenology and their connection, with emphasis on the role of the symmetry relating matter and antimatter.
+
+<p>
+<strong>PRIN  - LISA - PHASE A: Gravitational Waves from Massive Black Holes in "The Gravitational Universe"</strong></p></div>
+<div class="block app">
+
+<span>
+<p>
+ <br>
+</br></p>
+</span>
+
+
+<p>
+<strong>Elusives</strong>
+<a href="http://www.elusives.eu/" target="_blank">Elusives</a> is a European ITN project (H2020-MSCA-ITN-2015//674896-ELUSIVES, April 2016-March 2020), which focuses on Neutrino and Dark Matter phenomenology and their connection, with emphasis on the role of the symmetry relating matter and antimatter.
        Experimental and theoretical aspects are also encompassed. The network involves nodes in six European countries and its associated partners extend to seven non-European countries.
 						</p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style=""> Sciama Legacy Bursary  </strong> <br style=""/>
+
+</div>
+<div class="block app">
+
+
+<span>
+<p>
+ <br>
+</br></p>
+</span>
+
+
+<p>
+<strong> Sciama Legacy Bursary  </strong> <br/>
 											
-						In memory of Professor Dennis Sciama (Head of the Astrophysics Sector of SISSA from 1983 to 1998), the Sciama Family has decided to finance bursaries to enable SISSA astrophysics or astroparticle physics postdoctoral fellows ("titolare di assegno di ricerca") to visit certain high-profile international institutes with which Prof. Sciama had particular connections. The intentions is for these to be working visits aimed at fostering links and establishing possible ongoing collaborations <a href="http://www.sissa.it/app/research/sciama_fellow.php" style="" target="_blank">(link)</a>.
+						In memory of Professor Dennis Sciama (Head of the Astrophysics Sector of SISSA from 1983 to 1998), the Sciama Family has decided to finance bursaries to enable SISSA astrophysics or astroparticle physics postdoctoral fellows ("titolare di assegno di ricerca") to visit certain high-profile international institutes with which Prof. Sciama had particular connections. The intentions is for these to be working visits aimed at fostering links and establishing possible ongoing collaborations <a href="http://www.sissa.it/app/research/sciama_fellow.php" target="_blank">(link)</a>.
 					
 						</p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style=""> ERC Starting Grant - Challenging General Relativity  </strong> <br style=""/>
+
+</div>
+<div class="block app">
+
+<span>
+<p>
+ <br/>
+</p>
+</span>
+
+
+<p>
+<strong> ERC Starting Grant - Challenging General Relativity  </strong> <br/>
 						Thomas Sotiriou has been funded with € 1,375,226  for the proposal  entitled "Challenging General 
 						Relativity". The grant will be used in  order to put together an extended research group of young 
 						and more  experienced researchers (students, postdocs, advanced postdocs) and to  foster and 
@@ -1283,15 +1311,21 @@ All permanent members of the group participate to the “Iniziativa specifica IN
 						research on the limits of  General Relativity as a theory for the gravitational interaction.
 													
 						</p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style="">  Marie Curie Career Integration Grant - The limit of General Relativity </strong> <br style=""/>
+
+</div>
+<div class="block app">
+
+
+<span>
+<p>
+ <br/>
+</p>
+</span>
+
+
+<p>
+<strong>  Marie Curie Career Integration Grant - The limit of General Relativity </strong> <br/>
 											
 						Thomas Sotiriou has been funded with € 100,000 for the proposal  entitled "The limits of General 
 						Relativity". The funds will provide  partial support for research in various topics in gravity, 
@@ -1299,109 +1333,148 @@ All permanent members of the group participate to the “Iniziativa specifica IN
 						phenomenology, etc.
 					
 						</p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">FIRSTORM</strong> ERC Advanced Grant<br style=""/>
-						Modelling FIRST ORder Mott transition.<br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="https://firstorm.sissa.it" target="_blank">
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>FIRSTORM</strong> ERC Advanced Grant<br/>
+						Modelling FIRST ORder Mott transition.<br/>
 						This theoretical project aims to explore the mechanisms underlying the first order nature of the Mott transition in real materials and its  conceptual and practical consequences. 						
-				 <br style=""/>
-<a href="https://firstorm.sissa.it" style="" target="_blank">
+				 <br/>
+<a href="https://firstorm.sissa.it" target="_blank">
 						Read more &gt;&gt; </a>
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">MAX Centre of Excellence </strong><br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="http://www.max-centre.eu" target="_blank">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>MAX Centre of Excellence </strong><br/>
 MAX (MAterials design at the eXascale) is a European Centre of Excellence which enables materials modelling, simulations, discovery and design at the frontiers of the current and future High Performance Computing (HPC), High Throughput Computing (HTC) and data analytics technologies. 
 The mission of MaX is to develop the technologies and make them available for large and growing base of researchers in the materials domain.
 MaX aims to lead the quantum materials discovery and design in frontier science and industrial technologies.					
-   					<a href="http://www.max-centre.eu" style="" target="_blank">
-<br style=""/> 
+   					<a href="http://www.max-centre.eu" target="_blank">
+<br/> 
 						Read more &gt;&gt; </a>
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
-<td align="center" style="" valign="top"><span style="">
-<p style="">
-<img height="100px" src="images/PRIN2015.png" style="" width="100px"/> <br style=""/>
-</p></span></td></tr></tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  MODPHYSFRICT </strong> ERC Advanced-FP7 <br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+ <br/>
+</p></span></div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  MODPHYSFRICT </strong> ERC Advanced-FP7 <br/>
 						Friction plays a central role in diverse systems and phenomena that span vast ranges of scales, 
 						from the nanometer contacts inherent in micro- and nanomachines and biological molecular motors, to the geophysical scales 							characteristic for earthquakes. 
 						This project aims at clarifying many key aspects of the friction dynamics, 
 						which are still poorly understood despite the fundamental importance and and the growing efforts
-				 <br style=""/>
+				 <br/>
 <!--<a href="research/research.php">Read more >> </a>	-->
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  SUPERBAD</strong> ERC Starting-FP7 <br style=""/>
-						SUPERconductivity as a cure for BAD metallic behaviour<br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="http://superbadproject.wordpress.com/" target="_blank">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  SUPERBAD</strong> ERC Starting-FP7 <br/>
+						SUPERconductivity as a cure for BAD metallic behaviour<br/>
 						The aim of the project is revive the dream of a unique theoretical framework for cuprates, 
 						iron-based superconductors and fullerides. Superconductivity in all these materials is shown to appear 
 						to "heal" a bad metallic state determined by strong correlation effects.
-				 <br style=""/>
-<a href="http://superbadproject.wordpress.com/" style="" target="_blank">
+				 <br/>
+<a href="http://superbadproject.wordpress.com/" target="_blank">
 						Read more &gt;&gt; </a>
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  LEMSUPER </strong> EU(FP7)-Japan Cooperative project <br style=""/>
-					Light Element Molecular SUPERconductivity<br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="http://www.lemsuper.eu/" target="_blank">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  LEMSUPER </strong> EU(FP7)-Japan Cooperative project <br/>
+					Light Element Molecular SUPERconductivity<br/>
 					The project develops methodologies for the design of superconductors based on light elements (Boron, Carbon, Oxygen) 
 					combining synthesis, experimental characterization and theoretical modeling of a wide range of materials. 
-				 <br style=""/>
+				 <br/>
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  Multichrome </strong> Corporate Grant <br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+ <br/>
+</p>
+</span>
+
+
+<p>
+<strong>  Multichrome </strong> Corporate Grant <br/>
 						Multi-scale computer Modeling of the color optical properties of complex molecules 
 						in complex enviroments.
 						Funded by MARS Chocolate Science &amp; Technology.
-				 <br style=""/>
+				 <br/>
 </p>
+
+
 </div>
-</tr>
-</tbody>
-<div class="block"><p>EU-H2020-MSCA/ITN "BiD4BEST" (2020/24, studente Ph.D. + missioni)           --> Lapi</p></div>
-<div class="block">
+<div class="block ap"><p>EU-H2020-MSCA/ITN "BiD4BEST" (2020/24, studente Ph.D. + missioni)           --> Lapi</p></div>
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle"> Out-of-equilibrium entangled many-body systems
@@ -1413,7 +1486,7 @@ Marie Curie Fellowship. <a href="https://www.statphys.sissa.it/wordpress/?page_i
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">European STREP “A Guided Matter-Wave Interferometer on a Atom-Chip-MatterWave”
@@ -1421,7 +1494,7 @@ Marie Curie Fellowship. <a href="https://www.statphys.sissa.it/wordpress/?page_i
 <p>2013–2017</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the PI of the Italian node of the collaborative European grant STREP “MatterWave” involving four European nodes.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">
@@ -1434,7 +1507,7 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Non-perturbative field theory and strongly correlated systems
@@ -1442,7 +1515,7 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 <p>2013–2015</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Italian responsible of this Italy–Hungary Joint Project (Accordo di Cooperazione Scientifica CNR/MTA Ungheria); Hungarian responsible: Gabor Takacs. Other local participants: <a href="https://www.statphys.sissa.it/wordpress/?page_id=1727">Gesualdo Delfino</a> and <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a>.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Quantum Integrability, Conformal Field Theory and Topological Quantum Computation(QICFT)
@@ -1454,7 +1527,7 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle"> Weakly confined RMT
@@ -1466,7 +1539,7 @@ Marie Curie Outgoing fellowship. Fellow <a href="https://www.statphys.sissa.it/w
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Statistical Physics of Strongly Correlated Systems: Exact Results and Quantum Field Theory Methods
@@ -1477,7 +1550,7 @@ National coordinator <a href="http://www.statphys.sissa.it/wordpress/?page_id=16
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Interdisciplinary Statistical and Field Theory Approaches to Nanophysics and Low Dimensional Systems(INSTANS)
@@ -1489,7 +1562,7 @@ National coordinator <a href="http://www.statphys.sissa.it/wordpress/?page_id=16
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Rumore Quantistico e Sistemi Mesoscopici
@@ -1500,7 +1573,7 @@ National coordinator Stefano Fantoni (SISSA) (other local participants <a href="
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle"> Meccanica Statistica, Teoria dei Campi e Transizioni di Fase Quantistiche in Bassa Dimensionalita
@@ -1511,58 +1584,79 @@ National coordinator A. Montorsi, local coordinator <a href="http://www.statphys
 </ul>
 </div>
 </div>
-<tbody>
-<tr style="">
+<div class="block tpp">
 
-<div style="" valign="top">
-<p style="">
-<strong style=""> H2020-TWINN-2015 Coordination &amp; support action Grant RBI-T-WINNING (692194)  </strong> (Feb 2016/ Dec 2019)<br style=""/>
-<p style="">RBI-T-WINNING provides funding for theoretical physics with the aim of supporting links among leading European research institutions. Intensive exchange of knowledge and experience will be organized between RBI and SISSA, CNRS/University of Paris-Sud Orsay, Ludwig Maximilian University and Niels Bohr Institute, covering a wide range of investigations within theoretical physics. The set of measures include staff exchanges, training, conferences, summer schools, dissemination and outreach activities for impact on the local community. <p style=""></p>
-<br style=""/>
-<a href="http://rbi-t-winning.irb.hr/" style="">
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong> H2020-TWINN-2015 Coordination &amp; support action Grant RBI-T-WINNING (692194)  </strong> (Feb 2016/ Dec 2019)<br/>
+<p>RBI-T-WINNING provides funding for theoretical physics with the aim of supporting links among leading European research institutions. Intensive exchange of knowledge and experience will be organized between RBI and SISSA, CNRS/University of Paris-Sud Orsay, Ludwig Maximilian University and Niels Bohr Institute, covering a wide range of investigations within theoretical physics. The set of measures include staff exchanges, training, conferences, summer schools, dissemination and outreach activities for impact on the local community. <p></p>
+<br/>
+<a href="http://rbi-t-winning.irb.hr/">
 						Read more &gt;&gt; </a>
 </p>
-</p></div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
+</p>
 
-<div style="" valign="top">
-<p style="">
-<strong style=""> InvisiblesPlus EU project, </strong> (Feb 2016/ Jan 2020)<br style=""/>
-<p style="">InvisiblesPlus is a new Horizon2020 (H2020) Research and Innovation Staff Exchange (RISE) project. The project (690575 - InvisiblesPlus - H2020-MSCA-RISE-2015, February 2016- January 2020), will focus on Neutrino and Dark Matter phenomenology and their connection, with emphasis on the role of the symmetry relating matter and antimatter. Experimental and theoretical aspects are also encompassed. The network involves 13 nodes in six European countries and its associated partners extend to nine non-European countries.<p style=""></p>
-<p style="">This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 690575.<p style=""></p>
-<br style=""/>
-<a href="http://www.invisiblesplus.eu/" style="">
+</div>
+<div class="block tpp">
+
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong> InvisiblesPlus EU project, </strong> (Feb 2016/ Jan 2020)<br/>
+<p>InvisiblesPlus is a new Horizon2020 (H2020) Research and Innovation Staff Exchange (RISE) project. The project (690575 - InvisiblesPlus - H2020-MSCA-RISE-2015, February 2016- January 2020), will focus on Neutrino and Dark Matter phenomenology and their connection, with emphasis on the role of the symmetry relating matter and antimatter. Experimental and theoretical aspects are also encompassed. The network involves 13 nodes in six European countries and its associated partners extend to nine non-European countries.<p></p>
+<p>This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 690575.<p></p>
+<br/>
+<a href="http://www.invisiblesplus.eu/">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
+</p></p>
 
-<div style="" valign="top">
-<p style="">
-<strong style=""> ELUSIVES EU project </strong> (Feb 2016/ Jan 2020)<br style=""/>
-<p style="">Elusives is a European ITN project (H2020-MSCA-ITN-2015//674896-ELUSIVES, April 2016-March 2020), which focuses on Neutrino and Dark Matter phenomenology and their connection. Phenomenological and theoretical aspects are also encompassed. The network involves nodes in six European countries and its associated partners extend to seven non-European countries.<p style=""></p>
-<p style="">The mission of Elusives ITN is to form the new generation of researchers to accomplish the task of understanding the fundamental spects of neutrino mixng and the nature of Dark Matter and the possible connection, if any, between the two, focusing on  phenomenology with the necessary link to experiment. This is the first transnational such program, exploiting the capital investment in new experiments and overcoming the fragmentation of the research effort.<p style=""></p>
-<p style="">This project has received funding from the European Union's Horizon 2020
-                         research and innovation programme under grant agreement No 674896.<p style=""></p>
-<br style=""/>
-<a href="http://www.elusives.eu/" style="">
+</div>
+<div class="block tpp">
+
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong> ELUSIVES EU project </strong> (Feb 2016/ Jan 2020)<br/>
+<p>Elusives is a European ITN project (H2020-MSCA-ITN-2015//674896-ELUSIVES, April 2016-March 2020), which focuses on Neutrino and Dark Matter phenomenology and their connection. Phenomenological and theoretical aspects are also encompassed. The network involves nodes in six European countries and its associated partners extend to seven non-European countries.<p></p>
+<p>The mission of Elusives ITN is to form the new generation of researchers to accomplish the task of understanding the fundamental spects of neutrino mixng and the nature of Dark Matter and the possible connection, if any, between the two, focusing on  phenomenology with the necessary link to experiment. This is the first transnational such program, exploiting the capital investment in new experiments and overcoming the fragmentation of the research effort.<p></p>
+<p>This project has received funding from the European Union's Horizon 2020
+                         research and innovation programme under grant agreement No 674896.<p></p>
+<br/>
+<a href="http://www.elusives.eu/">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></p></div>
-</tr>
-</tbody>
-<div class="block"><p>ASI-COSMOS (2016/21, posizione RTDa + missioni)                                        --> Baccigalupi</p></div>
-<div class="block"><p>ASI-LiteBIRD (2020/23, assegnista + missioni)                                                  --> Baccigalupi</p></div>
-<div class="block"><p>INFN-INDARK (2020/23, missioni)                                                                     --> Baccigalupi</p></div>
-<div class="block"><p>INFN-QGSKY (2020/23, missioni)                                                                      --> Salucci/Valdarnini</p></div>
-<div class="block"><p>PRIN2017-MIUR (2019/21, assegnista + missioni)                                          --> Lapi/Bressan</p></div>
-<div class="block"><p>FSE-FVG (2020/22, assegnista)                                                                           --> Lapi/Bressan</p></div>
+</p></p></p>
+
+</div>
+<div class="block ap"><p>ASI-COSMOS (2016/21, posizione RTDa + missioni)                                        --> Baccigalupi</p></div>
+<div class="block ap"><p>ASI-LiteBIRD (2020/23, assegnista + missioni)                                                  --> Baccigalupi</p></div>
+<div class="block ap"><p>INFN-INDARK (2020/23, missioni)                                                                     --> Baccigalupi</p></div>
+<div class="block ap"><p>INFN-QGSKY (2020/23, missioni)                                                                      --> Salucci/Valdarnini</p></div>
+<div class="block ap"><p>PRIN2017-MIUR (2019/21, assegnista + missioni)                                          --> Lapi/Bressan</p></div>
+<div class="block ap"><p>FSE-FVG (2020/22, assegnista)                                                                           --> Lapi/Bressan</p></div>
 </div>
 
 <button class='collapsible'>Visiting students program</button>

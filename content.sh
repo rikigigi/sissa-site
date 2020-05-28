@@ -9,8 +9,14 @@ ${CONTENT[$idx]}
 done
 
 CSS="${CSS}
+\$pale-red:#ffdddd;
+\$pale-yellow:#ffffcc;
+\$pale-blue:#ddffff;
+\$pale-green:#ddffdd;
+\$sand:#fdf5e6;
+
 .collapsible {
-  ackground-color: #777;
+  background-color: #777;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -31,6 +37,28 @@ CSS="${CSS}
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+div .block {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+div .sp {
+  background-color: \$pale-red;
+}
+
+div .tpp {
+  background-color: \$pale-yellow;
+}
+div .app {
+  background-color: \$pale-blue;
+}
+
+div .cm {
+  background-color: \$pale-green;
+}
+div .ap {
+  background-color: \$sand;
 }
 "
 

@@ -1,6 +1,10 @@
 import urllib.request as URL
 from bs4 import BeautifulSoup
 import re
+import sys
+
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
 
 def norm_y(y):
     if len(y)==2:
@@ -11,7 +15,45 @@ def norm_y(y):
 def make_key(y1,y2):
     return norm_y(y1)+'-'+norm_y(y2)
 
-def parse(grants, url, find_all, elaborate_entry):
+def massage_content(b, add_class=''):
+    for e in b():
+        del (e['style'])
+    for e in b('tbody'):
+        e.unwrap()
+    for e in b('tr'):
+        e.unwrap()
+    for e in b('td'):
+        e.unwrap()
+    for e in b('img'):
+        e.decompose()
+    b.name='div'
+    b['class']='block '+add_class
+    eprint(b)
+    return
+    tds=b('td')
+    nt=len(tds)
+    if nt>=1:
+        idx=1
+        if nt==2:
+            tds[0].decompose()
+        elif nt==1:
+            idx=0
+        d = tds[idx]
+        d.name='div'
+        d['class']='block'
+        eprint(d)
+        b.replace_with(d)
+    else:
+        trs=b('tr')
+        if len(trs)==1:
+            d=trs[0]
+            eprint('d=')
+            eprint(d)
+            d.name='div'
+            d['class']='block'
+            b.replace_with(d)
+
+def parse(grants, url, find_all, elaborate_entry,class_=''):
     response=URL.urlopen(url)
     html=response.read() 
     s=BeautifulSoup(html,'html.parser')
@@ -20,6 +62,7 @@ def parse(grants, url, find_all, elaborate_entry):
         res=elaborate_entry(url,b)
         if res is not None:
             key,h=res
+            massage_content(h,class_)
             grants.setdefault(key,[]).append(h)
 
 grants={}
@@ -35,22 +78,9 @@ def elaborate_sp(url,b):
     img=b.find('div',class_='blockimg')
     img.decompose()
     return key,b
-parse(grants,'https://www.statphys.sissa.it/wordpress/?page_id=4912',{'name':'div','class_':'block'},elaborate_sp)
+parse(grants,'https://www.statphys.sissa.it/wordpress/?page_id=4912',{'name':'div','class_':'block'},elaborate_sp,class_='sp')
 
 
-def massage_tbody(b):
-    for e in b():
-        e['style']=''
-    try:
-        tds=b('td')
-        nt=len(tds)
-        if nt==2:
-            tds[0].decompose()
-            d = tds[1].name='div'
-            d['class']='block'
-            b.replace_with(d)
-    except:
-        pass
 #tpp
 def elaborate_tpp(url,b):
     res=re.search(r"[a-zA-Z]{0,3} *([0-9]{2,4}) */ *[a-zA-Z]{0,3} *([0-9]{2,4})", b.__str__())
@@ -58,9 +88,8 @@ def elaborate_tpp(url,b):
         key=make_key(res.group(1),res.group(2))
     else:
         key='?'
-    massage_tbody(b)
     return key,b
-parse(grants,'https://www.sissa.it/tpp/research/projects.php',{'name':'tbody'},elaborate_tpp)
+parse(grants,'https://www.sissa.it/tpp/research/projects.php',{'name':'tbody'},elaborate_tpp,class_='tpp')
 
 
 #app
@@ -75,9 +104,8 @@ def elaborate_app(url,b):
     #check for words that indicate that it is a grant -- are they all grants?
     res=re.search(r"€|\$|[Gg]grant|ERC|PRINN", b.__str__())
     if True: # res is not None:
-        massage_tbody(b)
         return '?',b
-parse(grants,'https://www.sissa.it/app/research/projects.php',{'name':'tbody'},elaborate_app)
+parse(grants,'https://www.sissa.it/app/research/projects.php',{'name':'tbody'},elaborate_app,class_='app')
 
 
 #cm
@@ -85,9 +113,8 @@ def elaborate_cm(url,b):
     #check for words that indicate that it is a grant
     #res=re.search(r"€|\$|[Gg]grant|ERC", b.__str__())
     #if res is not None:
-    massage_tbody(b)
     return '?',b
-parse(grants,'https://www.cm.sissa.it/research/projects',{'name':'tbody'},elaborate_cm)
+parse(grants,'https://www.cm.sissa.it/research/projects',{'name':'tbody'},elaborate_cm,class_='cm')
 
 
 #ap
@@ -102,7 +129,7 @@ INFN-QGSKY (2020/23, missioni)                                                  
 for b in ap.splitlines():
     res=re.search(r"\(([0-9]{2,4}) */ *([0-9]{2,4}) *, *[a-zA-Z \-+]*\)",b
 )
-    bb=r'<div class="block"><p>'+b+r'</p></div>'
+    bb=r'<div class="block ap"><p>'+b+r'</p></div>'
     if res is not None:
         key=make_key(res.group(1),res.group(2))
         grants.setdefault(key,[]).append(bb)

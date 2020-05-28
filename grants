@@ -1,4 +1,4 @@
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">
@@ -11,7 +11,7 @@ New states of Entangled Matter Out of equilibrium (NEMO)
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Low dimensional quantum systems: theory, experiments and simulations
@@ -19,7 +19,7 @@ New states of Entangled Matter Out of equilibrium (NEMO)
 <p>2019–2022</p>
 <ul>
 This collaborative project from Italian ministry of research includes five research units: Trieste (<a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a> and <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a>), Florence experiment (Leonardo Fallani), Florence theory (Andrea Cappelli and Filippo Colomo), Padova (Simone Montangero), Pisa (Davide Rossini). National and SISSA coordinator: <a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a>. Total budget ca. 800 k€, SISSA budget ca. 160 k€.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Coarse-grained description for non-equilibrium system and transport phenomena (CO-NEST)
@@ -27,28 +27,34 @@ This collaborative project from Italian ministry of research includes five resea
 <p>2019–2022</p>
 <ul>
 This collaborative project from Italian ministry of research includes five research units: Trieste (<a href="https://www.statphys.sissa.it/wordpress/?page_id=1714">Andrea Gambassi</a>, local SISSA coordinator and Stefano Ruffo), University of Rome “La Sapienza” (Angelo Vulpiani, national coordinator), CNR (Andrea Puglisi, Fabio Cecconi, Andrea Baldassarri, Paolo Politi), University of Camerino (Umberto Marini Bettolo Marconi), University of Florence (Roberto Livi, Stefano Lepri, Lapo Casetti), University of Campania “Vanvitelli” (Eugenio Lippiello). Total budget ca. 1 115 k€, SISSA budget 178 k€.</ul></div></div>
-<tbody>
-<tr style="">
+<div class="block tpp">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  Prin project "The consequences of flavour: from precision measurements to fundamental physics" (2017L5W2PT) </strong>(2019/ 2022) <br style=""/>
-<p style="">The goal of this project is to study the origin of masses and flavour mixings of the elementary fermions, deriving experimental and theoretical implications of possible solutions to the flavour problem. On one
+<span>
+<p>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015MP2CX4">
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  Prin project "The consequences of flavour: from precision measurements to fundamental physics" (2017L5W2PT) </strong>(2019/ 2022) <br/>
+<p>The goal of this project is to study the origin of masses and flavour mixings of the elementary fermions, deriving experimental and theoretical implications of possible solutions to the flavour problem. On one
 hand, this will be done by means of theoretical investigation, following a new direction of research in which flavour arises as an accidental consequence of dynamical properties of a more fundamental theory.
 On the other hand, we will explore the phenomenology of new physics models in the flavour sector, taking advantage of the large amount of data that experiments will provide in the coming years. We will
 exploit the interplay of flavour and electroweak precision measurements and high-energy searches at colliders. Particular attention will be given to the study of lepton flavour universality violations, a topic that
 will be at the core of theoretical and experimental investigation in particle physics in the next few years. In this respect, we will study models that aim to explain in a coherent way the various experimental
-anomalies observed in B meson decays. <p style=""></p>
-<p style="">The  collaboration will include young researchers  from INFN (Pisa,Trieste,Firenze) SISSA and La Sapienza. The main part of the funding will be used for hiring young postdoctoral researchers in order to form a strong and competitive team.
-<p style=""></p>
-<br style=""/>
-<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2017L5W2PT" style="">
+anomalies observed in B meson decays. <p></p>
+<p>The  collaboration will include young researchers  from INFN (Pisa,Trieste,Firenze) SISSA and La Sapienza. The main part of the funding will be used for hiring young postdoctoral researchers in order to form a strong and competitive team.
+<p></p>
+<br/>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2017L5W2PT">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></div>
-</tr>
-</tbody>
-<div class="block">
+</p></p>
+
+</div>
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Strongly interacting systems in confined geometries
@@ -56,8 +62,8 @@ anomalies observed in B meson decays. <p style=""></p>
 <p>2018–2021 </p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Italian responsible of this Italy–Hungary Joint Project (Accordo di Cooperazione Scientifica CNR/MTA Ungheria); Hungarian responsible: Istvan Nandori.</ul></div></div>
-<div class="block"><p>ASI-Euclid (2018/21, missioni)                                                                            --> Baccigalupi</p></div>
-<div class="block">
+<div class="block ap"><p>ASI-Euclid (2018/21, missioni)                                                                            --> Baccigalupi</p></div>
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Quantum Technologies with Ultra-Cold Atoms
@@ -65,7 +71,7 @@ anomalies observed in B meson decays. <p style=""></p>
 <p>2017–2021</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Vice-Chair of the COST Action CA16221.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">NV centers for the test of the Quantum Jarzynski Equality (NVQJE)
@@ -73,7 +79,7 @@ anomalies observed in B meson decays. <p style=""></p>
 <p>2019–2020</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Co-Recipient of MIT–FVG Collaboration Grant with P. Cappellaro (MIT) and S. Ruffo (SISSA).</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Phases of ergodic and localized dynamics and applications to quantum computing
@@ -85,43 +91,57 @@ Total budget: 72 000 $ to support graduate students and postdocs.
 </ul>
 </div>
 </div>
-<tbody>
-<tr style="">
+<div class="block tpp">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  Prin project "Non-Perturbative Aspects of Gauge Theories and Strings" (2015MP2CX4) </strong> (Feb 2017/ Feb 2020) <br style=""/>
-<p style="">The purpose of this project is to promote the study of (supersymmetric) gauge theories and of string theory with particular emphasis on their non-perturbative aspects.<p style=""></p>
-<p style="">The main tools that will be used to go beyond perturbation theory and get a handle on the strongly coupled dynamics are supersymmetry and holography. They both find a natural embedding in string theory. Over the years string theory has emerged as a compelling candidate for a unified quantum theory of all fundamental interactions including gravity, and has also provided many successful ideas to study quantum field theories not only in their perturbative regime but also at strong coupling.<p style=""></p>
-<p style="">The primary challenge of this project is to establish a more solid and predictive connection among the various aspects of this research field. This project will be devoted to explore in particular the following topics:<p style=""></p>
-<p style="">A) Supersymmetric Gauge Theories <br style=""/>
-B) Holography <br style=""/>
-C) Instanton Effects in Gauge and String Theories<p style=""></p>
-<p style="">The participants in this project have complementary expertise, cover a wide range of topics in string and quantum field theories and have a good record of collaborations and interactions among them. In the past they have achieved several important results whose relevance is internationally acknowledged, as demonstrated by the number of “top-cited” papers they have published. All participants have been involved in past PRIN projects and have been members of European research and training networks in string theory and quantum field theory for many years. <p style=""></p>
-<p style="">This project consists of the elaboration of theoretical models within a rapidly evolving context, which requires close contact and frequent interactions among scientists. Thus, to increase collaborations among the participating teams, we plan to organize common activities, for example informal workshops and periodic meetings, and to promote mobility of the participants. A substantial part of the budget will be devoted to hiring and training young post-docs.<p style=""></p>
-<br style=""/>
-<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015MP2CX4" style="">
+<span>
+<p>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015MP2CX4">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  Prin project "Non-Perturbative Aspects of Gauge Theories and Strings" (2015MP2CX4) </strong> (Feb 2017/ Feb 2020) <br/>
+<p>The purpose of this project is to promote the study of (supersymmetric) gauge theories and of string theory with particular emphasis on their non-perturbative aspects.<p></p>
+<p>The main tools that will be used to go beyond perturbation theory and get a handle on the strongly coupled dynamics are supersymmetry and holography. They both find a natural embedding in string theory. Over the years string theory has emerged as a compelling candidate for a unified quantum theory of all fundamental interactions including gravity, and has also provided many successful ideas to study quantum field theories not only in their perturbative regime but also at strong coupling.<p></p>
+<p>The primary challenge of this project is to establish a more solid and predictive connection among the various aspects of this research field. This project will be devoted to explore in particular the following topics:<p></p>
+<p>A) Supersymmetric Gauge Theories <br/>
+B) Holography <br/>
+C) Instanton Effects in Gauge and String Theories<p></p>
+<p>The participants in this project have complementary expertise, cover a wide range of topics in string and quantum field theories and have a good record of collaborations and interactions among them. In the past they have achieved several important results whose relevance is internationally acknowledged, as demonstrated by the number of “top-cited” papers they have published. All participants have been involved in past PRIN projects and have been members of European research and training networks in string theory and quantum field theory for many years. <p></p>
+<p>This project consists of the elaboration of theoretical models within a rapidly evolving context, which requires close contact and frequent interactions among scientists. Thus, to increase collaborations among the participating teams, we plan to organize common activities, for example informal workshops and periodic meetings, and to promote mobility of the participants. A substantial part of the budget will be devoted to hiring and training young post-docs.<p></p>
+<br/>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015MP2CX4">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></p></p></p></p></div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
+</p></p></p></p></p></p>
 
-<div style="" valign="top">
-<p style="">
-<strong style="">PRIN project "Search for the Fundamental Laws and Constituents" (2015P5SBHT_002)  </strong> (Feb 2017/ Feb 2020)<br style=""/>
-<p style="">The discovery of a light, weakly interacting Higgs particle is the crowning achievement of the Standard Model, which completes a long series of tremendous successes. In spite of this, however, most of the fundamental questions about the constituents and the forces of Nature, and about the structure and composition of our Universe, remain unanswered. We mention here: the origin of the Higgs sector responsible for electroweak symmetry breaking (EWSB) and the generation of the masses of the fundamental particles; the origin and properties of flavor; the extreme weakness of gravity compared to the other forces in Nature and its quantization; matter antimatter asymmetry; inflation; the origin of dark matter (DM) and dark energy in the Universe. Each of these questions represents by itself a strong theoretical reason to go beyond the SM and it is conceivable that many of them have a common explanation.<p style=""></p>
-<p style="">A deeper picture can only emerge from a combined approach which tries to explore simultaneously the experimental information coming from the energy frontier (precision measurements of the Higgs properties and searches of new particles at LHC), the intensity frontier (quark and lepton flavour physics) and the astroparticle and cosmological frontier. The main goal of this project consists in identifying coherent explanations of the different phenomena and fundamental questions by combining the vast experimental information coming from the forthcoming experiments, in particular from the LHC, with the most advanced theoretical developments. This objective requires a global strategy that makes use of strong competences in several different fields of investigation. In order to achieve this goal, we put together some of the leading particle physics theorists operating in Firenze, Napoli, Padova, Roma La Sapienza, Roma Tre, SNS and SISSA into a very experienced and strong team.<p style=""></p>
-<br style=""/>
-<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015P5SBHT 	" style="">
+</div>
+<div class="block tpp">
+
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>PRIN project "Search for the Fundamental Laws and Constituents" (2015P5SBHT_002)  </strong> (Feb 2017/ Feb 2020)<br/>
+<p>The discovery of a light, weakly interacting Higgs particle is the crowning achievement of the Standard Model, which completes a long series of tremendous successes. In spite of this, however, most of the fundamental questions about the constituents and the forces of Nature, and about the structure and composition of our Universe, remain unanswered. We mention here: the origin of the Higgs sector responsible for electroweak symmetry breaking (EWSB) and the generation of the masses of the fundamental particles; the origin and properties of flavor; the extreme weakness of gravity compared to the other forces in Nature and its quantization; matter antimatter asymmetry; inflation; the origin of dark matter (DM) and dark energy in the Universe. Each of these questions represents by itself a strong theoretical reason to go beyond the SM and it is conceivable that many of them have a common explanation.<p></p>
+<p>A deeper picture can only emerge from a combined approach which tries to explore simultaneously the experimental information coming from the energy frontier (precision measurements of the Higgs properties and searches of new particles at LHC), the intensity frontier (quark and lepton flavour physics) and the astroparticle and cosmological frontier. The main goal of this project consists in identifying coherent explanations of the different phenomena and fundamental questions by combining the vast experimental information coming from the forthcoming experiments, in particular from the LHC, with the most advanced theoretical developments. This objective requires a global strategy that makes use of strong competences in several different fields of investigation. In order to achieve this goal, we put together some of the leading particle physics theorists operating in Firenze, Napoli, Padova, Roma La Sapienza, Roma Tre, SNS and SISSA into a very experienced and strong team.<p></p>
+<br/>
+<a href="http://cercauniversita.cineca.it/php5/prin/cerca.php?codice=2015P5SBHT 	">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></div>
-</tr>
-</tbody>
-<div class="block">
+</p></p>
+
+</div>
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">New approaches to Quantum Many-Body systems via Entanglement
@@ -132,7 +152,7 @@ Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=172
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Functional and Renormalization Group Methods in Quantum and Statistical Physics
@@ -140,7 +160,7 @@ Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=172
 <p>2019</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is CNR responsible in the ACRI project “Functional and Renormalization Group Methods in Quantum and Statistical Physics”. The project is coordinated by Gian Paolo Vacca (INFN – Bologna), and sponsored by ACRI (Associazione di Fondazioni e Casse di Risparmio Spa) under the Young Investigator Training Program 2018, intended to foster young international researchers and to promote their scientific collaboration with a network of Italian research institutions. It includes an opening for short term individual research fellowships: 6 young researchers will visit Trieste in September 2019 for a month. Within the project, the conference “<a href="https://indico.ectstar.eu/event/50/">Functional and Renormalization-Group methods – Italian Meeting (FRGIM 2019)</a>” will be organized, taking place at ECT*, Trento, in the days 16-20 September 2019.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Young Investigator Training Program 2017
@@ -152,7 +172,7 @@ Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=172
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Finanziamento delle Attività Base di Ricerca (FFABR)
@@ -165,7 +185,7 @@ FFABR was a special fund (active only in 2017, 3 000 €) of the Italian Minis
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle"> Iniziativa specifica INFN
@@ -175,54 +195,81 @@ All permanent members of the group participate to the “Iniziativa specifica IN
 </ul>
 </div>
 </div>
-<tbody>
-<tr style="">
+<div class="block tpp">
 
-<div style="" valign="top">
-<p style="">
-<a href="research/prevprojects.php" style="">Past Projects. </a>
-<br style=""/>
+<span>
+<p>
+<a href="research/research.php">
+<br/>
+</a>
 </p>
+</span>
+
+
+<p>
+<a href="research/prevprojects.php">Past Projects. </a>
+<br/>
+</p>
+
+
 </div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
+<div class="block app">
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style="">PRIN  - LISA - PHASE A: Gravitational Waves from Massive Black Holes in "The Gravitational Universe"</strong></p></div></tr></tbody>
-<tbody>
-<tr style="">
+<span>
+<p>
+</p>
+</span>
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style="">Elusives</strong>
-<a href="http://www.elusives.eu/" style="" target="_blank">Elusives</a> is a European ITN project (H2020-MSCA-ITN-2015//674896-ELUSIVES, April 2016-March 2020), which focuses on Neutrino and Dark Matter phenomenology and their connection, with emphasis on the role of the symmetry relating matter and antimatter.
+
+<p>
+<strong>PRIN  - LISA - PHASE A: Gravitational Waves from Massive Black Holes in "The Gravitational Universe"</strong></p></div>
+<div class="block app">
+
+<span>
+<p>
+ <br>
+</br></p>
+</span>
+
+
+<p>
+<strong>Elusives</strong>
+<a href="http://www.elusives.eu/" target="_blank">Elusives</a> is a European ITN project (H2020-MSCA-ITN-2015//674896-ELUSIVES, April 2016-March 2020), which focuses on Neutrino and Dark Matter phenomenology and their connection, with emphasis on the role of the symmetry relating matter and antimatter.
        Experimental and theoretical aspects are also encompassed. The network involves nodes in six European countries and its associated partners extend to seven non-European countries.
 						</p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style=""> Sciama Legacy Bursary  </strong> <br style=""/>
+
+</div>
+<div class="block app">
+
+
+<span>
+<p>
+ <br>
+</br></p>
+</span>
+
+
+<p>
+<strong> Sciama Legacy Bursary  </strong> <br/>
 											
-						In memory of Professor Dennis Sciama (Head of the Astrophysics Sector of SISSA from 1983 to 1998), the Sciama Family has decided to finance bursaries to enable SISSA astrophysics or astroparticle physics postdoctoral fellows ("titolare di assegno di ricerca") to visit certain high-profile international institutes with which Prof. Sciama had particular connections. The intentions is for these to be working visits aimed at fostering links and establishing possible ongoing collaborations <a href="http://www.sissa.it/app/research/sciama_fellow.php" style="" target="_blank">(link)</a>.
+						In memory of Professor Dennis Sciama (Head of the Astrophysics Sector of SISSA from 1983 to 1998), the Sciama Family has decided to finance bursaries to enable SISSA astrophysics or astroparticle physics postdoctoral fellows ("titolare di assegno di ricerca") to visit certain high-profile international institutes with which Prof. Sciama had particular connections. The intentions is for these to be working visits aimed at fostering links and establishing possible ongoing collaborations <a href="http://www.sissa.it/app/research/sciama_fellow.php" target="_blank">(link)</a>.
 					
 						</p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style=""> ERC Starting Grant - Challenging General Relativity  </strong> <br style=""/>
+
+</div>
+<div class="block app">
+
+<span>
+<p>
+ <br/>
+</p>
+</span>
+
+
+<p>
+<strong> ERC Starting Grant - Challenging General Relativity  </strong> <br/>
 						Thomas Sotiriou has been funded with € 1,375,226  for the proposal  entitled "Challenging General 
 						Relativity". The grant will be used in  order to put together an extended research group of young 
 						and more  experienced researchers (students, postdocs, advanced postdocs) and to  foster and 
@@ -230,15 +277,21 @@ All permanent members of the group participate to the “Iniziativa specifica IN
 						research on the limits of  General Relativity as a theory for the gravitational interaction.
 													
 						</p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div bgcolor="#f8f8f8" style="" valign="top">
-<p style="">
-<strong style="">  Marie Curie Career Integration Grant - The limit of General Relativity </strong> <br style=""/>
+
+</div>
+<div class="block app">
+
+
+<span>
+<p>
+ <br/>
+</p>
+</span>
+
+
+<p>
+<strong>  Marie Curie Career Integration Grant - The limit of General Relativity </strong> <br/>
 											
 						Thomas Sotiriou has been funded with € 100,000 for the proposal  entitled "The limits of General 
 						Relativity". The funds will provide  partial support for research in various topics in gravity, 
@@ -246,109 +299,148 @@ All permanent members of the group participate to the “Iniziativa specifica IN
 						phenomenology, etc.
 					
 						</p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">FIRSTORM</strong> ERC Advanced Grant<br style=""/>
-						Modelling FIRST ORder Mott transition.<br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="https://firstorm.sissa.it" target="_blank">
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>FIRSTORM</strong> ERC Advanced Grant<br/>
+						Modelling FIRST ORder Mott transition.<br/>
 						This theoretical project aims to explore the mechanisms underlying the first order nature of the Mott transition in real materials and its  conceptual and practical consequences. 						
-				 <br style=""/>
-<a href="https://firstorm.sissa.it" style="" target="_blank">
+				 <br/>
+<a href="https://firstorm.sissa.it" target="_blank">
 						Read more &gt;&gt; </a>
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">MAX Centre of Excellence </strong><br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="http://www.max-centre.eu" target="_blank">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>MAX Centre of Excellence </strong><br/>
 MAX (MAterials design at the eXascale) is a European Centre of Excellence which enables materials modelling, simulations, discovery and design at the frontiers of the current and future High Performance Computing (HPC), High Throughput Computing (HTC) and data analytics technologies. 
 The mission of MaX is to develop the technologies and make them available for large and growing base of researchers in the materials domain.
 MaX aims to lead the quantum materials discovery and design in frontier science and industrial technologies.					
-   					<a href="http://www.max-centre.eu" style="" target="_blank">
-<br style=""/> 
+   					<a href="http://www.max-centre.eu" target="_blank">
+<br/> 
 						Read more &gt;&gt; </a>
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
-<td align="center" style="" valign="top"><span style="">
-<p style="">
-<img height="100px" src="images/PRIN2015.png" style="" width="100px"/> <br style=""/>
-</p></span></td></tr></tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  MODPHYSFRICT </strong> ERC Advanced-FP7 <br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+ <br/>
+</p></span></div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  MODPHYSFRICT </strong> ERC Advanced-FP7 <br/>
 						Friction plays a central role in diverse systems and phenomena that span vast ranges of scales, 
 						from the nanometer contacts inherent in micro- and nanomachines and biological molecular motors, to the geophysical scales 							characteristic for earthquakes. 
 						This project aims at clarifying many key aspects of the friction dynamics, 
 						which are still poorly understood despite the fundamental importance and and the growing efforts
-				 <br style=""/>
+				 <br/>
 <!--<a href="research/research.php">Read more >> </a>	-->
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  SUPERBAD</strong> ERC Starting-FP7 <br style=""/>
-						SUPERconductivity as a cure for BAD metallic behaviour<br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="http://superbadproject.wordpress.com/" target="_blank">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  SUPERBAD</strong> ERC Starting-FP7 <br/>
+						SUPERconductivity as a cure for BAD metallic behaviour<br/>
 						The aim of the project is revive the dream of a unique theoretical framework for cuprates, 
 						iron-based superconductors and fullerides. Superconductivity in all these materials is shown to appear 
 						to "heal" a bad metallic state determined by strong correlation effects.
-				 <br style=""/>
-<a href="http://superbadproject.wordpress.com/" style="" target="_blank">
+				 <br/>
+<a href="http://superbadproject.wordpress.com/" target="_blank">
 						Read more &gt;&gt; </a>
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  LEMSUPER </strong> EU(FP7)-Japan Cooperative project <br style=""/>
-					Light Element Molecular SUPERconductivity<br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+<a href="http://www.lemsuper.eu/" target="_blank">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong>  LEMSUPER </strong> EU(FP7)-Japan Cooperative project <br/>
+					Light Element Molecular SUPERconductivity<br/>
 					The project develops methodologies for the design of superconductors based on light elements (Boron, Carbon, Oxygen) 
 					combining synthesis, experimental characterization and theoretical modeling of a wide range of materials. 
-				 <br style=""/>
+				 <br/>
 </p>
-</div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
 
-<div style="" valign="top">
-<p style="">
-<strong style="">  Multichrome </strong> Corporate Grant <br style=""/>
+
+</div>
+<div class="block cm">
+
+<span>
+<p>
+ <br/>
+</p>
+</span>
+
+
+<p>
+<strong>  Multichrome </strong> Corporate Grant <br/>
 						Multi-scale computer Modeling of the color optical properties of complex molecules 
 						in complex enviroments.
 						Funded by MARS Chocolate Science &amp; Technology.
-				 <br style=""/>
+				 <br/>
 </p>
+
+
 </div>
-</tr>
-</tbody>
-<div class="block"><p>EU-H2020-MSCA/ITN "BiD4BEST" (2020/24, studente Ph.D. + missioni)           --> Lapi</p></div>
-<div class="block">
+<div class="block ap"><p>EU-H2020-MSCA/ITN "BiD4BEST" (2020/24, studente Ph.D. + missioni)           --> Lapi</p></div>
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle"> Out-of-equilibrium entangled many-body systems
@@ -360,7 +452,7 @@ Marie Curie Fellowship. <a href="https://www.statphys.sissa.it/wordpress/?page_i
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">European STREP “A Guided Matter-Wave Interferometer on a Atom-Chip-MatterWave”
@@ -368,7 +460,7 @@ Marie Curie Fellowship. <a href="https://www.statphys.sissa.it/wordpress/?page_i
 <p>2013–2017</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the PI of the Italian node of the collaborative European grant STREP “MatterWave” involving four European nodes.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">
@@ -381,7 +473,7 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Non-perturbative field theory and strongly correlated systems
@@ -389,7 +481,7 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 <p>2013–2015</p>
 <ul>
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Italian responsible of this Italy–Hungary Joint Project (Accordo di Cooperazione Scientifica CNR/MTA Ungheria); Hungarian responsible: Gabor Takacs. Other local participants: <a href="https://www.statphys.sissa.it/wordpress/?page_id=1727">Gesualdo Delfino</a> and <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a>.</ul></div></div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Quantum Integrability, Conformal Field Theory and Topological Quantum Computation(QICFT)
@@ -401,7 +493,7 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle"> Weakly confined RMT
@@ -413,7 +505,7 @@ Marie Curie Outgoing fellowship. Fellow <a href="https://www.statphys.sissa.it/w
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Statistical Physics of Strongly Correlated Systems: Exact Results and Quantum Field Theory Methods
@@ -424,7 +516,7 @@ National coordinator <a href="http://www.statphys.sissa.it/wordpress/?page_id=16
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Interdisciplinary Statistical and Field Theory Approaches to Nanophysics and Low Dimensional Systems(INSTANS)
@@ -436,7 +528,7 @@ National coordinator <a href="http://www.statphys.sissa.it/wordpress/?page_id=16
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle">Rumore Quantistico e Sistemi Mesoscopici
@@ -447,7 +539,7 @@ National coordinator Stefano Fantoni (SISSA) (other local participants <a href="
 </ul>
 </div>
 </div>
-<div class="block">
+<div class="block sp">
 
 <div class="blockText">
 <div class="blockTextTitle"> Meccanica Statistica, Teoria dei Campi e Transizioni di Fase Quantistiche in Bassa Dimensionalita
@@ -458,55 +550,76 @@ National coordinator A. Montorsi, local coordinator <a href="http://www.statphys
 </ul>
 </div>
 </div>
-<tbody>
-<tr style="">
+<div class="block tpp">
 
-<div style="" valign="top">
-<p style="">
-<strong style=""> H2020-TWINN-2015 Coordination &amp; support action Grant RBI-T-WINNING (692194)  </strong> (Feb 2016/ Dec 2019)<br style=""/>
-<p style="">RBI-T-WINNING provides funding for theoretical physics with the aim of supporting links among leading European research institutions. Intensive exchange of knowledge and experience will be organized between RBI and SISSA, CNRS/University of Paris-Sud Orsay, Ludwig Maximilian University and Niels Bohr Institute, covering a wide range of investigations within theoretical physics. The set of measures include staff exchanges, training, conferences, summer schools, dissemination and outreach activities for impact on the local community. <p style=""></p>
-<br style=""/>
-<a href="http://rbi-t-winning.irb.hr/" style="">
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong> H2020-TWINN-2015 Coordination &amp; support action Grant RBI-T-WINNING (692194)  </strong> (Feb 2016/ Dec 2019)<br/>
+<p>RBI-T-WINNING provides funding for theoretical physics with the aim of supporting links among leading European research institutions. Intensive exchange of knowledge and experience will be organized between RBI and SISSA, CNRS/University of Paris-Sud Orsay, Ludwig Maximilian University and Niels Bohr Institute, covering a wide range of investigations within theoretical physics. The set of measures include staff exchanges, training, conferences, summer schools, dissemination and outreach activities for impact on the local community. <p></p>
+<br/>
+<a href="http://rbi-t-winning.irb.hr/">
 						Read more &gt;&gt; </a>
 </p>
-</p></div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
+</p>
 
-<div style="" valign="top">
-<p style="">
-<strong style=""> InvisiblesPlus EU project, </strong> (Feb 2016/ Jan 2020)<br style=""/>
-<p style="">InvisiblesPlus is a new Horizon2020 (H2020) Research and Innovation Staff Exchange (RISE) project. The project (690575 - InvisiblesPlus - H2020-MSCA-RISE-2015, February 2016- January 2020), will focus on Neutrino and Dark Matter phenomenology and their connection, with emphasis on the role of the symmetry relating matter and antimatter. Experimental and theoretical aspects are also encompassed. The network involves 13 nodes in six European countries and its associated partners extend to nine non-European countries.<p style=""></p>
-<p style="">This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 690575.<p style=""></p>
-<br style=""/>
-<a href="http://www.invisiblesplus.eu/" style="">
+</div>
+<div class="block tpp">
+
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong> InvisiblesPlus EU project, </strong> (Feb 2016/ Jan 2020)<br/>
+<p>InvisiblesPlus is a new Horizon2020 (H2020) Research and Innovation Staff Exchange (RISE) project. The project (690575 - InvisiblesPlus - H2020-MSCA-RISE-2015, February 2016- January 2020), will focus on Neutrino and Dark Matter phenomenology and their connection, with emphasis on the role of the symmetry relating matter and antimatter. Experimental and theoretical aspects are also encompassed. The network involves 13 nodes in six European countries and its associated partners extend to nine non-European countries.<p></p>
+<p>This project has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 690575.<p></p>
+<br/>
+<a href="http://www.invisiblesplus.eu/">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></div>
-</tr>
-</tbody>
-<tbody>
-<tr style="">
+</p></p>
 
-<div style="" valign="top">
-<p style="">
-<strong style=""> ELUSIVES EU project </strong> (Feb 2016/ Jan 2020)<br style=""/>
-<p style="">Elusives is a European ITN project (H2020-MSCA-ITN-2015//674896-ELUSIVES, April 2016-March 2020), which focuses on Neutrino and Dark Matter phenomenology and their connection. Phenomenological and theoretical aspects are also encompassed. The network involves nodes in six European countries and its associated partners extend to seven non-European countries.<p style=""></p>
-<p style="">The mission of Elusives ITN is to form the new generation of researchers to accomplish the task of understanding the fundamental spects of neutrino mixng and the nature of Dark Matter and the possible connection, if any, between the two, focusing on  phenomenology with the necessary link to experiment. This is the first transnational such program, exploiting the capital investment in new experiments and overcoming the fragmentation of the research effort.<p style=""></p>
-<p style="">This project has received funding from the European Union's Horizon 2020
-                         research and innovation programme under grant agreement No 674896.<p style=""></p>
-<br style=""/>
-<a href="http://www.elusives.eu/" style="">
+</div>
+<div class="block tpp">
+
+<span>
+<p>
+<a href="research/research.php">
+ <br/>
+</a>
+</p>
+</span>
+
+
+<p>
+<strong> ELUSIVES EU project </strong> (Feb 2016/ Jan 2020)<br/>
+<p>Elusives is a European ITN project (H2020-MSCA-ITN-2015//674896-ELUSIVES, April 2016-March 2020), which focuses on Neutrino and Dark Matter phenomenology and their connection. Phenomenological and theoretical aspects are also encompassed. The network involves nodes in six European countries and its associated partners extend to seven non-European countries.<p></p>
+<p>The mission of Elusives ITN is to form the new generation of researchers to accomplish the task of understanding the fundamental spects of neutrino mixng and the nature of Dark Matter and the possible connection, if any, between the two, focusing on  phenomenology with the necessary link to experiment. This is the first transnational such program, exploiting the capital investment in new experiments and overcoming the fragmentation of the research effort.<p></p>
+<p>This project has received funding from the European Union's Horizon 2020
+                         research and innovation programme under grant agreement No 674896.<p></p>
+<br/>
+<a href="http://www.elusives.eu/">
 						Read more &gt;&gt; </a>
 </p>
-</p></p></p></div>
-</tr>
-</tbody>
-<div class="block"><p>ASI-COSMOS (2016/21, posizione RTDa + missioni)                                        --> Baccigalupi</p></div>
-<div class="block"><p>ASI-LiteBIRD (2020/23, assegnista + missioni)                                                  --> Baccigalupi</p></div>
-<div class="block"><p>INFN-INDARK (2020/23, missioni)                                                                     --> Baccigalupi</p></div>
-<div class="block"><p>INFN-QGSKY (2020/23, missioni)                                                                      --> Salucci/Valdarnini</p></div>
-<div class="block"><p>PRIN2017-MIUR (2019/21, assegnista + missioni)                                          --> Lapi/Bressan</p></div>
-<div class="block"><p>FSE-FVG (2020/22, assegnista)                                                                           --> Lapi/Bressan</p></div>
+</p></p></p>
+
+</div>
+<div class="block ap"><p>ASI-COSMOS (2016/21, posizione RTDa + missioni)                                        --> Baccigalupi</p></div>
+<div class="block ap"><p>ASI-LiteBIRD (2020/23, assegnista + missioni)                                                  --> Baccigalupi</p></div>
+<div class="block ap"><p>INFN-INDARK (2020/23, missioni)                                                                     --> Baccigalupi</p></div>
+<div class="block ap"><p>INFN-QGSKY (2020/23, missioni)                                                                      --> Salucci/Valdarnini</p></div>
+<div class="block ap"><p>PRIN2017-MIUR (2019/21, assegnista + missioni)                                          --> Lapi/Bressan</p></div>
+<div class="block ap"><p>FSE-FVG (2020/22, assegnista)                                                                           --> Lapi/Bressan</p></div>

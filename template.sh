@@ -46,7 +46,7 @@ BUTTON_LINKS=(
 
 CONTENT=(
 "$(cat representative)"
-"<p> a veeery long list .... <br> ... <br> ...so loooong <br></p>"
+"$(cat alumni)"
 "$(cat grants)"
 "<p> you can visit us and do part of your thesis here! </p>"
 "<p> we can have very important collaborations</p>"
@@ -64,9 +64,9 @@ CONTENT_TITLE=(
 #every routine can add stuff to CSS and JS variables
 #CSS variable is passed through sass
 
+
 source button.sh #output in CONTENT_BUTTONS
 source content.sh #output in CONTENT_HTML
-
 
 
 
