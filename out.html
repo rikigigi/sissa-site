@@ -28,14 +28,14 @@
   vertical-align: middle; }
 
 .area-button {
-  background: rgba(101, 128, 180, 0.6);
+  background: rgba(101, 128, 180, 0.75);
   position: relative;
   /*height: 10ch;
   width: 30ch;*/
   display: inline-block;
   cursor: pointer;
   outline: none;
-  border: 0px solid rgba(101, 128, 180, 0.6);
+  border: 0px solid rgba(101, 128, 180, 0.75);
   vertical-align: middle;
   text-decoration: none;
   font-size: inherit;
@@ -44,6 +44,7 @@
     /*@include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));*/
     font-weight: 900;
     /*color: $button-color;*/
+    color: white;
     padding: 0.625rem 1rem;
     margin: 0.5rem;
     text-transform: uppercase; }
@@ -52,15 +53,18 @@
       /*letter-spacing: 0.125rem;*/ }
 
 .container-btn {
-  float: left;
-  height: 10ch;
-  width: 30ch;
-  text-align: center;
-  display: table;
+  /*float: left;*/
+  display: inline-block;
   /*
     grid-area: main;
     align-self: center;
     justify-self: center;*/ }
+
+.container-btn2 {
+  height: 10ch;
+  width: 30ch;
+  text-align: center;
+  display: table; }
 
 .inside-btn {
   display: table-cell;
@@ -127,34 +131,34 @@ div .ap {
 <body>
 <div class='button-div'>
 
-<div class="container-btn" style="background: url('img/bannerAPP_2.png') no-repeat center center;">
+<div class="container-btn" style="background: url('img/bannerAPP_2.png') no-repeat center center;"><div class='container-btn2'>
 <div class='inside-btn'><a class='area-button-a' href='http://www.sissa.it/app/' target='_blank' ><button class="area-button" >Astroparticle Physics</button></a>
-</div></div>
+</div></div></div>
 
 
-<div class="container-btn" style="background: url('img/bannerAPC.jpg') no-repeat 60% 60%;">
+<div class="container-btn" style="background: url('img/bannerAPC.jpg') no-repeat 60% 60%;"><div class='container-btn2'>
 <div class='inside-btn'><a class='area-button-a' href='http://www.sissa.it/ap/index.php' target='_blank' ><button class="area-button" >Astrophysics and Cosmology</button></a>
-</div></div>
+</div></div></div>
 
 
-<div class="container-btn" style="background: url('img/bannerCM.jpg') no-repeat 60% 50%;">
+<div class="container-btn" style="background: url('img/bannerCM.jpg') no-repeat 60% 50%;"><div class='container-btn2'>
 <div class='inside-btn'><a class='area-button-a' href='http://cm.sissa.it/' target='_blank' ><button class="area-button" >Condensed Matter</button></a>
-</div></div>
+</div></div></div>
 
 
-<div class="container-btn" style="background: url('img/logo_SBP.png') no-repeat center center;">
+<div class="container-btn" style="background: url('img/logo_SBP.png') no-repeat center center;"><div class='container-btn2'>
 <div class='inside-btn'><a class='area-button-a' href='https://www.sissa.it/sbp/' target='_blank' ><button class="area-button" >Biological Systems</button></a>
-</div></div>
+</div></div></div>
 
 
-<div class="container-btn" style="background: url('img/cropped-cropped-bannerOfficial3.png') no-repeat center center;">
+<div class="container-btn" style="background: url('img/cropped-cropped-bannerOfficial3.png') no-repeat center center;"><div class='container-btn2'>
 <div class='inside-btn'><a class='area-button-a' href='http://www.statphys.sissa.it/wordpress/' target='_blank' ><button class="area-button" >Statistical Physics</button></a>
-</div></div>
+</div></div></div>
 
 
-<div class="container-btn" style="background: url('img/cloudchamber.png') no-repeat center center;">
+<div class="container-btn" style="background: url('img/cloudchamber.png') no-repeat center center;"><div class='container-btn2'>
 <div class='inside-btn'><a class='area-button-a' href='http://www.sissa.it/tpp/index.php' target='_blank' ><button class="area-button" >Teoretical Particle</button></a>
-</div></div>
+</div></div></div>
 
 <span class="clear"></span></div>
 

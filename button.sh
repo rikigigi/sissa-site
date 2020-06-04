@@ -1,7 +1,8 @@
 CSS="${CSS}
 
 \$bg: transparent;
-\$button-color: rgba(101, 128, 180, 0.6);
+\$button-color: rgba(101, 128, 180, 0.75);
+\$button-text-color: rgba(255, 255, 255, 1.0);
 
 @mixin transition(\$property: all, \$duration: 0.5s, \$ease: cubic-bezier(0.65,-0.25,0.25, 1.95)) {
   transition: \$property \$duration \$ease;
@@ -50,6 +51,7 @@ CSS="${CSS}
     /*@include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));*/
     font-weight: 900;
     /*color: \$button-color;*/
+    color: \$button-text-color;
     padding: 0.625rem 1rem;
     margin: 0.5rem;
     text-transform: uppercase;
@@ -60,16 +62,20 @@ CSS="${CSS}
   }
 }
   .container-btn {
-  float: left;
-  height: 10ch;
-  width: 30ch;
-  text-align: center;
-  display: table;
+  /*float: left;*/
+  display: inline-block;
   /*
     grid-area: main;
     align-self: center;
     justify-self: center;*/
   }
+.container-btn2 {
+  height: 10ch;
+  width: 30ch;
+  text-align: center;
+  display: table;
+}
+
 .inside-btn {
   display: table-cell;
   text-align: center;
@@ -99,9 +105,9 @@ IMG=$2
 LINK=$3
 POS=$4
 echo "
-<div class=\"container-btn\" style=\"background: url('${IMG}') no-repeat ${POS};\">
+<div class=\"container-btn\" style=\"background: url('${IMG}') no-repeat ${POS};\"><div class='container-btn2'>
 <div class='inside-btn'><a class='area-button-a' href='${LINK}' target='_blank' ><button class=\"area-button\" >${TEXT}</button></a>
-</div></div>
+</div></div></div>
 "
 
 }
