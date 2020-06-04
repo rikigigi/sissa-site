@@ -17,20 +17,25 @@
   line-height: 1.5;
   display: block;
   align-items: center;
+  text-align: center;
   justify-content: center;
   margin: 0;
-  min-height: 10vh;
-  background: #3c3c3c; }
+  /*min-height: 10vh;*/
+  background: transparent; }
+
+.area-button-a {
+  background-color: transparent;
+  vertical-align: middle; }
 
 .area-button {
+  background: rgba(101, 128, 180, 0.6);
   position: relative;
-  float: left;
-  min-height: 10vh;
-  min-width: 10vw;
+  /*height: 10ch;
+  width: 30ch;*/
   display: inline-block;
   cursor: pointer;
   outline: none;
-  border: 0;
+  border: 0px solid rgba(101, 128, 180, 0.6);
   vertical-align: middle;
   text-decoration: none;
   font-size: inherit;
@@ -38,13 +43,29 @@
   .area-button {
     /*@include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));*/
     font-weight: 900;
-    color: #ffaaaa;
-    padding: 1.25rem 2rem;
-    background: #ffffff;
+    /*color: $button-color;*/
+    padding: 0.625rem 1rem;
+    margin: 0.5rem;
     text-transform: uppercase; }
     .area-button:hover, .area-button:focus {
       font-weight: 1500;
       /*letter-spacing: 0.125rem;*/ }
+
+.container-btn {
+  float: left;
+  height: 10ch;
+  width: 30ch;
+  text-align: center;
+  display: table;
+  /*
+    grid-area: main;
+    align-self: center;
+    justify-self: center;*/ }
+
+.inside-btn {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; }
 
 span.clear {
   clear: both;
@@ -59,15 +80,10 @@ span.clear {
     grid-template-areas: ". main main ." ". main main .";
   }
   
-  #container {
-    grid-area: main;
-    align-self: center;
-    justify-self: center;
-  }
 }
 */
 .collapsible {
-  background-color: #777;
+  background-color: #6580b4;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -78,7 +94,7 @@ span.clear {
   font-size: 15px; }
 
 .active, .collapsible:hover {
-  background-color: #555; }
+  background-color: rgba(101, 128, 180, 0.75); }
 
 .content {
   padding: 0 18px;
@@ -111,44 +127,45 @@ div .ap {
 <body>
 <div class='button-div'>
 
-<div id="container">
-  <a href='http://www.sissa.it/app/' target='_blank'><button class="area-button" style="background: url('https://www.sissa.it/app/images/bannerAPP_2.png') no-repeat center center;">Astroparticle Physics</button></a>
-</div>
+<div class="container-btn" style="background: url('img/bannerAPP_2.png') no-repeat center center;">
+<div class='inside-btn'><a class='area-button-a' href='http://www.sissa.it/app/' target='_blank' ><button class="area-button" >Astroparticle Physics</button></a>
+</div></div>
 
 
-<div id="container">
-  <a href='http://www.sissa.it/ap/index.php' target='_blank'><button class="area-button" style="background: url('https://www.sissa.it/ap/images/bannerAPC.jpg') no-repeat center center;">Astrophysics and Cosmology</button></a>
-</div>
+<div class="container-btn" style="background: url('img/bannerAPC.jpg') no-repeat 60% 60%;">
+<div class='inside-btn'><a class='area-button-a' href='http://www.sissa.it/ap/index.php' target='_blank' ><button class="area-button" >Astrophysics and Cosmology</button></a>
+</div></div>
 
 
-<div id="container">
-  <a href='http://cm.sissa.it/' target='_blank'><button class="area-button" style="background: url('https://www.cm.sissa.it/images/bannerCM.jpg') no-repeat center center;">Condensed Matter</button></a>
-</div>
+<div class="container-btn" style="background: url('img/bannerCM.jpg') no-repeat 60% 50%;">
+<div class='inside-btn'><a class='area-button-a' href='http://cm.sissa.it/' target='_blank' ><button class="area-button" >Condensed Matter</button></a>
+</div></div>
 
 
-<div id="container">
-  <a href='https://www.sissa.it/sbp/' target='_blank'><button class="area-button" style="background: url('https://www.sissa.it/sbp/images/banner/logo_SBP.png') no-repeat center center;">Biological Systems</button></a>
-</div>
+<div class="container-btn" style="background: url('img/logo_SBP.png') no-repeat center center;">
+<div class='inside-btn'><a class='area-button-a' href='https://www.sissa.it/sbp/' target='_blank' ><button class="area-button" >Biological Systems</button></a>
+</div></div>
 
 
-<div id="container">
-  <a href='http://www.statphys.sissa.it/wordpress/' target='_blank'><button class="area-button" style="background: url('https://www.statphys.sissa.it/wordpress/wp-content/uploads/cropped-cropped-bannerOfficial3.png') no-repeat center center;">Statistical Physics</button></a>
-</div>
+<div class="container-btn" style="background: url('img/cropped-cropped-bannerOfficial3.png') no-repeat center center;">
+<div class='inside-btn'><a class='area-button-a' href='http://www.statphys.sissa.it/wordpress/' target='_blank' ><button class="area-button" >Statistical Physics</button></a>
+</div></div>
 
 
-<div id="container">
-  <a href='http://www.sissa.it/tpp/index.php' target='_blank'><button class="area-button" style="background: url('https://www.sissa.it/tpp/images/cloudchamber.png') no-repeat center center;">Teoretical Particle</button></a>
-</div>
+<div class="container-btn" style="background: url('img/cloudchamber.png') no-repeat center center;">
+<div class='inside-btn'><a class='area-button-a' href='http://www.sissa.it/tpp/index.php' target='_blank' ><button class="area-button" >Teoretical Particle</button></a>
+</div></div>
 
 <span class="clear"></span></div>
 
-<div class=intro>
+
+<button class='collapsible'>General info</button>
+<div class='content'>
 <p><strong><a href="https://www.sissa.it/dipartimento-di-eccellenza">Data Science Excellence Department Initiative (DS)</a></strong></p>
 
 <p><strong><a href="https://www.sissa.it/physics-teaching-offer" target="_blank">Teaching Offer</a></strong><br>
 <strong><a href="https://www.sissa.it/scientific-secretariat" target="_blank">Scientific Secretariat</a></strong></p>
-
-<div>
+</div>
 
 <button class='collapsible'>Representatives</button>
 <div class='content'>
@@ -696,6 +713,42 @@ milena.valentini[at]sns.it      </td>
         Master in High Performance Computing      </td>
 </tr>
 <tr>
+<td class="sbp">
+            Andrea Cesari          </td>
+<td class="sbp">2018</td>
+<td class="sbp">G. Bussi</td>
+<td class="sbp">Enforcing ensemble averages in molecular
+dynamics simulations using the Maximum
+Entropy principle </td>
+<td class="sbp"> Price Analyst @ Allianz SE</td>
+</tr>
+<tr>
+<td class="sbp">
+            Nina Ilieva          </td>
+<td class="sbp">2018</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Computational Analysis of Single
+Molecule Force Spectroscopy Experiments
+on Native Membranes </td>
+<td class="sbp"> Laboratory technician @ CIC biomaGUNE, San-Sebastian/Donostia, Spain</td>
+</tr>
+<tr>
+<td class="sbp">
+            Mattia Marenda          </td>
+<td class="sbp">2018</td>
+<td class="sbp">C. Micheletti</td>
+<td class="sbp">Topological Sorting and self-assembly of knotted molecules: models and simulations </td>
+<td class="sbp"> MRC/UoE Cross Disciplinary Post-Doctoral Fellow @ Institute of Genetics and Molecular Medicine at the University of Edinburgh</td>
+</tr>
+<tr>
+<td class="sbp">
+            Matteo Adorisio          </td>
+<td class="sbp">2018</td>
+<td class="sbp">A. Celani</td>
+<td class="sbp">Search, navigation and foraging: an optimal decision-making perspective </td>
+<td class="sbp">?</td>
+</tr>
+<tr>
 <td class="sp">João Pinto Barros</td>
 <td class="sp">2017</td>
 <td class="sp">Andrea Trombettoni,<br/>Marcello Dalmonte</td>
@@ -854,6 +907,53 @@ shijingjing[at]pku.edu.cn      </td>
         Matter Fields in Asymptotically Safe Quantum Field Theories of Gravity      </td>
 <td class="app">
         Postdoctoral fellowship at Fraunhofer Institute for Industrial Mathematics ITWM      </td>
+</tr>
+<tr>
+<td class="sbp">
+            Antonio Suma          </td>
+<td class="sbp">2017</td>
+<td class="sbp">C. Micheletti</td>
+<td class="sbp">Static and dynamic properties of knotted
+biopolymers: from bulk to nanochannels
+and nanopores </td>
+<td class="sbp"> Post-doc @ Institute for Computational Molecular Science, College of Science and Technology, Temple University, Philadelphia (USA)</td>
+</tr>
+<tr>
+<td class="sbp">
+            Lorenzo Casalino          </td>
+<td class="sbp">2017</td>
+<td class="sbp">A. Magistrato</td>
+<td class="sbp">Pre-mRNA Splicing:
+An Evolutionary Computational Journey
+from Ribozymes to Spliceosome </td>
+<td class="sbp"> Post-doc @ Department of Chemistry and Biochemistry, University of California, San Diego (USA)</td>
+</tr>
+<tr>
+<td class="sbp">
+            Elena Facco          </td>
+<td class="sbp">2017</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">The intrinsic dimension
+of biological data landscapes </td>
+<td class="sbp"> Big Data-Machine Learning Consultant @ MC Engineering</td>
+</tr>
+<tr>
+<td class="sbp">
+            Negar Nahali          </td>
+<td class="sbp">2017</td>
+<td class="sbp">A. Rosa</td>
+<td class="sbp">Ring Polymers in Entangled
+Solutions: Complex Structure and
+Heterogeneous Dynamics </td>
+<td class="sbp"> Post-doc @ Umeå University (Sweden)</td>
+</tr>
+<tr>
+<td class="sbp">
+            Richard Cunha          </td>
+<td class="sbp">2017</td>
+<td class="sbp">G. Bussi</td>
+<td class="sbp">Dissecting Mg2+-RNA interactions using atomistic molecular dynamics </td>
+<td class="sbp"> Post-doc @ University of Zurich (UZH) - Zurich, Switzerland</td>
 </tr>
 <tr>
 <td class="sp">Alessio Chiocchetta</td>
@@ -1078,6 +1178,39 @@ xtfu[at]sissa.it      </td>
         Post-doc at INFN Rome      </td>
 </tr>
 <tr>
+<td class="sbp">
+            Luca Ponzoni          </td>
+<td class="sbp">2016</td>
+<td class="sbp">C. Micheletti</td>
+<td class="sbp">Knowledge-based identification of functional domains in proteins </td>
+<td class="sbp"> Post-Doc @ University of Pittsburgh - USA</td>
+</tr>
+<tr>
+<td class="sbp">
+            Giovanni Pinamonti          </td>
+<td class="sbp">2016</td>
+<td class="sbp">G. Bussi</td>
+<td class="sbp">Studying the dynamical properties of small RNA molecules with computational techniques </td>
+<td class="sbp"> Post-Doc @ Freie Universität Berlin - Germany</td>
+</tr>
+<tr>
+<td class="sbp">
+            Francesca Rizzato          </td>
+<td class="sbp">2016</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Towards a deeper understanding of protein sequence evolution
+ </td>
+<td class="sbp"> Post-Doc @ Ecole Normale Superieure - Paris - France</td>
+</tr>
+<tr>
+<td class="sbp">
+            Alejandro Gil Ley          </td>
+<td class="sbp">2016</td>
+<td class="sbp">G. Bussi</td>
+<td class="sbp">Enhanced sampling and force field corrections for RNA oligomers </td>
+<td class="sbp"> Post-Doc @ University of Iowa - USA</td>
+</tr>
+<tr>
 <td class="sp">Andrea Coser</td>
 <td class="sp">2015</td>
 <td class="sp">Erik Tonni</td>
@@ -1252,6 +1385,38 @@ rossella.aversa[at]sissa.it      </td>
         Aspects of inflationary cosmology      </td>
 <td class="app">
         Post-doc at CCPP, New York University      </td>
+</tr>
+<tr>
+<td class="sbp">
+            Andrea Perez-Villa          </td>
+<td class="sbp">2015</td>
+<td class="sbp">G. Bussi</td>
+<td class="sbp">Translocation of NS3 from Hepatitis C Virus on RNA: Insights from Atomistic Molecular Simulations </td>
+<td class="sbp"> Post-Doc @ UPMC - Sorbonne Universities - Francia</td>
+</tr>
+<tr>
+<td class="sbp">
+            Edoardo Sarti          </td>
+<td class="sbp">2015</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Assessing the structure of proteins and protein complexes through physical and statistical approaches </td>
+<td class="sbp"> Post-Doc @ NIH (NINDS, National Institute of Neurological Diseases and Stroke), Bethesda USA</td>
+</tr>
+<tr>
+<td class="sbp">
+            Guido Polles          </td>
+<td class="sbp">2015</td>
+<td class="sbp">C. Micheletti</td>
+<td class="sbp">Coarse-grained models for self-assembling systems </td>
+<td class="sbp"> Research associate @ University of Southern California - USA</td>
+</tr>
+<tr>
+<td class="sbp">
+            Francesca Mancini          </td>
+<td class="sbp">2015</td>
+<td class="sbp">M. Marsili</td>
+<td class="sbp">Information theory in biochemical regulatory networks: a theoretical study </td>
+<td class="sbp"> Risk Modeling &amp; Analytics Specialist @ UBS - Switzerland</td>
 </tr>
 <tr>
 <td class="sp">Pierangelo Lombardo</td>
@@ -1447,6 +1612,32 @@ rossella.aversa[at]sissa.it      </td>
         Post-doc at Mainz University      </td>
 </tr>
 <tr>
+<td class="sbp">
+            Ina Bisha          </td>
+<td class="sbp">2014</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Atomistic Study of Structural and Functional Properties of Membrane Proteins </td>
+<td class="sbp"> Post-Doc @ LMU/TUM - Munchen - Germany</td>
+</tr>
+<tr>
+<td class="sbp">
+            Francesco Di Palma          </td>
+<td class="sbp">2014</td>
+<td class="sbp">G. Bussi</td>
+<td class="sbp">Conformational changes in the adenine riboswitch </td>
+<td class="sbp"> Post-Doc @ Dipartimento di Fisica - Università Roma "La Sapienza" - Italy</td>
+</tr>
+<tr>
+<td class="sbp">
+            Marco Di Stefano          </td>
+<td class="sbp">2014</td>
+<td class="sbp">C. Micheletti</td>
+<td class="sbp">Structure and dynamics of entangled biopolymers: from knotted DNA to chromosomes </td>
+<td class="sbp"> Post-Doc @ Centro Nacional de Analisis Genomico (CNAG) - Barcellona - Spain
+
+</td>
+</tr>
+<tr>
 <td class="sp">Marco Beria</td>
 <td class="sp">2013</td>
 <td class="sp">Mussardo Giuseppe,<br/>Robert M. Konik<br/>Markus Müller</td>
@@ -1623,6 +1814,49 @@ rossella.aversa[at]sissa.it      </td>
         Dark Matter Indirect Detection and Subhalos      </td>
 <td class="app">
         Lecturer at STKIP Surya, Banten, Indonesia      </td>
+</tr>
+<tr>
+<td class="sbp">
+            Giuseppe Facchetti          </td>
+<td class="sbp">2013</td>
+<td class="sbp">C. Altafini</td>
+<td class="sbp">Computational approaches to complex biological networks </td>
+<td class="sbp"> Post-Doc @ Börries and Hauke Group University of Freiburg, Germany</td>
+</tr>
+<tr>
+<td class="sbp">
+            Gianpaolo Gobbo          </td>
+<td class="sbp">2013</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Novel Approaches for an
+Unprejudiced Characterization of
+Rare Events </td>
+<td class="sbp"> Postdoc @ B. J. Leimkuhler Group, School of Mathematics, University of Edinburgh, UK</td>
+</tr>
+<tr>
+<td class="sbp">
+            Luca Ianeselli          </td>
+<td class="sbp">2013</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Development of a Miniaturized Electro-Fluidic Detector for Medical Diagnostics </td>
+<td class="sbp"> Post-Doc @ Elettra Sincrotrone Trieste - Italy</td>
+</tr>
+<tr>
+<td class="sbp">
+            Daniele Granata          </td>
+<td class="sbp">2013</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Characterizing structure and free energy landscape of proteins by NMR-guided metadynamics. </td>
+<td class="sbp"> Post-Doc @ ICMS, Temple University, Philadelphia, Pennsylvania, US</td>
+</tr>
+<tr>
+<td class="sbp">
+            Duvan Franco Marin          </td>
+<td class="sbp">2013</td>
+<td class="sbp">A. Magistrato</td>
+<td class="sbp">Computational studies on DNA Damage Recognition </td>
+<td class="sbp"> Customer service executive @ Booking.com.
+</td>
 </tr>
 <tr>
 <td class="sp">Francesco Buccheri</td>
@@ -1857,6 +2091,38 @@ rossella.aversa[at]sissa.it      </td>
         Long term visitor at DESY      </td>
 </tr>
 <tr>
+<td class="sbp">
+            Luca Tubiana          </td>
+<td class="sbp">2012</td>
+<td class="sbp">C. Micheletti</td>
+<td class="sbp">Equilibrium and kinetic properties of knotted ring polymers: a computational approach </td>
+<td class="sbp"> R. Podgornik's group, University of Ljubljana, Slovenia</td>
+</tr>
+<tr>
+<td class="sbp">
+            Zhaleh Ghaemi Bafghi          </td>
+<td class="sbp">2012</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Atomistic Simulation Studies of the Permeation Pharmacologicallly Relevant Molecules Through Lipid Membranes </td>
+<td class="sbp"> Postdoc, Luthey-Schulten Group, University of Illinois, Urbana-Champaign, US</td>
+</tr>
+<tr>
+<td class="sbp">
+            Nhu Trang Do          </td>
+<td class="sbp">2012</td>
+<td class="sbp">G. Bussi</td>
+<td class="sbp">Investigating Peptide/RNA binding in Anti-HIV research by molecular simulations: electrostatic recognition and accelerated sampling </td>
+<td class="sbp"> Postdoc, Karttunen's group, University of Waterloo, Waterloo, Canada</td>
+</tr>
+<tr>
+<td class="sbp">
+            Fahimeh Baftizadeh          </td>
+<td class="sbp">2012</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Atomistic Simulations of Short Peptides Aggregation by Advanced Computational Techniques </td>
+<td class="sbp"> Postdoc, Trout's group, MIT, Boston, Massachusetts, US</td>
+</tr>
+<tr>
 <td class="sp">Laura Foini</td>
 <td class="sp">2011</td>
 <td class="sp">Francesco Zamponi, <br/>Andrea Gambassi</td>
@@ -2048,6 +2314,39 @@ theory and phenomenology      </td>
         Post-doc at the Institute of Physics, University of Mainz      </td>
 </tr>
 <tr>
+<td class="sbp">
+            Gianpaolo Chiriano          </td>
+<td class="sbp">2011</td>
+<td class="sbp">G.Legname</td>
+<td class="sbp">Computer- and synthesis-based approaches towards the discovery of novel BACE-1 inhibitors as potential anti-Alzheimer�s drugs </td>
+<td class="sbp"> Research assistant, University of Geneva, Switzerland</td>
+</tr>
+<tr>
+<td class="sbp">
+            Salvatore Borganzone          </td>
+<td class="sbp">2011</td>
+<td class="sbp">P. Carloni</td>
+<td class="sbp">Design, synthesis and molecular modeling studies of drug candidate compounds against prion diseases </td>
+<td class="sbp"> Postdoc, Institute for Research in Biomedicine, Barcelona, Spain</td>
+</tr>
+<tr>
+<td class="sbp">
+            Pilar Cossio          </td>
+<td class="sbp">2011</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Protein physics by advanced computational techniques: conformational sampling and folded state discrimination </td>
+<td class="sbp"> Postdoc, Hummer's Group, MPI, Frankfurt, Germany</td>
+</tr>
+<tr>
+<td class="sbp">
+            Alessandro Bosco          </td>
+<td class="sbp">2011</td>
+<td class="sbp">C. Micheletti</td>
+<td class="sbp">Mechanical response of ssDNA filaments and ss/dsDNA patches: experiments and simulations </td>
+<td class="sbp"> Postdoc, L. Casalis' group, Elettra, Trieste, Italy
+</td>
+</tr>
+<tr>
 <td class="sp">Serena Bradde</td>
 <td class="sp">2010</td>
 <td class="sp">Riccardo Zecchina, <br/> Giuseppe Mussardo</td>
@@ -2220,6 +2519,47 @@ theory and phenomenology      </td>
         Renormalization group studies of scalar-tensor theories of gravity      </td>
 <td class="app">
         Post-doc at The Institute of Mathematical Sciences, Taramani, India      </td>
+</tr>
+<tr>
+<td class="sbp">
+            Raffaelo Potestio          </td>
+<td class="sbp">2010</td>
+<td class="sbp">C. Micheletti</td>
+<td class="sbp">Coarse-grained modelling of protein structure and internal dynamics: comparative methods and applications </td>
+<td class="sbp"> Max Plank Institute for Polymer Research, Mainz, Germany</td>
+</tr>
+<tr>
+<td class="sbp">
+            Roberto Marchese          </td>
+<td class="sbp">2010</td>
+<td class="sbp"> </td>
+<td class="sbp"> </td>
+<td class="sbp">?</td>
+</tr>
+<tr>
+<td class="sbp">
+            Mauro Melli          </td>
+<td class="sbp">2010</td>
+<td class="sbp">G. Scoles</td>
+<td class="sbp">Mechanical resonating devices and their applications in biomolecular studies </td>
+<td class="sbp"> TASC, Trieste, Italy</td>
+</tr>
+<tr>
+<td class="sbp">
+            Subhra Mandal          </td>
+<td class="sbp">2010</td>
+<td class="sbp">G. Scoles</td>
+<td class="sbp">Polyelectrolyte based NANO-approaches for Cancer therapy or diagnostics </td>
+<td class="sbp"> Dept. TumorImmunology NCMLS, Radboud University Nijmegen Medical Centre, Nijmegen,The Netherlands</td>
+</tr>
+<tr>
+<td class="sbp">
+            Barbara Sanavio          </td>
+<td class="sbp">2010</td>
+<td class="sbp">G. Scoles</td>
+<td class="sbp">Oriented Immobilization of Prion Protein
+Demonstrated via Precise Interfacial Nanostructure Measurements </td>
+<td class="sbp"> Elettra, Trieste, Italy</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3003,6 +3343,69 @@ theory and phenomenology      </td>
 				Michele Fabrizio		      </td>
 <td class="cm">
 				<a href="thesis/2004/de.leo"> Non-Fermi liquid behavior in multi-orbital Anderson impurity models and possible relevance for strongly correlated lattice models</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Mahdi Zarea  Ahmadabadi
+		      </td>
+<td class="cm">2003</td>
+<td class="cm">
+				Alexander A. Nersesyan
+<br/>Michele Fabrizio		      </td>
+<td class="cm">
+				<a href="thesis/2003/ahmadabadi"> Role of frustration in quantum spin chains and ladders: a field theory approach</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Oleg Chalaev
+		      </td>
+<td class="cm">2003</td>
+<td class="cm">
+				Vladimir Kravtsov		      </td>
+<td class="cm">
+				<a href="thesis/2003/chalaev"> Nonequilibrium persistent current in mesoscopic disordered systems</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Paola Mosconi
+		      </td>
+<td class="cm">2003</td>
+<td class="cm">
+				Giuseppe Mussardo		      </td>
+<td class="cm">
+				<a href="thesis/2003/mosconi"> Ghost models in two-dimensional condensed matter physics</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Giuliano Orso
+		      </td>
+<td class="cm">2003</td>
+<td class="cm">
+				Pieralberto Marchetti
+<br/>Lu Yu		      </td>
+<td class="cm">
+				<a href="thesis/2003/orso"> Spin-charge gauge approach to HTS cuprates: theory versus experiments</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Evgenij Plekhanov
+		      </td>
+<td class="cm">2003</td>
+<td class="cm">
+				Michele Fabrizio
+<br/>Sandro Sorella		      </td>
+<td class="cm">
+				<a href="thesis/2003/plekhanov"> Hubbard U enhanced superconductivity</a>
 			  </td>
 <td></td>
 </tr>
@@ -4581,6 +4984,100 @@ theory and phenomenology      </td>
 <td></td>
 </tr>
 <tr>
+<td class="cm">
+				Francesco Buda
+		      </td>
+<td class="cm">1989</td>
+<td class="cm">
+				Roberto Car 
+<br/>Michele Parrinello		      </td>
+<td class="cm">
+				<a href="thesis/1989/buda"> Hydrogen in silicon: a first principles molecular dynamics study</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Maria  Peressi
+		      </td>
+<td class="cm">1989</td>
+<td class="cm">
+				Alfonso Baldereschi 
+<br/>Stefano Baroni		      </td>
+<td class="cm">
+				<a href="thesis/1989/peressi"> Energy-Band Discontinuities at Lattice-Matched Semiconductor Heterojunctions</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Sandro  Sorella
+		      </td>
+<td class="cm">1989</td>
+<td class="cm">
+				Michele Parrinello
+<br/>Stefano Baroni 
+<br/>Roberto Car
+<br/>Erio Tosatti		      </td>
+<td class="cm">
+				<a href="thesis/1989/sorella"> A Novel Technique for the Simulation of Interacting Fermion Systems
+</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Li  Wang
+		      </td>
+<td class="cm">1989</td>
+<td class="cm">
+				Mario P. Tosi		      </td>
+<td class="cm">
+				<a href="thesis/1989/wang"> Concentration fluctuations in liquid metal alloys</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Xiaoqian  Wang
+		      </td>
+<td class="cm">1989</td>
+<td class="cm">
+				Erio Tosatti 
+<br/>Stefano Fantoni		      </td>
+<td class="cm">
+				<a href="thesis/1989/wang"> Correlated basis function method for fermions on a lattice: applications to the Hubbard model</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Linfang  Xu
+		      </td>
+<td class="cm">1989</td>
+<td class="cm">
+				Annabella Selloni 
+<br/>Michele Parrinello		      </td>
+<td class="cm">
+				<a href="thesis/1989/xu"> Quantum molecular dynamics study of dilute Na-NaBr liquid solutions</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
+<td class="cm">
+				Qiming  Zhang
+		      </td>
+<td class="cm">1989</td>
+<td class="cm">
+				Annabella Selloni
+<br/>Roberto Car
+<br/>Michele Parrinello		      </td>
+<td class="cm">
+				<a href="thesis/1989/zhang"> First-principle molecular dynamics simulations of disordered GaAs</a>
+			  </td>
+<td></td>
+</tr>
+<tr>
 <td class="ap">
         Antonella Porri 
       </td>
@@ -4950,174 +5447,6 @@ theory and phenomenology      </td>
 <td></td>
 </tr>
 <tr>
-<td class="ap">
-        Yun Qiang Yu 
-      </td>
-<td class="ap">1982</td>
-<td class="ap">
-        F. de Felice      </td>
-<td class="ap">
-        The Gravitational Collapse and the Issue of Final State      </td>
-<td class=ap>?</td>
-</tr>
-<tr>
-<td class="cm">
-				Mahdi Zarea  Ahmadabadi
-		      </td>
-<td class="cm">2003</td>
-<td class="cm">
-				Alexander A. Nersesyan
-<br/>Michele Fabrizio		      </td>
-<td class="cm">
-				<a href="thesis/2003/ahmadabadi"> Role of frustration in quantum spin chains and ladders: a field theory approach</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Oleg Chalaev
-		      </td>
-<td class="cm">2003</td>
-<td class="cm">
-				Vladimir Kravtsov		      </td>
-<td class="cm">
-				<a href="thesis/2003/chalaev"> Nonequilibrium persistent current in mesoscopic disordered systems</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Paola Mosconi
-		      </td>
-<td class="cm">2003</td>
-<td class="cm">
-				Giuseppe Mussardo		      </td>
-<td class="cm">
-				<a href="thesis/2003/mosconi"> Ghost models in two-dimensional condensed matter physics</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Giuliano Orso
-		      </td>
-<td class="cm">2003</td>
-<td class="cm">
-				Pieralberto Marchetti
-<br/>Lu Yu		      </td>
-<td class="cm">
-				<a href="thesis/2003/orso"> Spin-charge gauge approach to HTS cuprates: theory versus experiments</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Evgenij Plekhanov
-		      </td>
-<td class="cm">2003</td>
-<td class="cm">
-				Michele Fabrizio
-<br/>Sandro Sorella		      </td>
-<td class="cm">
-				<a href="thesis/2003/plekhanov"> Hubbard U enhanced superconductivity</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Francesco Buda
-		      </td>
-<td class="cm">1989</td>
-<td class="cm">
-				Roberto Car 
-<br/>Michele Parrinello		      </td>
-<td class="cm">
-				<a href="thesis/1989/buda"> Hydrogen in silicon: a first principles molecular dynamics study</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Maria  Peressi
-		      </td>
-<td class="cm">1989</td>
-<td class="cm">
-				Alfonso Baldereschi 
-<br/>Stefano Baroni		      </td>
-<td class="cm">
-				<a href="thesis/1989/peressi"> Energy-Band Discontinuities at Lattice-Matched Semiconductor Heterojunctions</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Sandro  Sorella
-		      </td>
-<td class="cm">1989</td>
-<td class="cm">
-				Michele Parrinello
-<br/>Stefano Baroni 
-<br/>Roberto Car
-<br/>Erio Tosatti		      </td>
-<td class="cm">
-				<a href="thesis/1989/sorella"> A Novel Technique for the Simulation of Interacting Fermion Systems
-</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Li  Wang
-		      </td>
-<td class="cm">1989</td>
-<td class="cm">
-				Mario P. Tosi		      </td>
-<td class="cm">
-				<a href="thesis/1989/wang"> Concentration fluctuations in liquid metal alloys</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Xiaoqian  Wang
-		      </td>
-<td class="cm">1989</td>
-<td class="cm">
-				Erio Tosatti 
-<br/>Stefano Fantoni		      </td>
-<td class="cm">
-				<a href="thesis/1989/wang"> Correlated basis function method for fermions on a lattice: applications to the Hubbard model</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Linfang  Xu
-		      </td>
-<td class="cm">1989</td>
-<td class="cm">
-				Annabella Selloni 
-<br/>Michele Parrinello		      </td>
-<td class="cm">
-				<a href="thesis/1989/xu"> Quantum molecular dynamics study of dilute Na-NaBr liquid solutions</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
-<td class="cm">
-				Qiming  Zhang
-		      </td>
-<td class="cm">1989</td>
-<td class="cm">
-				Annabella Selloni
-<br/>Roberto Car
-<br/>Michele Parrinello		      </td>
-<td class="cm">
-				<a href="thesis/1989/zhang"> First-principle molecular dynamics simulations of disordered GaAs</a>
-			  </td>
-<td></td>
-</tr>
-<tr>
 <td class="cm">
 				Chuan Hong  Chen
 		      </td>
@@ -5140,6 +5469,17 @@ theory and phenomenology      </td>
 				<a href="thesis/1983/roman"> A study of physical properties of ionic systems</a>
 			  </td>
 <td></td>
+</tr>
+<tr>
+<td class="ap">
+        Yun Qiang Yu 
+      </td>
+<td class="ap">1982</td>
+<td class="ap">
+        F. de Felice      </td>
+<td class="ap">
+        The Gravitational Collapse and the Issue of Final State      </td>
+<td class=ap>?</td>
 </tr>
 </tbody></table>
 </div>

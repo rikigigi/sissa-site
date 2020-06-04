@@ -21,12 +21,20 @@ BUTTON_TXT=(
 "Teoretical Particle"
 )
 BUTTON_IMG=(
-"https://www.sissa.it/app/images/bannerAPP_2.png"
-"https://www.sissa.it/ap/images/bannerAPC.jpg"
-"https://www.cm.sissa.it/images/bannerCM.jpg"
-"https://www.sissa.it/sbp/images/banner/logo_SBP.png"
-"https://www.statphys.sissa.it/wordpress/wp-content/uploads/cropped-cropped-bannerOfficial3.png"
-"https://www.sissa.it/tpp/images/cloudchamber.png"
+"img/bannerAPP_2.png"
+"img/bannerAPC.jpg"
+"img/bannerCM.jpg"
+"img/logo_SBP.png"
+"img/cropped-cropped-bannerOfficial3.png"
+"img/cloudchamber.png"
+)
+BUTTON_IMG_POS=(
+"center center"
+"60% 60%"
+"60% 50%"
+"center center"
+"center center"
+"center center"
 )
 
 #remove after second " in vim:      s:\("[a-z.:/]*"\).*:\1:g
@@ -45,6 +53,7 @@ BUTTON_LINKS=(
 #see content.sh for content style
 
 CONTENT=(
+"$(cat intro)"
 "$(cat representative)"
 "$(cat alumni)"
 "$(cat grants)"
@@ -52,6 +61,7 @@ CONTENT=(
 "<p> we can have very important collaborations</p>"
 )
 CONTENT_TITLE=(
+"General info"
 "Representatives"
 "Alumni"
 "Grants"
@@ -81,7 +91,6 @@ $( echo "${CSS}" | sass --scss )
 </head>
 <body>
 ${CONTENT_BUTTONS}
-$(cat intro)
 ${CONTENT_HTML}
 
 <script>

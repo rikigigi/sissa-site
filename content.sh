@@ -14,9 +14,11 @@ CSS="${CSS}
 \$pale-blue:#ddffff;
 \$pale-green:#ddffdd;
 \$sand:#fdf5e6;
+\$collapsible-color: rgba(101, 128, 180, 1.0);
+\$collapsible-color-bright: rgba(101, 128, 180, 0.75);
 
 .collapsible {
-  background-color: #777;
+  background-color: \$collapsible-color;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -28,7 +30,7 @@ CSS="${CSS}
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: \$collapsible-color-bright;
 }
 
 .content {
