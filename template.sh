@@ -57,7 +57,7 @@ CONTENT=(
 "$(cat representative)"
 "$(cat alumni)"
 "$(cat grants)"
-"<p> you can visit us and do part of your thesis here! </p>"
+"$(cat convenzione)"
 "<p> we can have very important collaborations</p>"
 )
 CONTENT_TITLE=(
