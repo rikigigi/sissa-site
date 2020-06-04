@@ -3,14 +3,8 @@ from bs4 import BeautifulSoup
 import re
 import sys
 
-def eprint(*args, **kwargs):
-    print(*args, file=sys.stderr, **kwargs)
+from common import *
 
-def norm_y(y):
-    if len(y)==2:
-        return '20'+y
-    else:
-        return y
 
 def make_key(y1,y2):
     return norm_y(y1)+'-'+norm_y(y2)
@@ -57,6 +51,7 @@ def parse(grants, url, find_all, elaborate_entry,class_=''):
     response=URL.urlopen(url)
     html=response.read() 
     s=BeautifulSoup(html,'html.parser')
+    absolutize_urls(url,s)
     l=s.find_all(**find_all)
     for b in l:
         res=elaborate_entry(url,b)
