@@ -1,7 +1,7 @@
 CSS="${CSS}
 
 \$bg: transparent;
-\$button-color: rgba(101, 128, 180, 0.75);
+\$button-color: rgba(101, 128, 180, 0.0);
 \$button-text-color: rgba(255, 255, 255, 1.0);
 
 @mixin transition(\$property: all, \$duration: 0.5s, \$ease: cubic-bezier(0.65,-0.25,0.25, 1.95)) {
@@ -49,7 +49,7 @@ CSS="${CSS}
   font-family: inherit;
   & {
     /*@include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));*/
-    font-weight: 900;
+    font-weight: 450;
     /*color: \$button-color;*/
     color: \$button-text-color;
     padding: 0.625rem 1rem;

@@ -32,7 +32,7 @@ BUTTON_IMG_POS=(
 "center center"
 "60% 60%"
 "60% 50%"
-"center center"
+"50% 70%"
 "center center"
 "center center"
 )

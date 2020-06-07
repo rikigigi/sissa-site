@@ -1,10 +1,11 @@
-<table><thead><tr><th>Name</th><th>Year</th><th>Supervisor</th><th>Thesis</th><th>Position</th></tr></thead><tbody>
+<table><thead><tr><th>Name</th><th>Year</th><th>Supervisor</th><th>Thesis</th><th>Position</th><th>Curriculum</th></tr></thead><tbody>
 <tr>
 <td class="sp">Paola Ruggiero</td>
 <td class="sp">2019</td>
 <td class="sp">Pasquale Calabrese</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/103181">Entanglement and correlations in one-dimensional quantum many-body systems</a></td>
 <td class="sp">Postdoc at University of Geneva, Switzerland</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Riccardo Ben Alì Zinati</td>
@@ -12,6 +13,7 @@
 <td class="sp">Andrea Gambassi,<br/>Alessandro Codello</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/103476">Universality: from discrete symmetry models to active matter systems</a></td>
 <td class="sp">Postdoc at Sorbonne Université, Paris, France</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Jacopo Sisti</td>
@@ -19,6 +21,7 @@
 <td class="sp">Erik Tonni</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/103394">Shape Dependence of Holographic Entanglement Entropy in AdS/BCFT and in Hyperscaling Violating Spacetimes</a></td>
 <td class="sp">Postdoc at University of Southampton, UK</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Márton Mestyán</td>
@@ -26,6 +29,7 @@
 <td class="sp">Pasquale Calabrese</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/103396">Relaxation phenomena in isolated integrable quantum systems</a></td>
 <td class="sp">Postdoc at University of Ljubljana, Slovenia</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Paolo Mazza</td>
@@ -33,6 +37,7 @@
 <td class="sp">Andrea Gambassi</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/103452">Non-equilibrium dynamics in one-dimensional constrained quantum statistical systems</a></td>
 <td class="sp">Postdoc at University of Tübingen, Germany</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Alessio Lerose</td>
@@ -41,6 +46,7 @@
 Alessandro Silva</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/103470">Nonequilibrium phenomena in quantum many-body systems with long-range interactions</a></td>
 <td class="sp">Postdoc at University of Geneva, Switzerland</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -55,6 +61,7 @@ with the Inter-Galactic Medium
 and other probes      </td>
 <td class="ap"> 
       Montpellier      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -68,6 +75,7 @@ and other probes      </td>
 LSS and their cross correlations      </td>
 <td class="ap"> 
       Cornell Univ., USA      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -81,6 +89,7 @@ LSS and their cross correlations      </td>
       </td>
 <td class="ap"> 
       Univ. Padova, Italy      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -93,6 +102,7 @@ LSS and their cross correlations      </td>
         Fundamental properties of the dark and the luminous matter from Low Surface Brightness discs      </td>
 <td class="ap"> 
             </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -105,6 +115,7 @@ LSS and their cross correlations      </td>
 				<a href="https://www.cm.sissa.it/thesis/2019/larceci"> Dissipation effects in driven quantum many-body systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -117,6 +128,7 @@ LSS and their cross correlations      </td>
 				<a href="https://www.cm.sissa.it/thesis/2019/frferra"> Static and dynamical properties of frustrated spin models</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -130,6 +142,7 @@ LSS and their cross correlations      </td>
 				<a href="https://www.cm.sissa.it/thesis/2019/dguerci"> Beyond simple variational approach for strongly electron systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -142,6 +155,7 @@ LSS and their cross correlations      </td>
 				<a href="https://www.cm.sissa.it/thesis/2019/jhasik"> Towards next-generation methods to optimize two-dimensional tensor networks: Algorithmic differentiation and applications to quantum magnets</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -155,6 +169,7 @@ LSS and their cross correlations      </td>
 				<a href="https://www.cm.sissa.it/thesis/2019/dkarki"> Multi-color Fermi-liquid theory of quantum transport through a multilevel Kondo impurity</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -167,6 +182,7 @@ LSS and their cross correlations      </td>
 				<a href="https://www.cm.sissa.it/thesis/2019/gmbeng"> Quantum annealing and digital quantum ground state preparation algorithms</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -181,6 +197,7 @@ LSS and their cross correlations      </td>
 				<a href="https://www.cm.sissa.it/thesis/2019/mqaisrani"> A Multi-scale Approach to Studying the Complexity in Glutamine Aggregates: Structure, Dynamics and Electronic Properties.</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -195,6 +212,7 @@ LSS and their cross correlations      </td>
 				<a href="https://www.cm.sissa.it/thesis/2019/mteruzzi"> Markov State Modeling of 2D Nanofriction</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -206,6 +224,7 @@ LSS and their cross correlations      </td>
         A journey in dark matter models with non-standard features      </td>
 <td class="app">
         Private company (data science)      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -217,6 +236,7 @@ LSS and their cross correlations      </td>
         Numerical approaches towards the galactic synchrotron emission      </td>
 <td class="app">
         Postdoc Shanghai Jiao Tong University, China      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -228,6 +248,88 @@ LSS and their cross correlations      </td>
         Galactic Dark Matter distribution and its implication for experimental searches      </td>
 <td class="app">
         Postdoc in Montpellier, France (LUPM institute)      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Marco Gorghetto
+      </td>
+<td class="tpp">2019</td>
+<td class="tpp">
+        Giovanni Villadoro      </td>
+<td class="tpp">
+        Axions from Strings      </td>
+<td class="tpp">
+        Postdoc at Weizmann Institute of Science       </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Riccardo Bergamin
+      </td>
+<td class="tpp">2019</td>
+<td class="tpp">
+        Sergio Cecotti      </td>
+<td class="tpp">
+        tt* Geometry of FQHE      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Hrachya Khachatryan
+      </td>
+<td class="tpp">2019</td>
+<td class="tpp">
+        Francesco Benini, Sergio Benvenuti      </td>
+<td class="tpp">
+        Exploring the space of many-flavor QED's in 2 &lt; d &lt; 6      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Paolo Milan
+      </td>
+<td class="tpp">2019</td>
+<td class="tpp">
+        Francesco Benini      </td>
+<td class="tpp">
+        A Tale of two Indices or 
+How to count Black Hole Microstates in Ads/CFT      </td>
+<td class="tpp">
+        Postdoc at Technion- Israel Institute of Technology      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Carlos Nieto
+      </td>
+<td class="tpp">2019</td>
+<td class="tpp">
+        Roberto Percacci      </td>
+<td class="tpp">
+        Aymptotic Safety in the Standard Model and Beyond      </td>
+<td class="tpp">
+        Postdoc at Universidad Industrial de Santander      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Elena Venturini
+      </td>
+<td class="tpp">2019</td>
+<td class="tpp">
+        Aleksandr Azatov, Andrea Romanino      </td>
+<td class="tpp">
+        Search for Beyond Standard
+Model physics at high
+and low energy colliders      </td>
+<td class="tpp">
+        Postdoc at Technical University of Munich       </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sp">Alberto Pezzotta</td>
@@ -235,6 +337,7 @@ LSS and their cross correlations      </td>
 <td class="sp">Antonio Celani</td>
 <td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/84114">Optimal search processes in physics and biology</a></td>
 <td class="sp">Postdoc at The Francis Crick Institute, London, UK</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Ryan Cubero</td>
@@ -242,6 +345,7 @@ LSS and their cross correlations      </td>
 <td class="sp"> Matteo Marsili,<br/> Roudi Yasser</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/90676">Statistical mechanics of samples, efficient representations and criticality</a></td>
 <td class="sp">Postdoc at Kavli Institute for Systems Neuroscience, Trondheim, Norway</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Alvise Bastianello</td>
@@ -249,6 +353,7 @@ LSS and their cross correlations      </td>
 <td class="sp">Giuseppe Mussardo,<br/>Andrea De Luca</td>
 <td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/83616">Aspects of quantum integrability: non-equilibrium dynamics, defects and hydrodynamics</a></td>
 <td class="sp">Postdoc at University of Amsterdam, Netherlands</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Estelle Inack</td>
@@ -256,6 +361,7 @@ LSS and their cross correlations      </td>
 <td class="sp">Giuseppe Santoro,<br/>Sebastiano Pilati</td>
 <td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/83714">Simulating quantum annealing via projective quantum Monte Carlo algorithms</a></td>
 <td class="sp">Postdoc at Perimeter Institute, Waterloo, Canada</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Lorenzo Piroli</td>
@@ -263,6 +369,7 @@ LSS and their cross correlations      </td>
 <td class="sp">Pasquale Calabrese</td>
 <td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/83596">Nonequilibrium Quantum States of Matter</a></td>
 <td class="sp">Postdoc at MPQ, Munich, Germany</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -276,6 +383,7 @@ LSS and their cross correlations      </td>
 <td class="ap"> 
       University of Waterloo, Canada,
 andrej.obuljen[at]uwaterloo.ca      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -289,6 +397,7 @@ andrej.obuljen[at]uwaterloo.ca      </td>
 <td class="ap"> 
       The University of Geneva, Switzerland,
 francesca.lepori[at]unige.ch      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -302,6 +411,7 @@ francesca.lepori[at]unige.ch      </td>
 <td class="ap"> 
       University of Michigan, USA,
 ekammoun[at]umich.edu      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -315,6 +425,7 @@ ekammoun[at]umich.edu      </td>
 <td class="ap"> 
       Scuola Normale Superiore, Italy,
 milena.valentini[at]sns.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -327,6 +438,7 @@ milena.valentini[at]sns.it      </td>
         Gamma-ray burst prompt emission: new insights into spectral characterization      </td>
 <td class="ap"> 
       Gran Sasso Science Institute, gor.oganesyan[at]gssi.it, Italy      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -340,6 +452,7 @@ milena.valentini[at]sns.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -354,6 +467,7 @@ milena.valentini[at]sns.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -366,6 +480,7 @@ milena.valentini[at]sns.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2018/lercole"> Ab Initio Simulation of Heat Transport in Silica Glass</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -380,6 +495,7 @@ milena.valentini[at]sns.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -393,6 +509,7 @@ milena.valentini[at]sns.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2018/fgrandi"> Mott insulators in disguise</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -406,6 +523,7 @@ milena.valentini[at]sns.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -420,6 +538,7 @@ milena.valentini[at]sns.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -433,6 +552,7 @@ milena.valentini[at]sns.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2018/mrusishv"> Color optical properties of anthocyanins in solution: a multi-scale computational study</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -444,6 +564,7 @@ milena.valentini[at]sns.it      </td>
         Different formulations of Gravity and their equivalence at classical and quantum level      </td>
 <td class="app">
         Research associate at ICTP      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -455,6 +576,7 @@ milena.valentini[at]sns.it      </td>
         Phenomenological Applications of Effective Field Theory: Neutrinos and LHC Physics      </td>
 <td class="app">
         Post-doc at Chinese Academy of Sciences      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -466,6 +588,7 @@ milena.valentini[at]sns.it      </td>
         Primordial Non-Gaussianity and Primordial Tensor Modes      </td>
 <td class="app">
         Postdoctoral Fellow at Nottingham University      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -477,6 +600,7 @@ milena.valentini[at]sns.it      </td>
         Asymptotically Safe Quantum Field Theories in Perturbative Regime and Beyond      </td>
 <td class="app">
         Consultant for Private Company      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -488,6 +612,85 @@ milena.valentini[at]sns.it      </td>
         Black holes beyond general relativity: theoretical and phenomenological developments.      </td>
 <td class="app">
         Master in High Performance Computing      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Gabriele Spada
+      </td>
+<td class="tpp">2018</td>
+<td class="tpp">
+        Marco Serone, Giovanni Villadoro      </td>
+<td class="tpp">
+        The Power of Perturbation Series      </td>
+<td class="tpp">
+        Postdoc at ENS Paris, France      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Matteo Poggi
+      </td>
+<td class="tpp">2018</td>
+<td class="tpp">
+        Giulio Bonelli, Alessandro Tanzini      </td>
+<td class="tpp">
+        Elliptic Genera in Gauged Linear Sigma Models      </td>
+<td class="tpp">
+        Postdoc at KIAS, Seoul, South Korea      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Joao Penedo
+      </td>
+<td class="tpp">2018</td>
+<td class="tpp">
+        Andrea Romanino, Serguey Petcov      </td>
+<td class="tpp">
+        Aspects of the Symmetry Approach to Neutrino Masses and Mixing      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        André Benevides
+      </td>
+<td class="tpp">2018</td>
+<td class="tpp">
+        Atish Dabholkar      </td>
+<td class="tpp">
+        Quantum effective actions in Weyl-flat spacetimes and applications      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Vladimir Bashmakov
+      </td>
+<td class="tpp">2018</td>
+<td class="tpp">
+        Matteo Bertolini      </td>
+<td class="tpp">
+        Phases of N = 1 theories in d = 2 + 1 and non-supersymmetric conformal manifolds, or: Is there life beyond holomorphy?      </td>
+<td class="tpp">
+        Postdoc at Milano-Bicocca, Italy      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Mengqi Zhu
+      </td>
+<td class="tpp">2018</td>
+<td class="tpp">
+        Giulio Bonelli      </td>
+<td class="tpp">
+        T Tbar Deformations of Quantum Field Theory      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -498,6 +701,7 @@ milena.valentini[at]sns.it      </td>
 dynamics simulations using the Maximum
 Entropy principle </td>
 <td class="sbp"> Price Analyst @ Allianz SE</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -508,6 +712,7 @@ Entropy principle </td>
 Molecule Force Spectroscopy Experiments
 on Native Membranes </td>
 <td class="sbp"> Laboratory technician @ CIC biomaGUNE, San-Sebastian/Donostia, Spain</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -516,6 +721,7 @@ on Native Membranes </td>
 <td class="sbp">C. Micheletti</td>
 <td class="sbp">Topological Sorting and self-assembly of knotted molecules: models and simulations </td>
 <td class="sbp"> MRC/UoE Cross Disciplinary Post-Doctoral Fellow @ Institute of Genetics and Molecular Medicine at the University of Edinburgh</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -524,6 +730,7 @@ on Native Membranes </td>
 <td class="sbp">A. Celani</td>
 <td class="sbp">Search, navigation and foraging: an optimal decision-making perspective </td>
 <td class="sbp">?</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sp">João Pinto Barros</td>
@@ -531,6 +738,7 @@ on Native Membranes </td>
 <td class="sp">Andrea Trombettoni,<br/>Marcello Dalmonte</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/57731">Field and Gauge Theories with Ultracold Gauge Potentials and Fields</a></td>
 <td class="sp">Postdoc at University of Bern, Switzerland</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Gianni Mossi</td>
@@ -538,6 +746,7 @@ on Native Membranes </td>
 <td class="sp">Antonello Scardicchio</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/57711">The Transverse-Field Ising Spin Glass Model on the Bethe Lattice with an Application to Adiabatic Quantum Computing</a></td>
 <td class="sp">Quantum Research Scientist at NASA QuAIL, Mountain View, USA</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -551,6 +760,7 @@ on Native Membranes </td>
 <td class="ap"> 
       University of Tokyo,
 aatrani[at]astron.s.u-tokyo.ac.jp      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -563,6 +773,7 @@ aatrani[at]astron.s.u-tokyo.ac.jp      </td>
         Cosmic neutral hydrogen as tracer of the large scale structure of the Universe      </td>
 <td class="ap"> 
       ipcarucci[at]sissa.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -576,6 +787,7 @@ aatrani[at]astron.s.u-tokyo.ac.jp      </td>
 <td class="ap"> 
       Space Research Centre, University of Nigeria, Enugu State, Nigeria,
 tonykassidy_z[at]yahoo.com      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -589,6 +801,7 @@ tonykassidy_z[at]yahoo.com      </td>
 <td class="ap"> 
       Stanford University,
 giuspugl[at]stanford.edu      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -602,6 +815,7 @@ giuspugl[at]stanford.edu      </td>
 <td class="ap"> 
       Peking University, China, 
 shijingjing[at]pku.edu.cn      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -615,6 +829,7 @@ shijingjing[at]pku.edu.cn      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -627,6 +842,7 @@ shijingjing[at]pku.edu.cn      </td>
 			    <a href="https://www.cm.sissa.it/phdsection/past_phd_thesis/2017/Tran.pdf"> Stability and Reactivity of Supported Single-Atom Catalysts: Insight from Density Functional Theory</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -640,6 +856,7 @@ shijingjing[at]pku.edu.cn      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -651,6 +868,7 @@ shijingjing[at]pku.edu.cn      </td>
         Thermodynamical Aspects of Gravity: From Event Horizon to Emergent Gravity      </td>
 <td class="app">
         Postdoctoral fellowship at University of Western Ontario      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -662,6 +880,7 @@ shijingjing[at]pku.edu.cn      </td>
         Probing the spacetime fabric: from fundamental discreteness to quantum geometries      </td>
 <td class="app">
         Post-doc at Perimeter Institute (Della Riccia funding)      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -673,6 +892,7 @@ shijingjing[at]pku.edu.cn      </td>
         Dark Matter and Galaxy Rotation Curves      </td>
 <td class="app">
         Postdoctoral Scientist at Laboratoire de Physique Nucléaire et de Hautes Energies ( LPNHE - UPMC / IN2P3 / CNRS)      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -684,6 +904,73 @@ shijingjing[at]pku.edu.cn      </td>
         Matter Fields in Asymptotically Safe Quantum Field Theories of Gravity      </td>
 <td class="app">
         Postdoctoral fellowship at Fraunhofer Institute for Industrial Mathematics ITWM      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Himanshu Raj
+      </td>
+<td class="tpp">2017</td>
+<td class="tpp">
+        Matteo Bertolini      </td>
+<td class="tpp">
+        Explorations in AdS/CFT Correspondence      </td>
+<td class="tpp">
+        PostDoc at Weizmann Institute of Science, Israel      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Pietro Baratella
+      </td>
+<td class="tpp">2017</td>
+<td class="tpp">
+        Paolo Creminelli, Marco Serone, Andrea Romanino      </td>
+<td class="tpp">
+        Secret Symmetries and
+Supersymmetry:  Investigations      </td>
+<td class="tpp">
+        Postdoc at IFAE, Barcelona, Spain      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Arsenii Titov
+      </td>
+<td class="tpp">2017</td>
+<td class="tpp">
+        Serguey Petcov      </td>
+<td class="tpp">
+        Phenomenology of the Discrete Symmetry Approach to Neutrino Mixing and Leptonic CP Violation      </td>
+<td class="tpp">
+        Postdoc at Durham IPPP, United Kingdom      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Emtinan Elkhidir
+      </td>
+<td class="tpp">2017</td>
+<td class="tpp">
+        Marco Serone      </td>
+<td class="tpp">
+        A Manual for Conformal Field Theories in 4D      </td>
+<td class="tpp">
+        Postdoc at Uppsala University, Sweden      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Denis Karateev
+      </td>
+<td class="tpp">2017</td>
+<td class="tpp">
+        Marco Serone      </td>
+<td class="tpp">
+        Kinematics of 4D Conformal Field Theories      </td>
+<td class="tpp">
+        Postdoc at EPFL, Lausanne, Switzerland      </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -694,6 +981,7 @@ shijingjing[at]pku.edu.cn      </td>
 biopolymers: from bulk to nanochannels
 and nanopores </td>
 <td class="sbp"> Post-doc @ Institute for Computational Molecular Science, College of Science and Technology, Temple University, Philadelphia (USA)</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -704,6 +992,7 @@ and nanopores </td>
 An Evolutionary Computational Journey
 from Ribozymes to Spliceosome </td>
 <td class="sbp"> Post-doc @ Department of Chemistry and Biochemistry, University of California, San Diego (USA)</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -713,6 +1002,7 @@ from Ribozymes to Spliceosome </td>
 <td class="sbp">The intrinsic dimension
 of biological data landscapes </td>
 <td class="sbp"> Big Data-Machine Learning Consultant @ MC Engineering</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -723,6 +1013,7 @@ of biological data landscapes </td>
 Solutions: Complex Structure and
 Heterogeneous Dynamics </td>
 <td class="sbp"> Post-doc @ Umeå University (Sweden)</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -731,6 +1022,7 @@ Heterogeneous Dynamics </td>
 <td class="sbp">G. Bussi</td>
 <td class="sbp">Dissecting Mg2+-RNA interactions using atomistic molecular dynamics </td>
 <td class="sbp"> Post-doc @ University of Zurich (UZH) - Zurich, Switzerland</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sp">Alessio Chiocchetta</td>
@@ -738,6 +1030,7 @@ Heterogeneous Dynamics </td>
 <td class="sp">Andrea Gambassi</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/4909">A study on non-equilibrium dynamics in isolated and open quantum systems</a></td>
 <td class="sp">Postdoc at University of Cologne, Germany</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Cristiano De Nobili</td>
@@ -745,6 +1038,7 @@ Heterogeneous Dynamics </td>
 <td class="sp">Erik Tonni</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/4915">On entanglement negativity in 1+1 and 2+1 dimensional quantum systems</a></td>
 <td class="sp">Deep Learning Scientist at HARMAN Itl., Milano, Italy</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Thuong Nguyen</td>
@@ -752,6 +1046,7 @@ Heterogeneous Dynamics </td>
 <td class="sp">Markus Müller</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/4882">Magneto-transport and localization in disordered systems with local superconductive attraction</a></td>
 <td class="sp">Data Scientist at [24]7.ai, Mountain View, USA</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Valentina Ros</td>
@@ -759,6 +1054,7 @@ Heterogeneous Dynamics </td>
 <td class="sp">Markus Müller,<br/>Antonello Scardicchio</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/4906">Aspects of localization in disordered many-body quantum systems</a></td>
 <td class="sp">Postdoc at ENS, Paris, France</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Valerio Volpati</td>
@@ -766,6 +1062,7 @@ Heterogeneous Dynamics </td>
 <td class="sp">Matteo Marsili</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/4924">Statistical Mechanics approach to the sustainability of economic ecosystems</a></td>
 <td class="sp">Research Fellow at Capital Fund Managment, Paris, France</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -779,6 +1076,7 @@ Heterogeneous Dynamics </td>
 <td class="ap"> 
       University of Melbourne, Australia
 fbianchini[at]unimelb.edu.au      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -791,6 +1089,7 @@ fbianchini[at]unimelb.edu.au      </td>
         Investigating Quasar Outflows at High Redshift      </td>
 <td class="ap"> 
             </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -804,6 +1103,7 @@ fbianchini[at]unimelb.edu.au      </td>
 <td class="ap"> 
       KICP, University of Chicago, USA
 mraveri[at]kicp.uchicago.edu      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -817,6 +1117,7 @@ mraveri[at]kicp.uchicago.edu      </td>
 <td class="ap"> 
       SISSA, Italy
 cmancuso[at]sissa.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -830,6 +1131,7 @@ cmancuso[at]sissa.it      </td>
 <td class="ap"> 
       SISSA, Italy
 ekaterina.karukes[at]sissa.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -843,6 +1145,7 @@ ekaterina.karukes[at]sissa.it      </td>
 <td class="ap"> 
       ESO, Germany
 xtfu[at]sissa.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -855,6 +1158,7 @@ xtfu[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2016/defenu"> Applications of Functional Renormalization Group to Spin Systems and Long Range Models</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -868,6 +1172,7 @@ xtfu[at]sissa.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -882,6 +1187,7 @@ xtfu[at]sissa.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -896,6 +1202,7 @@ xtfu[at]sissa.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -909,6 +1216,7 @@ xtfu[at]sissa.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -920,6 +1228,7 @@ xtfu[at]sissa.it      </td>
         Exploring Spacetime Phenomenology: From Lorentz Violations to Experimental Tests of Non-locality      </td>
 <td class="app">
         Post-doc at IQOQI in Vienna      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -931,6 +1240,7 @@ xtfu[at]sissa.it      </td>
         CFTs and the Bootstrap      </td>
 <td class="app">
         Private Company       </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -942,6 +1252,7 @@ xtfu[at]sissa.it      </td>
         Neutrinos and voids in modern cosmology      </td>
 <td class="app">
         Postdoctoral Fellow at Berkeley University      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -953,6 +1264,75 @@ xtfu[at]sissa.it      </td>
         A glimpse on Dark Matter particles shining through the gamma-ray Sky      </td>
 <td class="app">
         Post-doc at INFN Rome      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Bruno Lima de Souza
+      </td>
+<td class="tpp">2016</td>
+<td class="tpp">
+        Loriano Bonora       </td>
+<td class="tpp">
+        CFT's, contact terms and anomalies      </td>
+<td class="tpp">
+        Programmer at Wolfram Alpha Institute      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Juan Carlos Vasquez
+      </td>
+<td class="tpp">2016</td>
+<td class="tpp">
+        Stefano Bertolini      </td>
+<td class="tpp">
+        Phenomenology of the right-handed lepton mixings at the LHC
+      </td>
+<td class="tpp">
+        Postdoc at Centro Científico-Tecnológico de Valparaíso (CCTVal), Chile      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Ivan Girardi
+      </td>
+<td class="tpp">2016</td>
+<td class="tpp">
+        Serguey Petcov      </td>
+<td class="tpp">
+        Discrete Symmetry Approach to Lepton Flavour, Neutrino Mixing and Leptonic CP Violation, and Neutrino Related Physics Beyond the Standard Theory
+      </td>
+<td class="tpp">
+        Postdoc at IBM Research Institute, Zurich, Switzerland      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Giovanni Grilli
+      </td>
+<td class="tpp">2016</td>
+<td class="tpp">
+        Giovanni Villadoro      </td>
+<td class="tpp">
+        Phenomenology of dark matter at present and future experiment      </td>
+<td class="tpp">
+        Postdoc at University of Sao Paulo.      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Javier Pardo Vega
+      </td>
+<td class="tpp">2016</td>
+<td class="tpp">
+        Giovanni Villadoro      </td>
+<td class="tpp">
+        Higgs mass and QCD axion properties at high precision      </td>
+<td class="tpp">
+        Consultant at Altair Management Consultants
+      </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -961,6 +1341,7 @@ xtfu[at]sissa.it      </td>
 <td class="sbp">C. Micheletti</td>
 <td class="sbp">Knowledge-based identification of functional domains in proteins </td>
 <td class="sbp"> Post-Doc @ University of Pittsburgh - USA</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -969,6 +1350,7 @@ xtfu[at]sissa.it      </td>
 <td class="sbp">G. Bussi</td>
 <td class="sbp">Studying the dynamical properties of small RNA molecules with computational techniques </td>
 <td class="sbp"> Post-Doc @ Freie Universität Berlin - Germany</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -978,6 +1360,7 @@ xtfu[at]sissa.it      </td>
 <td class="sbp">Towards a deeper understanding of protein sequence evolution
  </td>
 <td class="sbp"> Post-Doc @ Ecole Normale Superieure - Paris - France</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -986,6 +1369,7 @@ xtfu[at]sissa.it      </td>
 <td class="sbp">G. Bussi</td>
 <td class="sbp">Enhanced sampling and force field corrections for RNA oligomers </td>
 <td class="sbp"> Post-Doc @ University of Iowa - USA</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sp">Andrea Coser</td>
@@ -993,6 +1377,7 @@ xtfu[at]sissa.it      </td>
 <td class="sp">Erik Tonni</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/4849">Aspects of entanglement negativity in one dimensional critical systems</a></td>
 <td class="sp">Postdoc at Universidad Complutense de Madrid, Spain</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Francesca Pietracaprina</td>
@@ -1000,6 +1385,7 @@ xtfu[at]sissa.it      </td>
 <td class="sp">Antonello Scardicchio</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4911">Investigating localization transitions with the forward approximation</a></td>
 <td class="sp">Postdoc at LPT Toulouse, France</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Mauro Schiulaz</td>
@@ -1007,6 +1393,7 @@ xtfu[at]sissa.it      </td>
 <td class="sp">Alessandro Silva<br/>Markus Müller</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4908">Ideal quantum glass transition: many-body localization without quenched disorder?</a></td>
 <td class="sp">Assistant Editor for PRX at the APS, New York, USA</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Alessio Squarcini</td>
@@ -1014,6 +1401,7 @@ xtfu[at]sissa.it      </td>
 <td class="sp">Gesualdo Delfino</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4900">Phase separation and interfaces — exact results</a></td>
 <td class="sp">Postdoc at Max Planck, Stuttgart, Germany</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1027,6 +1415,7 @@ xtfu[at]sissa.it      </td>
 <td class="ap"> 
       Dipartimento di Fisica e Astronomia Galileo Galilei, Universit`a di Padova, Padova
 ychen[at]sissa.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1040,6 +1429,7 @@ ychen[at]sissa.it      </td>
 <td class="ap"> 
       SISSA, Trieste, Italy
 jing.tang[at]sissa.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1054,6 +1444,7 @@ jing.tang[at]sissa.it      </td>
 <td class="ap"> 
       INAF-Osservatorio Astronomico di Brera, Milano, Italy
 matteo.calabrese[at].sissa.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1067,6 +1458,7 @@ matteo.calabrese[at].sissa.it      </td>
 <td class="ap"> 
       SISSA, Trieste, Italy
 rossella.aversa[at]sissa.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1080,6 +1472,7 @@ rossella.aversa[at]sissa.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1093,6 +1486,7 @@ rossella.aversa[at]sissa.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1105,6 +1499,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2015/mazza"> Non-Equilibrium Phenomena in Strongly Correlated Systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1118,6 +1513,7 @@ rossella.aversa[at]sissa.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -1129,6 +1525,7 @@ rossella.aversa[at]sissa.it      </td>
         Massive neutrinos and the Large Structure of the Universe      </td>
 <td class="app">
         Post-doc at Berkeley Center for Cosmological Physics      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1140,6 +1537,7 @@ rossella.aversa[at]sissa.it      </td>
         Strange horizons: understanding causal barriers beyond general relativity      </td>
 <td class="app">
         Post-doc at University of Kerala, India      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1151,6 +1549,7 @@ rossella.aversa[at]sissa.it      </td>
         Implication of Sterile Fermions in Particle Physics and Cosmology      </td>
 <td class="app">
         Post-doc at CP3, University of Leuven      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1162,6 +1561,100 @@ rossella.aversa[at]sissa.it      </td>
         Aspects of inflationary cosmology      </td>
 <td class="app">
         Post-doc at CCPP, New York University      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Piermarco Fonda
+      </td>
+<td class="tpp">2015</td>
+<td class="tpp">
+        Erik Tonni       </td>
+<td class="tpp">
+        Aspects of holographic entanglement entropy:
+shape dependence and
+hyperscaling violating backgrounds      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Antonio Sciarappa
+      </td>
+<td class="tpp">2015</td>
+<td class="tpp">
+        Giulio Bonelli, Alessandro Tanzini       </td>
+<td class="tpp">
+        Developments in Quantum Cohomology and Quantum Integrable Hydrodynamics via Supersymmetric Gauge Theories      </td>
+<td class="tpp">
+        Postdoc at KIAS, Seoul, South Korea      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Thi Ngoc Loan Truong
+      </td>
+<td class="tpp">2015</td>
+<td class="tpp">
+        Bobby Acharya      </td>
+<td class="tpp">
+        Search for an Invisibly Decaying Higgs Boson Produced via Vector Boson Fusion using the ATLAS Detector      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Giorgio Busoni
+      </td>
+<td class="tpp">2015</td>
+<td class="tpp">
+        Andrea De Simone      </td>
+<td class="tpp">
+        Dark Matter Indirect Detection and Collider Search: the Good and the Bad      </td>
+<td class="tpp">
+        Post-Doc at CoEPP, Melbourne University      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Petr Vasko
+      </td>
+<td class="tpp">2015</td>
+<td class="tpp">
+        Alessandro Tanzini, Giulio Bonelli       </td>
+<td class="tpp">
+        Integrable models and geometry of target spaces from the partition function of N=(2,2) theories on S^2      </td>
+<td class="tpp">
+        Postdoc at NUS, Singapore      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Victor Ivan Giraldo
+      </td>
+<td class="tpp">2015</td>
+<td class="tpp">
+        K. S. Narain, Edi Gava      </td>
+<td class="tpp">
+        Computations on Field Theories with Super- and Higher Spin- Symmetry: Black Holes and Localization      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Muteeb Nouman
+      </td>
+<td class="tpp">2015</td>
+<td class="tpp">
+        K. S. Narain, Edi Gava       </td>
+<td class="tpp">
+              </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1170,6 +1663,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sbp">G. Bussi</td>
 <td class="sbp">Translocation of NS3 from Hepatitis C Virus on RNA: Insights from Atomistic Molecular Simulations </td>
 <td class="sbp"> Post-Doc @ UPMC - Sorbonne Universities - Francia</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1178,6 +1672,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sbp">A. Laio</td>
 <td class="sbp">Assessing the structure of proteins and protein complexes through physical and statistical approaches </td>
 <td class="sbp"> Post-Doc @ NIH (NINDS, National Institute of Neurological Diseases and Stroke), Bethesda USA</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1186,6 +1681,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sbp">C. Micheletti</td>
 <td class="sbp">Coarse-grained models for self-assembling systems </td>
 <td class="sbp"> Research associate @ University of Southern California - USA</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1194,6 +1690,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sbp">M. Marsili</td>
 <td class="sbp">Information theory in biochemical regulatory networks: a theoretical study </td>
 <td class="sbp"> Risk Modeling &amp; Analytics Specialist @ UBS - Switzerland</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sp">Pierangelo Lombardo</td>
@@ -1202,6 +1699,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sp"><a href="https://www.statphys.sissa.it/wordpress/ http:/hdl.handle.net/20.500.11767/3864">Fluctuations effects in population genetics and in protein translation</a></td>
 <td class="sp">Data Scientist at aizoOn Technology Consulting, Turin, Italy
 </td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Giuseppe Menegoz</td>
@@ -1209,6 +1707,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sp">Alessandro Silva</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/3872">Prethermalization after a sudden quench in a weakly interacting Bose gas</a></td>
 <td class="sp">Software Developer at Nord Est Systems, Pordenone, Italy</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Pietro Smacchia</td>
@@ -1216,6 +1715,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sp">Alessandro Silva</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4104">Out of equilibrium many-body systems: adiabaticity, statistics of observables and dynamical phase transitions</a></td>
 <td class="sp">Head of Data Science at Blockchain, London, UK</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1229,6 +1729,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="ap"> 
       Fudan University, Shanghai, China
 <br/>claudia_antolini[at]fudan.edu.cn      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1242,6 +1743,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="ap"> 
       Institut d’Astrophysique de Paris, France
 <br/>fruscian[at]iap.fr      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1255,6 +1757,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="ap"> 
       SISSA, Trieste, Italy
 <br/>dicasola[at]sissa.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1268,6 +1771,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="ap"> 
       Institut d'Astrophysique de Paris, France
 <br/>vernieri[at]iap.fr      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1281,6 +1785,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="ap"> 
       Centre National d'études Spatiales (CNES), Observatory of Nice, France
 <br/>Gianluca.Castignani[at]oca.eu      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1293,6 +1798,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2014/colonna"> Exchange and correlation energy in the adiabatic connection fluctuation-dissipation theory beyond RPA</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1305,6 +1811,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2014/luo"> Ab initio molecular dynamics of water by quantum Monte Carlo</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1317,6 +1824,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2014/marcolongo"> Theory and ab initio simulation of atomic heat transport</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1330,6 +1838,7 @@ rossella.aversa[at]sissa.it      </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1342,6 +1851,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2014/russomanno"> Periodic driving of a coherent quantum many body system and relaxation to the Floquet diagonal ensemble</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1354,6 +1864,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2014/sandri"> The Gutzwiller Approach to out-of-equilibrium correlated fermions</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -1365,6 +1876,7 @@ rossella.aversa[at]sissa.it      </td>
         Cosmological Consistency Relations      </td>
 <td class="app">
         Post-doc at IAS in Princeton, New Jersey      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1376,6 +1888,7 @@ rossella.aversa[at]sissa.it      </td>
         Higgs and beyond in the LHC era      </td>
 <td class="app">
         Post-doc at University of Zurich      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1387,6 +1900,72 @@ rossella.aversa[at]sissa.it      </td>
         Applications of the functional renormalization group in curved spacetime      </td>
 <td class="app">
         Post-doc at Mainz University      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Flavio Porri
+      </td>
+<td class="tpp">2014</td>
+<td class="tpp">
+        M. Bertolini      </td>
+<td class="tpp">
+        Current correlators, supersymmetry breaking and holography      </td>
+<td class="tpp">
+        PostDoc at Institute for Theoretical Physics, Utrecht      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Pietro Dona
+      </td>
+<td class="tpp">2014</td>
+<td class="tpp">
+        R. Percacci      </td>
+<td class="tpp">
+        Matter fields, gravity and Asymptotic Safety      </td>
+<td class="tpp">
+        PostDoc at Fudan University, China      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Alberto Parolini
+      </td>
+<td class="tpp">2014</td>
+<td class="tpp">
+        M. Serone      </td>
+<td class="tpp">
+        The Higgs as a Supersymmetric Nambu-Goldstone Boson      </td>
+<td class="tpp">
+        PostDoc at IBS, Daejeon, Korea      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Talal Chowdhury
+      </td>
+<td class="tpp">2014</td>
+<td class="tpp">
+        G. Senjanovic      </td>
+<td class="tpp">
+        A Possible Link between the Electroweak Phase Transition and the Dark Matter of the Universe      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Alejandro Cabo-Bizet
+      </td>
+<td class="tpp">2014</td>
+<td class="tpp">
+        E. Gava, K. Narain      </td>
+<td class="tpp">
+        Holographic Weyl Anomaly Matching &amp; Black Holes in 3D Higher Spin Theories      </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1395,6 +1974,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sbp">A. Laio</td>
 <td class="sbp">Atomistic Study of Structural and Functional Properties of Membrane Proteins </td>
 <td class="sbp"> Post-Doc @ LMU/TUM - Munchen - Germany</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1403,6 +1983,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sbp">G. Bussi</td>
 <td class="sbp">Conformational changes in the adenine riboswitch </td>
 <td class="sbp"> Post-Doc @ Dipartimento di Fisica - Università Roma "La Sapienza" - Italy</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1413,6 +1994,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sbp"> Post-Doc @ Centro Nacional de Analisis Genomico (CNAG) - Barcellona - Spain
 
 </td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sp">Marco Beria</td>
@@ -1420,6 +2002,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sp">Mussardo Giuseppe,<br/>Robert M. Konik<br/>Markus Müller</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4798">Numerical methods for quantum systems with infinite-dimensional space of states: two examples, two approaches</a></td>
 <td class="sp">Global Data Scientist at Allianz, Munich, Germany</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Luca Caniparoli</td>
@@ -1427,6 +2010,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sp">Matteo Marsili</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4819">Statistical physics approaches to protein translation</a></td>
 <td class="sp">Sr Data Scientist at Boston Consulting Group, Milan, Italy</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Giancarlo De Luca</td>
@@ -1434,6 +2018,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sp">Matteo Marsili</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4808">Decision Making in Complex Environments: an adaptive network approach</a></td>
 <td class="sp">Data Scientist R&amp;D at WYND, Paris, France</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Matteo Marcuzzi</td>
@@ -1441,6 +2026,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sp"> Andrea Gambassi</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4805">A study on non-equilibrium dynamics in classical and quantum systems</a></td>
 <td class="sp">Research Fellow at The University of Nottingham, UK</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Jamir Marino</td>
@@ -1448,6 +2034,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sp"> Alessandro Silva</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4109">Pre-Thermalization in Quantum Spin Chains</a></td>
 <td class="sp">Junior Professor at Mainz University,Germany</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1461,6 +2048,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="ap"> 
       Dipartimento di Fisica e Astronomia Galileo Galilei, Universit`a di Padova, Padova, Italy
 [br]ananni[at]sissa.it       </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1473,6 +2061,7 @@ rossella.aversa[at]sissa.it      </td>
         Primordial non-Gaussianity with Planck      </td>
 <td class="ap"> 
       Dipartimento di Matematica, Università degli Studi di Roma Tor Vergata, Rome, Italy <br/> arenzi[at]pd.infn.it      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1486,6 +2075,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="ap"> 
       Department of Astronomy, University of Science and Technology of China, Hefei, China
 <br/>zcai.cn[at]gmail.com      </td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1498,6 +2088,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2013/ge"> Seeing Colors with Time Dependent Density Functional Theory</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1510,6 +2101,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2013/saccani"> Quantum Monte Carlo studies of soft bosonic systems and minimum energy pathways</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1522,6 +2114,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2013/wenjun"> Unconventional phases in doped or frustrated quantum antiferromagnets: a systematic Quantum Monte Carlo Study</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1534,6 +2127,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2013/zhian.asadzadeh"> Interplay of superconductivity and magnetism in the two dimensional Kondo lattice model</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1546,6 +2140,7 @@ rossella.aversa[at]sissa.it      </td>
 				<a href="https://www.cm.sissa.it/thesis/2013/ziraldo"> Thermalization and relaxation after a quantum quench in disordered hamiltonians </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -1558,6 +2153,7 @@ rossella.aversa[at]sissa.it      </td>
         Framing the dark: theory and phenomenology af a non-minimally coupled dark matter fluid      </td>
 <td class="app">
         Post-doc position at Technion, Haifa (Israel)      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1569,6 +2165,7 @@ rossella.aversa[at]sissa.it      </td>
         The nature of Massive Neutrinos and Unified Theories of Flavour      </td>
 <td class="app">
         Post-doc at INFN Frascati      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1580,6 +2177,7 @@ rossella.aversa[at]sissa.it      </td>
         Applications of the Functional Renormalization Group: from Statistical Models to Quantum Gravity      </td>
 <td class="app">
         Post-doc at Radboud University Nijmegen      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1591,6 +2189,72 @@ rossella.aversa[at]sissa.it      </td>
         Dark Matter Indirect Detection and Subhalos      </td>
 <td class="app">
         Lecturer at STKIP Surya, Banten, Indonesia      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Leslaw Rachwal
+      </td>
+<td class="tpp">2013</td>
+<td class="tpp">
+        R. Percacci      </td>
+<td class="tpp">
+        Models for RG running for Gravitational couplings and applications      </td>
+<td class="tpp">
+        PostDoc at Fudan University, China      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Michele Del Zotto
+      </td>
+<td class="tpp">2013</td>
+<td class="tpp">
+        S. Cecotti      </td>
+<td class="tpp">
+        Four-dimensional N=2 superconformal quantum field theories and BPS-quivers      </td>
+<td class="tpp">
+        PostDoc at Harvard University, Cambridge, USA      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Stefano Giaccari
+      </td>
+<td class="tpp">2013</td>
+<td class="tpp">
+        L. Bonora      </td>
+<td class="tpp">
+        Conformal symmetry in String Field Theory and 4D Field Theories      </td>
+<td class="tpp">
+        PostDoc at Fudan University, China      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Lorenzo Di Pietro
+      </td>
+<td class="tpp">2013</td>
+<td class="tpp">
+        M. Bertolini      </td>
+<td class="tpp">
+        Supersymmetry Breaking, Gauge Mediation and Holography      </td>
+<td class="tpp">
+        PostDoc at Weizmann Institute of Science, Israel      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Nguyen Dinh Dinh
+      </td>
+<td class="tpp">2013</td>
+<td class="tpp">
+        S. T. Petcov      </td>
+<td class="tpp">
+        Probing the Possible TeV Scale See-saw Origin of Neutrino Masses with Charged Lepton Flavour Violation Processes and Neutrino Mass Spectroscopy Using Atoms      </td>
+<td class="tpp">
+        Researcher at Vietnam Academy of Science, Hanoi, Vietnam      </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1599,6 +2263,7 @@ rossella.aversa[at]sissa.it      </td>
 <td class="sbp">C. Altafini</td>
 <td class="sbp">Computational approaches to complex biological networks </td>
 <td class="sbp"> Post-Doc @ Börries and Hauke Group University of Freiburg, Germany</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1609,6 +2274,7 @@ rossella.aversa[at]sissa.it      </td>
 Unprejudiced Characterization of
 Rare Events </td>
 <td class="sbp"> Postdoc @ B. J. Leimkuhler Group, School of Mathematics, University of Edinburgh, UK</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1617,6 +2283,7 @@ Rare Events </td>
 <td class="sbp">A. Laio</td>
 <td class="sbp">Development of a Miniaturized Electro-Fluidic Detector for Medical Diagnostics </td>
 <td class="sbp"> Post-Doc @ Elettra Sincrotrone Trieste - Italy</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1625,6 +2292,7 @@ Rare Events </td>
 <td class="sbp">A. Laio</td>
 <td class="sbp">Characterizing structure and free energy landscape of proteins by NMR-guided metadynamics. </td>
 <td class="sbp"> Post-Doc @ ICMS, Temple University, Philadelphia, Pennsylvania, US</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1634,6 +2302,7 @@ Rare Events </td>
 <td class="sbp">Computational studies on DNA Damage Recognition </td>
 <td class="sbp"> Customer service executive @ Booking.com.
 </td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sp">Francesco Buccheri</td>
@@ -1641,6 +2310,7 @@ Rare Events </td>
 <td class="sp">Giuseppe Mussardo</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd1/thesis_buccheri.pdf">Matrix elements from algebraic Bethe anzatz: novel applications in statistical physics</a></td>
 <td class="sp">Postdoc at University of Düsseldorf, Germany</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Andrea De Luca</td>
@@ -1648,6 +2318,7 @@ Rare Events </td>
 <td class="sp">Antonello Scardicchio</td>
 <td class="sp"><a>Entanglement and localization in low-dimensional quantum systems</a></td>
 <td class="sp">Permanent researcher at CNRS, Cergy University, France</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Francesco Mancarella</td>
@@ -1655,6 +2326,7 @@ Rare Events </td>
 <td class="sp">Giuseppe Mussardo,<br/>Andrea Trombettoni</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd1/thesis_mancarella.pdf">Some Aspects of Anyon Thermodynamics and Chern–Simons Theory</a></td>
 <td class="sp">Senior Analyst at Danske Bank Corporates and Institutions, Denmark</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Iacopo Mastromatteo</td>
@@ -1662,6 +2334,7 @@ Rare Events </td>
 <td class="sp"> Matteo Marsil</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd1/thesis_mastromatteo.pdf">On the typical properties of inverse problems in statistical mechanics</a></td>
 <td class="sp">Associated Researcher at CFM, France</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Jacopo Viti</td>
@@ -1669,6 +2342,7 @@ Rare Events </td>
 <td class="sp">Gesualdo Delfino</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4717">Universal properties of two dimensional percolation</a></td>
 <td class="sp">Professor (Assistant) at UFRN, Brazil</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Xiao Quan Yu</td>
@@ -1676,6 +2350,7 @@ Rare Events </td>
 <td class="sp">Markus Müller</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4785">Superfluidity and localization in Bosonic glasses</a></td>
 <td class="sp">Postdoc at University of Otago, New Zealand</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1687,6 +2362,7 @@ Rare Events </td>
 <td class="ap">
         Microphysical modeling of Neutron Star Matter and Astrophysical consequences      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1698,6 +2374,7 @@ Rare Events </td>
 <td class="ap">
         Cosmic Microwave Background B-mode Polarization Data Analysis: Gravitational Waves and Lensing      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1709,6 +2386,7 @@ Rare Events </td>
 <td class="ap">
         Foundations of Kinetic Theory for Astrophysical Plasmas with Applications to Accretion Discs and Electromagnetic Radiation-Reaction      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1720,6 +2398,7 @@ Rare Events </td>
 <td class="ap">
         A measurement of the thermal history of the intergalactic medium, and constraints on primordial black holes in the Galaxy      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1731,6 +2410,7 @@ Rare Events </td>
 <td class="ap">
         An analytic Kerr-accretion model as a test solution for a new GR SPH code      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1743,6 +2423,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2012/baruselli"> Kondo conductance anomalies from first principles</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1756,6 +2437,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2012/iazzi"> Ginzburg-Landau description of superfluid layered fermions</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1769,6 +2451,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2012/ma"> Modeling Ru-based molecular catalysts for water oxidation</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1782,6 +2465,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2012/nguyen"> Toward Realistic DFT Description of Complex Systems:Ethylene Epoxidation on Ag-Cu Alloys and RPA Correlation in van der Waals Molecules</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1794,6 +2478,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2012/sabbatini"> Non-local correlation in Density Functional Theory</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1807,6 +2492,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2012/xian"> Electronic properties of gold nanoclusters from GW calculations</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1821,6 +2507,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2012/xie"> Anderson Localization in Disordered Systems with Competing Channels</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -1832,6 +2519,7 @@ Rare Events </td>
         Interplay between Generation Mechanisms and Detection of Supersymmetric Dark Matter in the LHC Era      </td>
 <td class="app">
         Post-doc Invisible Fellowship, Goettingen University, Goettingen, Germany      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1844,6 +2532,7 @@ Rare Events </td>
         Ab initio calculations on nuclear matter properties including the effects of three-nucleons interaction      </td>
 <td class="app">
         Post-doc at ALCF, Argonne National Laboratory      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1855,6 +2544,7 @@ Rare Events </td>
         The Analogue Gravity Challenge The bridge from Theory to Experiment      </td>
 <td class="app">
         Post-doc at Bishop's University, Sherbrooke, Quebec, Canada      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -1866,6 +2556,86 @@ Rare Events </td>
         Porperties of Interstellar Medium and Cosmic Rays Propagation; Impacts on Indirect Dark Matter Searches      </td>
 <td class="app">
         Long term visitor at DESY      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Maurizio Monaco
+      </td>
+<td class="tpp">2012</td>
+<td class="tpp">
+        A. Romanino      </td>
+<td class="tpp">
+        LHC Phenomenology of Supersymmetric Models      </td>
+<td class="tpp">
+        Employed - Assicurazioni Generali      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Andrzej Hryczuk
+      </td>
+<td class="tpp">2012</td>
+<td class="tpp">
+        P. Ullio      </td>
+<td class="tpp">
+        Loops and non-perturbative effects in dark matter phenomenology      </td>
+<td class="tpp">
+        Postdoc at TMU Munich, Germany
+      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Jian Zhao
+      </td>
+<td class="tpp">2012</td>
+<td class="tpp">
+        G. Bonelli,<br/>A. Tanzini       </td>
+<td class="tpp">
+        Vortices, Surfaces and Instantons       </td>
+<td class="tpp">
+        Employed - Internship Financial Engineer, Toronto, Canada      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Vladimir Tello
+      </td>
+<td class="tpp">2012</td>
+<td class="tpp">
+        G. Senjanovic      </td>
+<td class="tpp">
+        Connections Between the High and Low Energy Violation of Lepton and Flavor Number in the Minimal Left-Right Symmetric Model       </td>
+<td class="tpp">
+              </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Alberto Tonero
+      </td>
+<td class="tpp">2012</td>
+<td class="tpp">
+        M. Fabbrichesi      </td>
+<td class="tpp">
+        Asymptotic safety and the electroweak interactions      </td>
+<td class="tpp">
+        Postdoc at ICTP Sao Paulo, Brasil      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Mahmoud Safari
+      </td>
+<td class="tpp">2012</td>
+<td class="tpp">
+        M. Serone      </td>
+<td class="tpp">
+        Composite Higgs Models and Extra Dimensions       </td>
+<td class="tpp">
+        Postdoc at IPM, Tehran, Iran      </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1874,6 +2644,7 @@ Rare Events </td>
 <td class="sbp">C. Micheletti</td>
 <td class="sbp">Equilibrium and kinetic properties of knotted ring polymers: a computational approach </td>
 <td class="sbp"> R. Podgornik's group, University of Ljubljana, Slovenia</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1882,6 +2653,7 @@ Rare Events </td>
 <td class="sbp">A. Laio</td>
 <td class="sbp">Atomistic Simulation Studies of the Permeation Pharmacologicallly Relevant Molecules Through Lipid Membranes </td>
 <td class="sbp"> Postdoc, Luthey-Schulten Group, University of Illinois, Urbana-Champaign, US</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1890,6 +2662,7 @@ Rare Events </td>
 <td class="sbp">G. Bussi</td>
 <td class="sbp">Investigating Peptide/RNA binding in Anti-HIV research by molecular simulations: electrostatic recognition and accelerated sampling </td>
 <td class="sbp"> Postdoc, Karttunen's group, University of Waterloo, Waterloo, Canada</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -1898,6 +2671,7 @@ Rare Events </td>
 <td class="sbp">A. Laio</td>
 <td class="sbp">Atomistic Simulations of Short Peptides Aggregation by Advanced Computational Techniques </td>
 <td class="sbp"> Postdoc, Trout's group, MIT, Boston, Massachusetts, US</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sp">Laura Foini</td>
@@ -1905,6 +2679,7 @@ Rare Events </td>
 <td class="sp">Francesco Zamponi, <br/>Andrea Gambassi</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd1/thesis_foini.pdf">Quantum optimization problems and glassy systems</a></td>
 <td class="sp">Permanent researcher at CNRS, IPhT Saclay, France</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Giuseppe Brandino</td>
@@ -1912,6 +2687,7 @@ Rare Events </td>
 <td class="sp">Giuseppe Mussardo</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/brandino.pdf">Perturbed CFT: Integrability, non-integrability and the level spacing conjecture</a></td>
 <td class="sp">R&amp;D responsible at eXact-lab S.R.L., Italy</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Michele Burrello</td>
@@ -1919,6 +2695,7 @@ Rare Events </td>
 <td class="sp">Giuseppe Mussardo,<br/>Andrea Trombettoni</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4127">Topological Quantum Computation, Anyons and non-Abelian Gauge Potentials</a></td>
 <td class="sp">Professor (Assistant) at University of Copenhagen , Denmark</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Davide Fioretto</td>
@@ -1926,6 +2703,7 @@ Rare Events </td>
 <td class="sp">Giuseppe Mussardo</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/fioretto.pdf">Integrability and Out of Equilibrium Quantum Dynamics</a></td>
 <td class="sp">Quant Trader at Exane, UK</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Giacomo Gori</td>
@@ -1933,6 +2711,7 @@ Rare Events </td>
 <td class="sp">Andrea Trombettoni</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/gori.pdf">Dipolar interaction: general concepts and application to cold atoms</a></td>
 <td class="sp">Postdoc at ITP Heidelberg</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Tommaso Macrì</td>
@@ -1940,6 +2719,7 @@ Rare Events </td>
 <td class="sp">Andrea Trombettoni</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/macri.pdf">Cold Atom Fermi Systems</a></td>
 <td class="sp">Assistant Professor at UFRN, Natal, Brasil</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1951,6 +2731,7 @@ Rare Events </td>
 <td class="ap">
         Analogue gravitational phenomena in Bose–Einstein condensates      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1962,6 +2743,7 @@ Rare Events </td>
 <td class="ap">
         Spectra of extragalactic radio sources after Planck      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1973,6 +2755,7 @@ Rare Events </td>
 <td class="ap">
         Thermodynamic aspects of gravity      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -1984,6 +2767,7 @@ Rare Events </td>
 <td class="ap">
         Formation and evolution of massive early-type galaxies at high redshift      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -1997,6 +2781,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2011/borghi"> Gutzwiller Approximation applied to inhomogeneous lattice models and solid-state systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2011,6 +2796,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2011/carleo"> Spectral and dynamical properties of strongly correlated systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2023,6 +2809,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2011/kucukbenli"> Nuclear Magnetic Resonance Study of Complex Molecular Crystals From First Principles: Case of Cholesterol </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2036,6 +2823,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2011/pellegrini"> Quantum Dissipation at the Nanoscale</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2050,6 +2838,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2011/silvi"> Tensor Networks: a quantum-information perspective on numerical renormalization groups</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2065,6 +2854,7 @@ Rare Events </td>
 				<a href="https://www.cm.sissa.it/thesis/2011/venturelli"> Channel Mixing and Spin Transport in the Integer Quantum Hall Effect </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -2077,6 +2867,7 @@ Rare Events </td>
 theory and phenomenology      </td>
 <td class="app">
         Post-doc at CENTRA, Lisbon, Portugal      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -2089,6 +2880,59 @@ theory and phenomenology      </td>
         Renormalisation group improvement of the early universe dynamics      </td>
 <td class="app">
         Post-doc at the Institute of Physics, University of Mainz      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Luca Di Luzio
+      </td>
+<td class="tpp">2011</td>
+<td class="tpp">
+        S. Bertolini      </td>
+<td class="tpp">
+        Aspects of Symmetry Breaking in Grand Unified Theories      </td>
+<td class="tpp">
+        Postdoc at KIT, Karlsruhe, Germany      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Parinya Karndumri
+      </td>
+<td class="tpp">2011</td>
+<td class="tpp">
+        K. S. Narain,<br/>E. Gava      </td>
+<td class="tpp">
+        On Holographic RG Flows      </td>
+<td class="tpp">
+        Lecturer at Chulalongkorn University, Thailand      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Tomas Prochazka
+      </td>
+<td class="tpp">2011</td>
+<td class="tpp">
+        M. Bertolini      </td>
+<td class="tpp">
+        Holographic superconductors with direct current      </td>
+<td class="tpp">
+        Postdoc at Prague University      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Lorenzo Seri
+      </td>
+<td class="tpp">2011</td>
+<td class="tpp">
+        M. O'Loughlin,<br/>L. Bonora      </td>
+<td class="tpp">
+        Resolution of singularities in Matrix Big-Bang models      </td>
+<td class="tpp">
+        Teacher at secondary school      </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -2097,6 +2941,7 @@ theory and phenomenology      </td>
 <td class="sbp">G.Legname</td>
 <td class="sbp">Computer- and synthesis-based approaches towards the discovery of novel BACE-1 inhibitors as potential anti-Alzheimer�s drugs </td>
 <td class="sbp"> Research assistant, University of Geneva, Switzerland</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -2105,6 +2950,7 @@ theory and phenomenology      </td>
 <td class="sbp">P. Carloni</td>
 <td class="sbp">Design, synthesis and molecular modeling studies of drug candidate compounds against prion diseases </td>
 <td class="sbp"> Postdoc, Institute for Research in Biomedicine, Barcelona, Spain</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -2113,6 +2959,7 @@ theory and phenomenology      </td>
 <td class="sbp">A. Laio</td>
 <td class="sbp">Protein physics by advanced computational techniques: conformational sampling and folded state discrimination </td>
 <td class="sbp"> Postdoc, Hummer's Group, MPI, Frankfurt, Germany</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -2122,6 +2969,7 @@ theory and phenomenology      </td>
 <td class="sbp">Mechanical response of ssDNA filaments and ss/dsDNA patches: experiments and simulations </td>
 <td class="sbp"> Postdoc, L. Casalis' group, Elettra, Trieste, Italy
 </td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sp">Serena Bradde</td>
@@ -2129,6 +2977,7 @@ theory and phenomenology      </td>
 <td class="sp">Riccardo Zecchina, <br/> Giuseppe Mussardo</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/bradde.pdf">The Isomorphism Problem: A Belief Propagation Approach</a></td>
 <td class="sp">Editor for PRE  at APS, New York, USA</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Fabio Caccioli</td>
@@ -2136,6 +2985,7 @@ theory and phenomenology      </td>
 <td class="sp">Matteo Marsili</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4149">Financial markets as disordered interacting systems: information, risk and illiquidity</a></td>
 <td class="sp">Professor at UCL, London, UK</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Elena Canovi</td>
@@ -2143,6 +2993,7 @@ theory and phenomenology      </td>
 <td class="sp">Giuseppe Santoro,<br/>Rosario Fazio,<br/>Alessandro Silva</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/canovi.pdf">Quench dynamics of many-body systems</a></td>
 <td class="sp">Software developer at Sinapsi, L’Aquila, Italy</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Daniele De Martino</td>
@@ -2150,6 +3001,7 @@ theory and phenomenology      </td>
 <td class="sp">Matteo Marsili</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/de_martino.pdf">Phase transistions on heterogeneous random graphs: some case studies</a></td>
 <td class="sp">Permanent researcher at CNR, Italy</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Luca Lepori</td>
@@ -2157,6 +3009,7 @@ theory and phenomenology      </td>
 <td class="sp">Giuseppe Mussardo,<br/>Andrea Trombettoni</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/lepori.pdf">QFT emerging models in condensed matter systems</a></td>
 <td class="sp">Postdoc at IIT (Genova), Italy</td>
+<td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2168,6 +3021,7 @@ theory and phenomenology      </td>
 <td class="ap">
         Cosmic Lighthouses: unveiling the nature of high-redshift galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2179,6 +3033,7 @@ theory and phenomenology      </td>
 <td class="ap">
         The role of turbulence in interstellar and intergalactic environments      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2190,6 +3045,7 @@ theory and phenomenology      </td>
 <td class="ap">
         High Energy Emission in Relativistic Jets of AGN: Theory predictions and gamma-ray view      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2203,6 +3059,7 @@ theory and phenomenology      </td>
 				<a href="https://www.cm.sissa.it/thesis/2010/carrasquilla.alvarez"> The Bose-Hubbard model with disorder in low-dimensional lattices </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2217,6 +3074,7 @@ theory and phenomenology      </td>
 				<a href="https://www.cm.sissa.it/thesis/2010/hernandez"> Calculating Thermodynamic Properties of Classical and Quantum Systems by a Metadynamics Monte Carlo Procedure</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2229,6 +3087,7 @@ theory and phenomenology      </td>
 				<a href="https://www.cm.sissa.it/thesis/2010/schiro"> Nonequilibrium Dynamics in Strongly Correlated Systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2241,6 +3100,7 @@ theory and phenomenology      </td>
 				<a href="https://www.cm.sissa.it/thesis/2010/sclauzero"> Modeling CO adsorption on Pt and Au monatomic chains and nanocontacts</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -2252,6 +3112,7 @@ theory and phenomenology      </td>
         Dark Energy and Non-Gaussianity through the Large Scale Structure      </td>
 <td class="app">
         Post-doc at Center for Cosmology and Particle Physics, New York University      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -2263,6 +3124,7 @@ theory and phenomenology      </td>
         Topics on cosmological non-Gaussianity      </td>
 <td class="app">
         Post-doc at ICC, University of Barcelona      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -2274,6 +3136,7 @@ theory and phenomenology      </td>
         Phenomenological aspects of supersymmetry breaking      </td>
 <td class="app">
         Research associate, DAMTP, University of Cambridge      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -2285,6 +3148,7 @@ theory and phenomenology      </td>
         Selected applications of functional renormalization group      </td>
 <td class="app">
         Post-doc at Radboud University Nijmegen, Germany      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -2296,6 +3160,59 @@ theory and phenomenology      </td>
         Renormalization group studies of scalar-tensor theories of gravity      </td>
 <td class="app">
         Post-doc at The Institute of Mathematical Sciences, Taramani, India      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Emiliano Molinaro
+      </td>
+<td class="tpp">2010</td>
+<td class="tpp">
+        S. T. Petcov      </td>
+<td class="tpp">
+        CP Violation in the Lepton Sector, Thermal Leptogenesis and Lepton Flavour Violating Processes      </td>
+<td class="tpp">
+        Postdoc at TUM-IAS, Munich, Germany      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Robert Ziegler
+      </td>
+<td class="tpp">2010</td>
+<td class="tpp">
+        A. Romanino      </td>
+<td class="tpp">
+        Supersymmetry Breaking in Grand Unified Theories      </td>
+<td class="tpp">
+        Postdoc at TUM-IAS, Munich, Germany      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Andrea Prundenziati
+      </td>
+<td class="tpp">2010</td>
+<td class="tpp">
+        G. Bonelli, <br/> A. Tanzini      </td>
+<td class="tpp">
+        Topics in Open Topological Strings      </td>
+<td class="tpp">
+        Postdoc at Universidade de São Paulo, Physics, Brasil      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="tpp">
+        Raffaele Savelli
+      </td>
+<td class="tpp">2010</td>
+<td class="tpp">
+        L. Bonora      </td>
+<td class="tpp">
+        On Freed-Witten anomaly and charge/flux quantization in string/F theory      </td>
+<td class="tpp">
+        Postdoc at Ecole Polytechnique, Paris      </td>
+<td class="tpp" >tpp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -2304,6 +3221,7 @@ theory and phenomenology      </td>
 <td class="sbp">C. Micheletti</td>
 <td class="sbp">Coarse-grained modelling of protein structure and internal dynamics: comparative methods and applications </td>
 <td class="sbp"> Max Plank Institute for Polymer Research, Mainz, Germany</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -2312,6 +3230,7 @@ theory and phenomenology      </td>
 <td class="sbp"> </td>
 <td class="sbp"> </td>
 <td class="sbp">?</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -2320,6 +3239,7 @@ theory and phenomenology      </td>
 <td class="sbp">G. Scoles</td>
 <td class="sbp">Mechanical resonating devices and their applications in biomolecular studies </td>
 <td class="sbp"> TASC, Trieste, Italy</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -2328,6 +3248,7 @@ theory and phenomenology      </td>
 <td class="sbp">G. Scoles</td>
 <td class="sbp">Polyelectrolyte based NANO-approaches for Cancer therapy or diagnostics </td>
 <td class="sbp"> Dept. TumorImmunology NCMLS, Radboud University Nijmegen Medical Centre, Nijmegen,The Netherlands</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sbp">
@@ -2337,6 +3258,7 @@ theory and phenomenology      </td>
 <td class="sbp">Oriented Immobilization of Prion Protein
 Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="sbp"> Elettra, Trieste, Italy</td>
+<td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2348,6 +3270,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The gravitational wave signature of stellar collapse and dynamics of compact stars      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2359,6 +3282,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Spectroscopy of radio galaxies and the jet-disk connection      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2370,6 +3294,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Two phase galaxy formation: on the physical origins of the bulge-disc dichotomy      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2381,6 +3306,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Iron line variability: a tool towards understanding the accretion flow around supermassive black holes      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2392,6 +3318,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Optical versus X-ray afterglows of GRBs: towards understanding the emission processes      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2403,6 +3330,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Magnetic fields in proto-neutron stars and in accretion discs around neutron stars      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2414,6 +3342,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The effect of dust on the appearence of the spectral energy distribution of galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2425,6 +3354,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Stellar archeology: from first stars to dwarf galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2438,6 +3368,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2009/caneva"> Adiabatic dynamics of many-body systems close to a quantum critical point</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2450,6 +3381,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2009/lanata"> The Gutzwiller variational approach to correlated systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2462,6 +3394,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2009/paulatto"> Ammonia Synthesis on Proton-enriched Palladium Substrate</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2475,6 +3408,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2009/skrbic">  Dynamics of doped 4He and 3He clusters from reptation quantum Monte Carlo</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -2486,6 +3420,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
         Emergent Gravity : The Analogue Models Perspective      </td>
 <td class="app">
         Post-doc at Albert Einstein Institute, Golm, Germany      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2497,6 +3432,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Exploring gravity theories with gravitational waves and compact objects      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2509,6 +3445,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The extragalactic CMB foregrounds at mm wavelengths      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2520,6 +3457,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Investigating reionization and dark matter through HI 21 cm line radiation      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2532,6 +3470,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
         Hunting B-modes in CMB polarization observations
       </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2544,6 +3483,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2008/nguyen"> Efficient calculation of RPA correlation energy in the adiabatic connection fluctuation-dissipation theory</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2557,6 +3497,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2008/pezzoli"> Disorder and interaction: ground state properties of the disordered Hubbard model</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2570,6 +3511,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2008/tocchio"> A new variational wave function with backflow correlations for frustrated Hubbard models</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -2582,6 +3524,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
         High Energy Astrophysics, Cosmic Rays and Fundamental Physics      </td>
 <td class="app">
         TNG Technology Consulting GmbH      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -2593,6 +3536,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
         The distribution of the dark matter in galaxies as the imprint of its nature      </td>
 <td class="app">
         Researcher at Universidade Federal Fluminense, Brazil      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -2604,6 +3548,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
         Aspects of WIMP dark matter: Multi-wavelength signals and extra-dimension scenarios      </td>
 <td class="app">
         Post-doc at Cape Town University      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="app">
@@ -2616,6 +3561,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
         Investigating the ultraviolet  properties of gravity with a Wilsonian renormalization group equation      </td>
 <td class="app">
         Researcher at Karlsruhe University      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2627,6 +3573,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Non-linear structure formation and cosmic radiation backgrounds      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2638,6 +3585,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Reionization signatures in quasar absorption spectra      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2649,6 +3597,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The role of galaxy formation in the structure and dynamics of dark matter halos      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2660,6 +3609,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Dark matter in spiral galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2673,6 +3623,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2007/gava"> Modeling the catalyst selectivity in the ethylene epoxidation reaction A first principles study</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2685,6 +3636,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2007/gonzalez.camelo"> BCS superfluid Fermi systems with large scattering length</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2697,6 +3649,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2007/liang"> Modelling structure, phase transition, and vibrational spectroscopy of silica at extreme conditions</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2711,6 +3664,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2724,6 +3678,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2007/montoya.martinez"> Ab-initio study on synthesis of new materials at high pressure transition-metal nitrides and non-molecular CO2 phases</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2737,6 +3692,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2007/mosca.conte"> Quantum mechanical modeling of nano magnetism: new tools based on Density-Functional theory with case applications to solids, surfaces, wires, and molecules</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2750,6 +3706,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2007/rocca"> Time-Dependent Density Functional Perturbation Theory New algorithms with applications to molecular spectra</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2762,6 +3719,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2007/suriano"> Quantum mechanical modeling of the chemical reactivity of metal surfaces: two case studies involving water formation and dissociation</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="app">
@@ -2774,6 +3732,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
         Modified Actions for Gravity: Theory and Phenomenology      </td>
 <td class="app">
         Reader at the Nottingham University      </td>
+<td class="app" >app</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2785,6 +3744,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Weak Lensing and Cosmic Acceleration      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2796,6 +3756,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Low intermediate luminosity AGNs: from their X-ray emission to their SMBHs      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2807,6 +3768,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         General Relativistic Magnetohydrodynamics: fundamental aspects and applications      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2818,6 +3780,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Progenitors for long and short gamma-ray bursts      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2829,6 +3792,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Joint Evolution of Supermassive Black Holes and Host Galaxies at High Redshift (AGN Luminosity Functions and Protogalactic Reionization)      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2840,6 +3804,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Relic Signatures of Reionization Sources      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2851,6 +3816,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Clustering at high redshift: the sub-millimeter and radio views      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2862,6 +3828,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Formation of primordial black holes      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2876,6 +3843,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2006/capello"> Variational description of Mott insulators</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2889,6 +3857,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2006/ferrero"> Competing Mechanism in Strongly Correlated Systems Close to a Mott Insulator</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2902,6 +3871,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2006/paolini"> Rotational dynamics of molecular impurities of solvated 4He clusters: a computational study based on reptation quantum Monte Carlo</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2913,6 +3883,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Stellar Populations in Field Early-Type Galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2924,6 +3895,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Gamma Ray Bursts: clues from the spectra and variability of the prompt phase      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2935,6 +3907,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Enlightening dark energy with the CMB three point correlation function      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2946,6 +3919,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Super-massive Black Holes: the missing link in galaxy evolution      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -2957,6 +3931,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The demography of the youngest radio sources      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2969,6 +3944,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2005/attaccalite"> RVB phase of hydrogen at high pressure: towards the first ab-initio Molecular Dynamics by Quantum Monte Carlo</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2982,6 +3958,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2005/battaglia"> Survey Propagation Methods For Efficient Optimization and Probing of Glassy States</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -2994,6 +3971,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2005/casula"> New QMC approaches for the simulation of electronic systems: a first application to aromatic molecules and transition metal compounds</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3006,6 +3984,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2005/fratesi"> Low temperature methane-to-methanol conversion on transition metal surfaces</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3019,6 +3998,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2005/sbraccia"> Computer Simulation of Thermally Activated Processes: Theory, Algorithms, and a Few Case Applications to Surface Chemistry</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3032,6 +4012,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2005/stella"> Studies of Classical and Quantum Annealing</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3044,6 +4025,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2005/zykova"> High temperature physics and nanofriction properties of alkali halide surfaces</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3055,6 +4037,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         AGN outflows and galaxy formation      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3066,6 +4049,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         First Cosmic Light      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3077,6 +4061,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         High-frequency properties of extragalactic radio sources      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3088,6 +4073,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Nuclear properties of radio-loud active nuclei and their unification      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3099,6 +4085,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Accretion tori around black hole      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3110,6 +4097,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Numerical relativity simulations of non-vacuum spacetimes in three dimensions      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3122,6 +4110,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2004/de.leo"> Non-Fermi liquid behavior in multi-orbital Anderson impurity models and possible relevance for strongly correlated lattice models</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3135,6 +4124,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2003/ahmadabadi"> Role of frustration in quantum spin chains and ladders: a field theory approach</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3147,6 +4137,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2003/chalaev"> Nonequilibrium persistent current in mesoscopic disordered systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3159,6 +4150,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2003/mosconi"> Ghost models in two-dimensional condensed matter physics</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3172,6 +4164,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2003/orso"> Spin-charge gauge approach to HTS cuprates: theory versus experiments</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3185,6 +4178,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2003/plekhanov"> Hubbard U enhanced superconductivity</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3196,6 +4190,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Dynamical and radiative evolution of fireball      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3207,6 +4202,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Cored Dark Halos Around Galaxies - The Evidence of a Turning Point in the Knowledge of Our Universe      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3218,6 +4214,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Formation and Evolution of Dark Matter Haloes in Hierarchical Models for Structure Formation       </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3229,6 +4226,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Numerical Relativistic Hydrodynamics: New Ideas and Applications      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3240,6 +4238,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Chemical Evolution and Galaxy Formation      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3251,6 +4250,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Spectral Evolution of GRBs: New Insights Into Their Physics      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3262,6 +4262,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Energy and Rotation in Relativistic Astrophysics      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3273,6 +4274,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Dust and Nebular Emission in Star Forming Galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3284,6 +4286,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Warm Ionized Gas Thin Layer      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3295,6 +4298,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Physical Interpretations of Observations of Core Collapse SNe      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3307,6 +4311,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2002/ceresoli"> Berry Phase Calculation of the Rotational and Pseudorotational g-factor in Molecules and Solids </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3319,6 +4324,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2002/cococcioni"> A LDA+U study of selected iron compounds</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3332,6 +4338,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2002/dell'anna"> Disordered d-wave superconductors: the role of nesting and interactions in transport properties</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3344,6 +4351,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2002/tangney"> Improving molecular-dynamics simulations of simple ionic systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3355,6 +4363,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Galaxy formation:Physical and cosmological relevance of rare and extreme sources      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3366,6 +4375,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Formation scenarios for polar ring galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3381,6 +4391,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3394,6 +4405,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2001/trombettoni"> Discrete Nonlinear Dynamics of Bose-Einstein Condensates</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3405,6 +4417,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Quantum Vacuum Effects in Gravitational Fields: Theory and Detectability      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3416,6 +4429,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Mid-IR Observations and Modeling of Astrophysical Dust - AGB Cirumstellar Envelopes and ICM Dust      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3427,6 +4441,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         X-ray Variability of Blazars      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3438,6 +4453,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Hubble Space Telescope View of the Nuclei of Radio Galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3449,6 +4465,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         X-ray Spectral Signatures of Accreting Black Holes      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3460,6 +4477,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Cosmologies with a Dynamical Vacuum Energy      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3471,6 +4489,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Galaxy formation: Highlights from Galactic Scales      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3483,6 +4502,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2000/becca"> Electronic properties driven by strong correlation</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3496,6 +4516,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2000/capone"> The Mott Transition: Role of Frustration and Orbital Degeneracy </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3508,6 +4529,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2000/capriotti"> Quantum effects and broken symmetry in frustrated antiferromagnets </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3522,6 +4544,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/2000/cipriani"> Ab-initio study of oxygen adsorption on selected transition metal surfaces </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3533,6 +4556,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Relativistic Hydrodynamics for Gamma-Ray Burst Models      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3544,6 +4568,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Clustering Properties of Dark Matter Haloes in Hierarchical Models for Structure Formation in the Universe      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3555,6 +4580,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Quasar Absorption Spectra: Probes of the Baryonic Gas at High Redshift      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3566,6 +4592,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Planck-LFI: a Study of Instrumental and Astrophysical Effects      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3577,6 +4604,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Modelling the SED Evolution of Dusty Galaxies and Applications      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3589,6 +4617,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1999/calandra"> Superconductivity from strong electron correlation</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3602,6 +4631,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1999/de.santis"> Theory of electron localization function and its applications: Surfaces, impurities, and enzymatic catalysis</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3616,6 +4646,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1999/laio"> Simulation of Iron at Earth's Core Conditions</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3628,6 +4659,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1999/lazzeri"> A first principles study of the thermal expansion in some metallic surfaces</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3639,6 +4671,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Visions of the End of Inflation      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3650,6 +4683,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         A Unifying View on Blazars      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3661,6 +4695,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Large Scale Structure and Cosmic Microwave Background Anisotropies as Tests of Dark Matter Models      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3674,6 +4709,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1998/cavazzoni">  Large Scale First-Principles Simulations of Water and Ammonia at High Pressure and Temperature </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3686,6 +4722,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1998/clementi"> Effective potentials for protein folding models</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3699,6 +4736,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1998/giovanazzi">  Macroscopic Quantum Coherence Phenomena in Bose-Einstein Condensates </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3713,6 +4751,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1998/passerone">  Structural Order and Thermal Disorder at the Surface of Selected Crystals: Theory and Simulations </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3724,6 +4763,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Intergalactic Medium at High Redshifts      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3735,6 +4775,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Broken Symmetries at High Temperature as a Solution to the Domain Wall and Monopole Problems      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3746,6 +4787,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         A High Resolution Hydrodynamical Code for the Study of Cosmological Structures      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3757,6 +4799,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Relativistic Radiative Transfer for Accretion Flows onto Neutron Stars and Black Holes      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3769,6 +4812,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1997/alfe"> First Principles Study of Two Rhodium Surfaces upon Carbon-Monoxide and Oxygen Adsorption </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3781,6 +4825,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1997/ciftja"> Variational Study of two Strongly Correlated Fermi Systems: Fractional Quantum Hall Effect and Atomic He3 at Zero Temperature</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3794,6 +4839,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1997/ruini">  Dynamical Charges at Surfaces and Interfaces: Their Role in the Schottky Barrier Problem </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3807,6 +4853,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1997/saitta"> Theoretical study of the structural, thermodynamic and electronic properties of quaternary semiconductor alloy: (Zn,Mg)(S,Se) </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3820,6 +4867,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1997/tebaldi">  Rare events dominance in non equilibrium critical phenomena: selected examples</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3831,6 +4879,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Quantisation of Gauge Systems: Application to Minisuperspace Models in Canonical Quantum Gravity      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3842,6 +4891,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         A Systematic Research of New X-ray Pulsators in ROSAT Fields      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3853,6 +4903,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         General Relativistic Hydrodynamics of Compressible Multicomponent Fluids: Developments and Applications      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3865,6 +4916,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1996/anton"> Diffusion approach to non-equilibrium extremal dynamics</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3878,6 +4930,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1996/caldarelli"> From self organized criticality to patters formation. Theoretical aspects, occurence in nature.</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3891,6 +4944,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1996/colaiori"> River networks dynamics, branching patterns and aggregation phenomena</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3903,6 +4957,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1996/de.los.rios"> Strongly disordered systems from polymer statistics to phase transitions</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3915,6 +4970,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1996/flammini"> Scaling behavior for models of river network</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3927,6 +4983,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1996/franjic"> A Variational Approach to Strongly Correlated Systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3941,6 +4998,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1996/lu"> First-principles study of a-Sn surfaces</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -3953,6 +5011,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1996/vendruscolo"> Folding, stability and design of proteins</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3964,6 +5023,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Cosmic Microwave Background Anisotropies and Theories of the Early Universe      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3975,6 +5035,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Renormalization Group, Coarse-Graining and Critical Phenomena in Cosmology      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3986,6 +5047,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Reconstructing the Cosmic Density and Velocity Fields      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -3997,6 +5059,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Absorption Line Spectral Indices in Stars and Stellar Systems      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4008,6 +5071,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Electroweak Baryogenesis in the Adiabatic Limit      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4019,6 +5083,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Relativistic Radiation Hydrodynamics in Spherical Flows and Applications to Accretion onto Computer Objects      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4034,6 +5099,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1995/airoldi">  Selected Problems in Strongly Correlated Electronic Models</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4047,6 +5113,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1995/bungaro"> Dynamical Properties of Clean and H-covered W(110) Surfaces</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4059,6 +5126,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1995/debernardi">  Anharmonic Properties of Semiconductors from Density Functional Perturbation Theory</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4072,6 +5140,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1995/di.tolla">  Interplay of Melting, Wetting, Overheating and Faceting on Metal Surface: Theory and Simulations</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4084,6 +5153,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1995/manini">  Electron-Vibron Coupling in Charged Fullerene, Berry Phase and Superconductivity</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4095,6 +5165,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Chemical Abundances in Three Population II Stars      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4106,6 +5177,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Understanding the HR Diagram of Massive Stars      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4117,6 +5189,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Statistical Properties of the Large-Scale Distribution of Matter and Velocity Fields in the Universe      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4128,6 +5201,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         On Spacetime and Matter at Planck Length      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4139,6 +5213,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         High Energy Processes in Seyfert Galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4150,6 +5225,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Broad-Band Energy Distribution of Ultraviolet-Bright Blazars      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4161,6 +5237,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The X-ray Properties of Blazars      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4174,6 +5251,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1994/focher"> First-principle studies of structural phase transformations</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4186,6 +5264,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1994/marsili"> From interface growth to dynamics in disordered media and self organized criticality</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4198,6 +5277,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1994/mauri"> New developments in quantum molecular dynamics: excited state dynamics and large scale simulations</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4211,6 +5291,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1994/pederiva"> Quantum theory of non-homogeneous phases of Helium</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4223,6 +5304,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1994/zhong"> Numerical study of strongly correlated electron systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4234,6 +5316,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         A Study of a Sample of Optically Selected AGNs      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4245,6 +5328,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Environments of BL Lacertae Objects      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4256,6 +5340,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Manifold of Hot Galaxian Components      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4269,6 +5354,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1993/bernasconi"> Ab initio calculation of structural and electronic properties of alfa-Ga surfaces</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4281,6 +5367,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1993/buongiorno.nardelli"> Phonon softening and high-pressure low-simmetry phases of cesium halides from first-principles techniques</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4294,6 +5381,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1993/dal.corso"> Density Functional Theory beyond the Pseudopotential Local Density Approach: a Few Cases Studies</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4307,6 +5395,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1993/di.stasio"> From quantum Spins to correlated fermions: a new strong coupling method</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4319,6 +5408,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1993/franceschetti"> Density-functional theory without orbitals: a path towards very large scale electronic structure calculations</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4331,6 +5421,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1993/goldoni"> Properties of spin-orbit coupled bands in semiconductors heterostructures</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4343,6 +5434,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1993/martonak"> Models of quantum paraelectric behaviour of Perovskites</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4354,6 +5446,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Dynamical Friction and the Evolution of Clusters of Galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4365,6 +5458,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Dynamics and Evolution of Polar Ring Galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4376,6 +5470,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Nearby Galaxy Clusters: Sizes and Velocity Dispersion      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4387,6 +5482,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Large-Scale Clustering in the Universe      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4398,6 +5494,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         On the Pilot-Wave Theory of Classical, Quantum and Subquantum Physics      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4409,6 +5506,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Scaling Properties of the Large-Scale Structure of the Universe      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4420,6 +5518,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Spacetime Wormholes, Stringy Black Holes and 5th Time Gravity      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4431,6 +5530,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         "Hot Spot" Model and Short Term X-Ray Variability of Active Galactic Nuclei      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4442,6 +5542,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Role of Syncrotron and Self Compton Radiation in Active Galactic Nuclei      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4455,6 +5556,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1992/fabrizio"> New results for interacting Fermi systems: the 2D Hubbard model at low density and the two coupled chain problem</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4468,6 +5570,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1992/ferrante"> Auxiliary variables in classical and quantum liquids</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4480,6 +5583,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1992/lorenzana"> Doping states in cuprate oxide superconductors</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4493,6 +5597,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1992/mazzeo"> Interplay between surface in-plane ordering and roughening</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4506,6 +5611,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1992/silvestrelli"> Auxiliary field quantum Monte Carlo for systems with repusive interactions</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4520,6 +5626,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1992/wang"> Variational studies on the Hubbard model within the FHNC theory</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4531,6 +5638,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Studies on Gravitational Waves<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4542,6 +5650,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Studies of the Dynamics of Galaxies in Equilibrium<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4553,6 +5662,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Accretion Flows in Active Galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4564,6 +5674,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Astrophysical Origin of the s-Elements<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4575,6 +5686,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Quantum Cosmology and the Origin of the Universe      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4586,6 +5698,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Covariant and Gauge-Invariant Cosmological Perturbations      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4597,6 +5710,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Studies of Stellar Components in Spiral Galaxies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4608,6 +5722,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Mg Index for Stellar Population Studies      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4620,6 +5735,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1991/gulacsi"> Study and solution of the five-vertex model</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4632,6 +5748,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1991/pavone">  Lattice Dynamics of Semiconductors from Density-Functional Perturbation Theory</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4643,6 +5760,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Mass Distribution Function of Group of Galaxies<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4654,6 +5772,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Stability of Secular Heating of Galactic Discs<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4665,6 +5784,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         On the Compatibility of Quantum Matter and Classical Gravity<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4676,6 +5796,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Extended Narrow Line Region in Seyfert Galaxies: Photoionization by Thick Accretion Disk Emission<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4687,6 +5808,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Energy Density Perturbations in Two-Field Inflationary Models<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4698,6 +5820,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Time Properties of Two Wind Fed X-Ray Binary Pulsars Observed with EXOSAT: 4U 1538-52 and GX 301-2<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4709,6 +5832,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Binary System SS433<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4721,6 +5845,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1990/badirkhan"> Density functional theory of freezing: some applications</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4734,6 +5859,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1990/chen"> New theoretical results and simulations of surface melting</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4746,6 +5872,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1990/smargiassi"> Lattice vacancies and diffusion processes in crystalline silicon: a first-principles molecular dynamics study</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4759,6 +5886,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1990/stich"> First principles molecular dynamics study of liquid and amorphous silicon</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4772,6 +5900,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1989/buda"> Hydrogen in silicon: a first principles molecular dynamics study</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4785,6 +5914,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1989/peressi"> Energy-Band Discontinuities at Lattice-Matched Semiconductor Heterojunctions</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4801,6 +5931,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4813,6 +5944,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1989/wang"> Concentration fluctuations in liquid metal alloys</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4826,6 +5958,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1989/wang"> Correlated basis function method for fermions on a lattice: applications to the Hubbard model</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4839,6 +5972,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1989/xu"> Quantum molecular dynamics study of dilute Na-NaBr liquid solutions</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4853,6 +5987,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1989/zhang"> First-principle molecular dynamics simulations of disordered GaAs</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4864,6 +5999,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Radial and Non-Radial Pulsation Modelling in Early Type Stars<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4875,6 +6011,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Studies on the Large-Scale Structure of the Universe<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4886,6 +6023,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Markarian Galaxies<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4897,6 +6035,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Optical and UU Spectroscopy of Be/Shell and Supergiant Stars<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4908,6 +6047,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Multicomponent Models of the Intrastellar Medium and Star Formation<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4919,6 +6059,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Slim Accretion Disk<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4933,6 +6074,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1988/ancilotto"> Theoretical investigations of optical absorption and of tunneling behaviour of heterostructures in strong magnetic fields</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -4946,6 +6088,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1988/bartolini"> Low-index surfaces reconstruction and its influence on vicinal surfaces: the case of AU (100) and AU (111)</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4957,6 +6100,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Numerical Computations in General Relativity<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4968,6 +6112,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Theoretical Models of Active Galactic Nuclei<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4979,6 +6124,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Non Thermal Radiative Processes in Compact Sources<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -4990,6 +6136,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Eclipsing Companion of Epsilon Aurigae 	      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5001,6 +6148,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Determination of the Abundances of Lithium, Berylium and Boron in the Population II Stars in the Interstellar Space of the Large Magellanic Cloud<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5012,6 +6160,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         A study of the cosmological quark-hadron transition      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5025,6 +6174,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1987/ercolessi"> Molecular dynamics studies of gold: bulk, defects, surfaces and clusters</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5037,6 +6187,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1987/qteish"> Ab-initio study of Si-Ge alloys and ultra-thin superlattices</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5050,6 +6201,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1987/wang"> A molecular dynamics study of the displacive surface recostruction phase transitions</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5061,6 +6213,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Stability of Thick Accretion Disks<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5072,6 +6225,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         N-Body Computation of the Action of Dynamical Friction on Globular Clusters<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5083,6 +6237,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Dark and Luminous Matter in Spiral Galaxies<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5094,6 +6249,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Application of Multigrid to General Relativity<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5105,6 +6261,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Non-Local Overshooting and Evolution of Single Stars      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5117,6 +6274,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1986/galli"> On the structure and bonding of neutral and ionized molecules</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5128,6 +6286,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Adiabatic Accretion onto a Black Hole<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5140,6 +6299,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1985/fleszar"> Dielectric response in semiconductors: theory and applications</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5152,6 +6312,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1985/massidda"> Electronic properties of the compound with AlB2 structure. Self-consistent LAPW study of BeB2, AlB2, CaGa2, and TiB2 </a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5164,6 +6325,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1985/pastore"> Theory of the structure of charged liquids and some applications</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5175,6 +6337,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         A Study of Inhomogeneities in Cosmological Models with Dark Matter Through Linear and Nonlinear Stages<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5186,6 +6349,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         Seyfert 1 Galaxies (Observational Properties, Internal Reddening and Luminosity Function)<br/>      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5198,6 +6362,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1984/chen"> Topics in the theory of two-dimensional electron systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5210,6 +6375,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1984/d'aguanno"> Freezing of ionic liquids in correlation to hot solid structure</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5222,6 +6388,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1984/glazer"> Theory of spin effects in electron-electron scattering in metals</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5234,6 +6401,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1983/chen"> Polymorphic transitions in alkali halides</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="cm">
@@ -5246,6 +6414,7 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 				<a href="https://www.cm.sissa.it/thesis/1983/roman"> A study of physical properties of ionic systems</a>
 			  </td>
 <td></td>
+<td class="cm" >cm</td>
 </tr>
 <tr>
 <td class="ap">
@@ -5257,5 +6426,6 @@ Demonstrated via Precise Interfacial Nanostructure Measurements </td>
 <td class="ap">
         The Gravitational Collapse and the Issue of Final State      </td>
 <td class=ap>?</td>
+<td class="ap" >ap</td>
 </tr>
 </tbody></table>

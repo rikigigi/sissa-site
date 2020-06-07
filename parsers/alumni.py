@@ -74,7 +74,11 @@ parse(alumni, 'https://www.sissa.it/app/phdsection/alumni.php',
         {'name':'tr'},elaborate_table, 'app',
         name_col=0, y_col=1, adv_col=2, th_col=3,aff_col=5)
 
-#TODO: sbp (not in a table format)
+#Tpp
+parse(alumni, 'https://www.sissa.it/tpp/phdsection/alumni.php',
+        {'name':'tr'},elaborate_table, 'tpp',
+        name_col=0, y_col=1, adv_col=2, th_col=3,aff_col=4)
+
 
 import pdb
 
@@ -137,7 +141,7 @@ parse(alumni, 'https://www.sissa.it/sbp/phdsection/alumni.php',
 
 
 #table output
-print('<table><thead><tr><th>Name</th><th>Year</th><th>Supervisor</th><th>Thesis</th><th>Position</th></tr></thead><tbody>')
+print('<table><thead><tr><th>Name</th><th>Year</th><th>Supervisor</th><th>Thesis</th><th>Position</th><th>Curriculum</th></tr></thead><tbody>')
 for y in reversed(sorted(list(alumni.keys()))):
     for n in alumni[y]:
         print('<tr>')
@@ -152,6 +156,7 @@ for y in reversed(sorted(list(alumni.keys()))):
             print(n['affiliation'])
         else:
             print('<td></td>')
+        print('<td class="{}" >{}</td>'.format(n['class'],n['class']))
         print('</tr>')
 print('</tbody></table>')
 

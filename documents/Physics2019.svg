@@ -372,8 +372,8 @@
      inkscape:zoom="0.66"
      inkscape:cx="416.75754"
      inkscape:cy="512"
-     inkscape:window-x="649"
-     inkscape:window-y="254"
+     inkscape:window-x="109"
+     inkscape:window-y="475"
      inkscape:window-maximized="0"
      inkscape:current-layer="g10" /><g
      id="g10"
@@ -384,7 +384,9 @@
        d="M 0,768 H 1024 V 0 H 0 Z"
        style="fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.195"
        id="path22"
-       inkscape:connector-curvature="0" /><g
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" /><g
        id="g24"
        transform="matrix(1,0,0,-1,32,689.7983)"><path
          d="M 0,0.02061222 960,0"
