@@ -24,15 +24,15 @@ BUTTON_IMG=(
 "img/bannerAPP_2.png"
 "img/bannerAPC.jpg"
 "img/bannerCM.jpg"
-"img/logo_SBP.png"
+"img/logo_SBP.jpg"
 "img/cropped-cropped-bannerOfficial3.png"
 "img/cloudchamber.png"
 )
 BUTTON_IMG_POS=(
 "center center"
-"60% 60%"
-"60% 50%"
-"50% 70%"
+"center center"
+"center center"
+"center center"
 "center center"
 "center center"
 )
@@ -58,14 +58,14 @@ CONTENT=(
 "$(cat alumni)"
 "$(cat grants)"
 "$(cat convenzione)"
-"<p> we can have very important collaborations</p>"
+"<p>We have many important external collaborations:</br> <ul><li>TODO: list of external collaborations</li><li>...</li></ul></p>"
 )
 CONTENT_TITLE=(
 "General info"
 "Representatives"
 "Alumni"
 "Grants"
-"Visiting students program"
+"Visiting students"
 "Excellence collaborations"
 )
 
@@ -77,7 +77,7 @@ CONTENT_TITLE=(
 
 source button.sh #output in CONTENT_BUTTONS
 source content.sh #output in CONTENT_HTML
-
+source grants_css.sh #add more css for grants section in CSS
 
 
 cat > out.html << EOF

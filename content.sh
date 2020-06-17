@@ -17,6 +17,11 @@ CSS="${CSS}
 \$collapsible-color: rgba(101, 128, 180, 1.0);
 \$collapsible-color-bright: rgba(101, 128, 180, 0.75);
 
+
+\$content_bkg: #f1f1f1;
+\$grad_height: 75px;
+\$grant_height: 150px;
+
 .collapsible {
   background-color: \$collapsible-color;
   color: white;
@@ -38,12 +43,12 @@ CSS="${CSS}
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: \$content_bkg;
 }
 div .block {
   border: 1px solid black;
-  padding: 20px;
-  margin: 20px;
+  padding: 5px;
+  margin: 5px;
 }
 div .sp {
   background-color: \$pale-red;
@@ -61,6 +66,25 @@ div .cm {
 }
 div .ap {
   background-color: \$sand;
+}
+
+
+.grant_m{
+height: \$grant_height;
+}
+.grant_f{
+position: relative;
+top: -\$grad_height;
+background: linear-gradient(0deg, \$content_bkg, transparent);
+height: \$grad_height;
+}
+.grant_c{
+height: \$grant_height;
+overflow: hidden;
+}
+.grant_title{
+text-align: center;
+font-weight: 900;
 }
 "
 

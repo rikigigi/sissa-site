@@ -49,7 +49,7 @@ CSS="${CSS}
   font-family: inherit;
   & {
     /*@include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));*/
-    font-weight: 450;
+    font-weight: 900;
     /*color: \$button-color;*/
     color: \$button-text-color;
     padding: 0.625rem 1rem;
@@ -105,7 +105,7 @@ IMG=$2
 LINK=$3
 POS=$4
 echo "
-<div class=\"container-btn\" style=\"background: url('${IMG}') no-repeat ${POS};\"><div class='container-btn2'>
+<div class=\"container-btn\" style=\"background: url('${IMG}') no-repeat ${POS};background-size: cover;\"><div class='container-btn2'> 
 <div class='inside-btn'><a class='area-button-a' href='${LINK}' target='_blank' ><button class=\"area-button\" >${TEXT}</button></a>
 </div></div></div>
 "

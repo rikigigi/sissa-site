@@ -20,6 +20,17 @@ def massage_content(b, add_class=''):
         e.unwrap()
     for e in b('img'):
         e.decompose()
+    for e in b('span'):
+        e.unwrap()
+    for e in b('p'):
+        e.unwrap()
+    for e in b('span'):
+        e.unwrap()
+    for e in b('p'):
+        e.unwrap()
+    for e in b():
+        if len(e.contents)==1 and ( e.contents[0].rstrip()=='' or e.contents[0].rstrip()=='<br>'):
+            e.decompose()
     b.name='div'
     b['class']='block '+add_class
     eprint(b)
@@ -56,9 +67,9 @@ def parse(grants, url, find_all, elaborate_entry,class_=''):
     for b in l:
         res=elaborate_entry(url,b)
         if res is not None:
-            key,h=res
+            key,h,title,link=res
             massage_content(h,class_)
-            grants.setdefault(key,[]).append(h)
+            grants.setdefault(key,[]).append({'class':class_,'content':h,'title':title, 'link':link})
 
 grants={}
 
@@ -72,7 +83,11 @@ def elaborate_sp(url,b):
         key='?'
     img=b.find('div',class_='blockimg')
     img.decompose()
-    return key,b
+    title=b.find('div',class_='blockTextTitle')
+    if title is None:
+        return
+    title.extract()
+    return key,b,title, None
 parse(grants,'https://www.statphys.sissa.it/wordpress/?page_id=4912',{'name':'div','class_':'block'},elaborate_sp,class_='sp')
 
 
@@ -83,7 +98,13 @@ def elaborate_tpp(url,b):
         key=make_key(res.group(1),res.group(2))
     else:
         key='?'
-    return key,b
+    title=b.find('strong')
+    link=b.find('span')
+    if title is None:
+        return
+    title.extract()
+    link.extract()
+    return key,b,title, link
 parse(grants,'https://www.sissa.it/tpp/research/projects.php',{'name':'tbody'},elaborate_tpp,class_='tpp')
 
 
@@ -96,10 +117,15 @@ def elaborate_app(url,b):
         h2_found=True
     if h2_found:
         return
+    title=b.find('strong')
+    if title is None:
+        return
+    title.extract()
+    link=b.find('a')
     #check for words that indicate that it is a grant -- are they all grants?
     res=re.search(r"€|\$|[Gg]grant|ERC|PRINN", b.__str__())
     if True: # res is not None:
-        return '?',b
+        return '?',b,title,link
 parse(grants,'https://www.sissa.it/app/research/projects.php',{'name':'tbody'},elaborate_app,class_='app')
 
 
@@ -108,7 +134,14 @@ def elaborate_cm(url,b):
     #check for words that indicate that it is a grant
     #res=re.search(r"€|\$|[Gg]grant|ERC", b.__str__())
     #if res is not None:
-    return '?',b
+    title=b.find('strong')
+    if title is None:
+        return
+    title.extract()
+    link=b.find('a')
+    if link is not None:
+        link.extract()
+    return '?',b,title,link
 parse(grants,'https://www.cm.sissa.it/research/projects',{'name':'tbody'},elaborate_cm,class_='cm')
 
 
@@ -124,7 +157,7 @@ INFN-QGSKY (2020/23, missioni)                                                  
 for b in ap.splitlines():
     res=re.search(r"\(([0-9]{2,4}) */ *([0-9]{2,4}) *, *[a-zA-Z \-+]*\)",b
 )
-    bb=r'<div class="block ap"><p>'+b+r'</p></div>'
+    bb={'class':'ap','content':r'<div class="block ap"><p>'+b+r'</p></div>'}
     if res is not None:
         key=make_key(res.group(1),res.group(2))
         grants.setdefault(key,[]).append(bb)
@@ -134,4 +167,10 @@ for b in ap.splitlines():
 #sbp: ??
 for k in grants.keys():
     for e in grants[k]:
-        print (e)
+        print ('<div class="grant_m {}"><div class="grant_c">'.format(e['class']+'_outer'))
+        if 'title' in e:
+            print ('<div class="grant_title"><p>{}</p></div>'.format(e['title'].string))
+        if 'year' in e:
+            print ('<div class="grant_year">{}</div>'.format(e['year']))
+        print ('{}</div><div class="grant_f"></div></div>'.format(e['content']))
+
