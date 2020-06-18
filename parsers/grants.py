@@ -2,7 +2,6 @@ import urllib.request as URL
 from bs4 import BeautifulSoup
 import re
 import sys
-
 from common import *
 
 
@@ -69,6 +68,14 @@ def parse(grants, url, find_all, elaborate_entry,class_=''):
         if res is not None:
             key,h,title,link=res
             massage_content(h,class_)
+            try:
+                for e in title('strong'):
+                    e.unwrap()
+                for e in title('p'):
+                    e.unwrap()
+            except Exception as e:
+                eprint(e)
+            title='<a class="grant_title_link {}" href="{}">{}</a>'.format(class_,url,str(title))
             grants.setdefault(key,[]).append({'class':class_,'content':h,'title':title, 'link':link})
 
 grants={}
@@ -121,6 +128,9 @@ def elaborate_app(url,b):
     if title is None:
         return
     title.extract()
+#    if 'LISA' in str(title):
+#        import pdb
+#        pdb.set_trace()
     link=b.find('a')
     #check for words that indicate that it is a grant -- are they all grants?
     res=re.search(r"€|\$|[Gg]grant|ERC|PRINN", b.__str__())
@@ -169,7 +179,7 @@ for k in grants.keys():
     for e in grants[k]:
         print ('<div class="grant_m {}"><div class="grant_c">'.format(e['class']+'_outer'))
         if 'title' in e:
-            print ('<div class="grant_title"><p>{}</p></div>'.format(e['title'].string))
+            print ('<div class="grant_title"><p>{}</p></div>'.format(e['title']))
         if 'year' in e:
             print ('<div class="grant_year">{}</div>'.format(e['year']))
         print ('{}</div><div class="grant_f"></div></div>'.format(e['content']))

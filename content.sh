@@ -50,6 +50,7 @@ div .block {
   padding: 5px;
   margin: 5px;
 }
+/*
 div .sp {
   background-color: \$pale-red;
 }
@@ -67,7 +68,7 @@ div .cm {
 div .ap {
   background-color: \$sand;
 }
-
+*/
 
 .grant_m{
 height: \$grant_height;
@@ -85,6 +86,12 @@ overflow: hidden;
 .grant_title{
 text-align: center;
 font-weight: 900;
+}
+
+a.grant_title_link {
+    text-decoration: none;
+    color: inherit;
+    background: inherit;
 }
 "
 
