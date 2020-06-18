@@ -39,6 +39,7 @@ CSS="${CSS}
 }
 
 .content {
+  width: 100%;
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
@@ -72,6 +73,7 @@ div .ap {
 
 .grant_m{
 height: \$grant_height;
+padding-bottom: 30px;
 }
 .grant_f{
 position: relative;
