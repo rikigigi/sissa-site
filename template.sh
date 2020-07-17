@@ -59,6 +59,7 @@ CONTENT=(
 "$(cat grants)"
 "$(cat convenzione)"
 "<p>We have many important external collaborations:</br> <ul><li>TODO: list of external collaborations</li><li>...</li></ul></p>"
+"$(cat colloquia)"
 )
 CONTENT_TITLE=(
 "General info"
@@ -67,6 +68,7 @@ CONTENT_TITLE=(
 "Grants"
 "Visiting students"
 "Excellence collaborations"
+"Colloquia and seminars"
 )
 
 
