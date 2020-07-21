@@ -58,7 +58,7 @@ CONTENT=(
 "$(cat alumni)"
 "$(cat grants)"
 "$(cat convenzione)"
-"<p>We have many important external collaborations:</br> <ul><li>TODO: list of external collaborations</li><li>...</li></ul></p>"
+"$(cat excellence_coll)"
 "$(cat colloquia)"
 )
 CONTENT_TITLE=(
