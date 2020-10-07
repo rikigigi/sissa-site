@@ -142,5 +142,6 @@ function update_buttons_width(){
    }
 }
 window.addEventListener('resize',update_buttons_width);
-update_buttons_width();
+document.addEventListener('DOMContentLoaded', update_buttons_width);
+//update_buttons_width();
 "
