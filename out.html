@@ -154,6 +154,310 @@ a.grant_title_link {
   text-decoration: none;
   color: inherit;
   background: inherit; }
+
+/*
+.button-div > * {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+*/
+.button-div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 10vh;
+  background: transparent; }
+
+.area-button-a {
+  background-color: transparent;
+  vertical-align: middle; }
+
+.area-button {
+  background: rgba(101, 128, 180, 0);
+  position: relative;
+  /*height: 10ch;
+  width: 30ch;*/
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0px solid rgba(101, 128, 180, 0);
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit; }
+  .area-button {
+    /*@include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));*/
+    font-weight: 900;
+    /*color: $button-color;*/
+    color: white;
+    padding: 0.625rem 1rem;
+    margin: 0.5rem;
+    text-transform: uppercase; }
+    .area-button:hover, .area-button:focus {
+      font-weight: 1500;
+      /*letter-spacing: 0.125rem;*/ }
+
+.container-btn {
+  /*float: left;*/
+  display: inline-block;
+  /*
+    grid-area: main;
+    align-self: center;
+    justify-self: center;*/ }
+
+.container-btn2 {
+  height: 10ch;
+  width: 30ch;
+  text-align: center;
+  display: table; }
+
+.inside-btn {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; }
+
+span.clear {
+  clear: both;
+  display: block; }
+
+/*
+@supports (display: grid) {
+  .button-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.625rem;
+    grid-template-areas: ". main main ." ". main main .";
+  }
+  
+}
+*/
+.collapsible {
+  background-color: #6580b4;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.active, .collapsible:hover {
+  background-color: rgba(101, 128, 180, 0.75); }
+
+.content {
+  width: 100%;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1; }
+
+div .block {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px; }
+
+/*
+div .sp {
+  background-color: $pale-red;
+}
+
+div .tpp {
+  background-color: $pale-yellow;
+}
+div .app {
+  background-color: $pale-blue;
+}
+
+div .cm {
+  background-color: $pale-green;
+}
+div .ap {
+  background-color: $sand;
+}
+*/
+.grant_m {
+  height: 150px;
+  padding-bottom: 30px; }
+
+.grant_f {
+  position: relative;
+  top: -75px;
+  background: linear-gradient(0deg, #f1f1f1, transparent);
+  height: 75px; }
+
+.grant_c {
+  height: 150px;
+  overflow: hidden; }
+
+.grant_title {
+  text-align: center;
+  font-weight: 900; }
+
+a.grant_title_link {
+  text-decoration: none;
+  color: inherit;
+  background: inherit; }
+
+/*
+.button-div > * {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+*/
+.button-div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 10vh;
+  background: transparent; }
+
+.area-button-a {
+  background-color: transparent;
+  vertical-align: middle; }
+
+.area-button {
+  background: rgba(101, 128, 180, 0);
+  position: relative;
+  /*height: 10ch;
+  width: 30ch;*/
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0px solid rgba(101, 128, 180, 0);
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit; }
+  .area-button {
+    /*@include transition(all, 0.5s, cubic-bezier(0.65,-0.25,0.25,1.95));*/
+    font-weight: 900;
+    /*color: $button-color;*/
+    color: white;
+    padding: 0.625rem 1rem;
+    margin: 0.5rem;
+    text-transform: uppercase; }
+    .area-button:hover, .area-button:focus {
+      font-weight: 1500;
+      /*letter-spacing: 0.125rem;*/ }
+
+.container-btn {
+  /*float: left;*/
+  display: inline-block;
+  /*
+    grid-area: main;
+    align-self: center;
+    justify-self: center;*/ }
+
+.container-btn2 {
+  height: 10ch;
+  width: 30ch;
+  text-align: center;
+  display: table; }
+
+.inside-btn {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; }
+
+span.clear {
+  clear: both;
+  display: block; }
+
+/*
+@supports (display: grid) {
+  .button-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.625rem;
+    grid-template-areas: ". main main ." ". main main .";
+  }
+  
+}
+*/
+.collapsible {
+  background-color: #6580b4;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.active, .collapsible:hover {
+  background-color: rgba(101, 128, 180, 0.75); }
+
+.content {
+  width: 100%;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1; }
+
+div .block {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px; }
+
+/*
+div .sp {
+  background-color: $pale-red;
+}
+
+div .tpp {
+  background-color: $pale-yellow;
+}
+div .app {
+  background-color: $pale-blue;
+}
+
+div .cm {
+  background-color: $pale-green;
+}
+div .ap {
+  background-color: $sand;
+}
+*/
+.grant_m {
+  height: 150px;
+  padding-bottom: 30px; }
+
+.grant_f {
+  position: relative;
+  top: -75px;
+  background: linear-gradient(0deg, #f1f1f1, transparent);
+  height: 75px; }
+
+.grant_c {
+  height: 150px;
+  overflow: hidden; }
+
+.grant_title {
+  text-align: center;
+  font-weight: 900; }
+
+a.grant_title_link {
+  text-decoration: none;
+  color: inherit;
+  background: inherit; }
 </style>
 </head>
 <body>
@@ -6698,10 +7002,10 @@ New states of Entangled Matter Out of equilibrium (NEMO)
 <div class="blockText">
 
 2018–2023 
-<ul>
+
 <a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a> is the PI of the ERC Consolidator Grant n. 771536. The overall budget is about 1.5 M€ (SISSA is the only beneficiary). The main goal of the project is to find and characterise new non-equilibrium states of matter guided by their entanglement content.<br/>
 <a href="https://cordis.europa.eu/project/rcn/214671/factsheet/en">More Information</a>
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -6712,8 +7016,8 @@ New states of Entangled Matter Out of equilibrium (NEMO)
 <div class="blockText">
 
 2019–2022
-<ul>
-This collaborative project from Italian ministry of research includes five research units: Trieste (<a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a> and <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a>), Florence experiment (Leonardo Fallani), Florence theory (Andrea Cappelli and Filippo Colomo), Padova (Simone Montangero), Pisa (Davide Rossini). National and SISSA coordinator: <a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a>. Total budget ca. 800 k€, SISSA budget ca. 160 k€.</ul></div></div></div><div class="grant_f"></div></div>
+
+This collaborative project from Italian ministry of research includes five research units: Trieste (<a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a> and <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a>), Florence experiment (Leonardo Fallani), Florence theory (Andrea Cappelli and Filippo Colomo), Padova (Simone Montangero), Pisa (Davide Rossini). National and SISSA coordinator: <a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a>. Total budget ca. 800 k€, SISSA budget ca. 160 k€.</div></div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link sp" href="https://www.statphys.sissa.it/wordpress/?page_id=4912"><div class="blockTextTitle">Coarse-grained description for non-equilibrium system and transport phenomena (CO-NEST)
 </div></a></p></div>
@@ -6722,8 +7026,8 @@ This collaborative project from Italian ministry of research includes five resea
 <div class="blockText">
 
 2019–2022
-<ul>
-This collaborative project from Italian ministry of research includes five research units: Trieste (<a href="https://www.statphys.sissa.it/wordpress/?page_id=1714">Andrea Gambassi</a>, local SISSA coordinator and Stefano Ruffo), University of Rome “La Sapienza” (Angelo Vulpiani, national coordinator), CNR (Andrea Puglisi, Fabio Cecconi, Andrea Baldassarri, Paolo Politi), University of Camerino (Umberto Marini Bettolo Marconi), University of Florence (Roberto Livi, Stefano Lepri, Lapo Casetti), University of Campania “Vanvitelli” (Eugenio Lippiello). Total budget ca. 1 115 k€, SISSA budget 178 k€.</ul></div></div></div><div class="grant_f"></div></div>
+
+This collaborative project from Italian ministry of research includes five research units: Trieste (<a href="https://www.statphys.sissa.it/wordpress/?page_id=1714">Andrea Gambassi</a>, local SISSA coordinator and Stefano Ruffo), University of Rome “La Sapienza” (Angelo Vulpiani, national coordinator), CNR (Andrea Puglisi, Fabio Cecconi, Andrea Baldassarri, Paolo Politi), University of Camerino (Umberto Marini Bettolo Marconi), University of Florence (Roberto Livi, Stefano Lepri, Lapo Casetti), University of Campania “Vanvitelli” (Eugenio Lippiello). Total budget ca. 1 115 k€, SISSA budget 178 k€.</div></div></div><div class="grant_f"></div></div>
 <div class="grant_m tpp_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link tpp" href="https://www.sissa.it/tpp/research/projects.php"><strong>  Prin project "The consequences of flavour: from precision measurements to fundamental physics" (2017L5W2PT) </strong></a></p></div>
 <div class="block tpp">
@@ -6756,10 +7060,10 @@ The  collaboration will include young researchers  from INFN (Pisa,Trieste,Firen
 <div class="blockText">
 
 2018–2021 
-<ul>
-<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Italian responsible of this Italy–Hungary Joint Project (Accordo di Cooperazione Scientifica CNR/MTA Ungheria); Hungarian responsible: Istvan Nandori.</ul></div></div></div><div class="grant_f"></div></div>
+
+<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Italian responsible of this Italy–Hungary Joint Project (Accordo di Cooperazione Scientifica CNR/MTA Ungheria); Hungarian responsible: Istvan Nandori.</div></div></div><div class="grant_f"></div></div>
 <div class="grant_m ap_outer"><div class="grant_c">
-<div class="block ap"><p>ASI-Euclid (2018/21, missioni)                                                                            --> Baccigalupi</p></div></div><div class="grant_f"></div></div>
+<div class="block ap"><p>    ASI-Euclid (2018/21, missioni)                                                                            --> Baccigalupi</p></div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link sp" href="https://www.statphys.sissa.it/wordpress/?page_id=4912"><div class="blockTextTitle">Quantum Technologies with Ultra-Cold Atoms
 </div></a></p></div>
@@ -6768,8 +7072,8 @@ The  collaboration will include young researchers  from INFN (Pisa,Trieste,Firen
 <div class="blockText">
 
 2017–2021
-<ul>
-<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Vice-Chair of the COST Action CA16221.</ul></div></div></div><div class="grant_f"></div></div>
+
+<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Vice-Chair of the COST Action CA16221.</div></div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link sp" href="https://www.statphys.sissa.it/wordpress/?page_id=4912"><div class="blockTextTitle">NV centers for the test of the Quantum Jarzynski Equality (NVQJE)
 </div></a></p></div>
@@ -6778,8 +7082,8 @@ The  collaboration will include young researchers  from INFN (Pisa,Trieste,Firen
 <div class="blockText">
 
 2019–2020
-<ul>
-<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Co-Recipient of MIT–FVG Collaboration Grant with P. Cappellaro (MIT) and S. Ruffo (SISSA).</ul></div></div></div><div class="grant_f"></div></div>
+
+<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Co-Recipient of MIT–FVG Collaboration Grant with P. Cappellaro (MIT) and S. Ruffo (SISSA).</div></div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link sp" href="https://www.statphys.sissa.it/wordpress/?page_id=4912"><div class="blockTextTitle">Phases of ergodic and localized dynamics and applications to quantum computing
 </div></a></p></div>
@@ -6788,10 +7092,10 @@ The  collaboration will include young researchers  from INFN (Pisa,Trieste,Firen
 <div class="blockText">
 
 2017–2020
-<ul>
+
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1840">Antonello Scardicchio</a> is the PI of a Google Faculty Research Award for work related to quantum computing.<br/>
 Total budget: 72 000 $ to support graduate students and postdocs.
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m tpp_outer"><div class="grant_c">
@@ -6844,9 +7148,9 @@ A deeper picture can only emerge from a combined approach which tries to explore
 <div class="blockText">
 
 2018–2019
-<ul>
+
 Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=1725">Erik Tonni</a> (SISSA) are principal investigators on this project. MIT/SISSA collaboration supported by MISTI Global Seeds Funds (faculty funds): 15 200 $.
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -6857,8 +7161,8 @@ Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=172
 <div class="blockText">
 
 2019
-<ul>
-<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is CNR responsible in the ACRI project “Functional and Renormalization Group Methods in Quantum and Statistical Physics”. The project is coordinated by Gian Paolo Vacca (INFN – Bologna), and sponsored by ACRI (Associazione di Fondazioni e Casse di Risparmio Spa) under the Young Investigator Training Program 2018, intended to foster young international researchers and to promote their scientific collaboration with a network of Italian research institutions. It includes an opening for short term individual research fellowships: 6 young researchers will visit Trieste in September 2019 for a month. Within the project, the conference “<a href="https://indico.ectstar.eu/event/50/">Functional and Renormalization-Group methods – Italian Meeting (FRGIM 2019)</a>” will be organized, taking place at ECT*, Trento, in the days 16-20 September 2019.</ul></div></div></div><div class="grant_f"></div></div>
+
+<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is CNR responsible in the ACRI project “Functional and Renormalization Group Methods in Quantum and Statistical Physics”. The project is coordinated by Gian Paolo Vacca (INFN – Bologna), and sponsored by ACRI (Associazione di Fondazioni e Casse di Risparmio Spa) under the Young Investigator Training Program 2018, intended to foster young international researchers and to promote their scientific collaboration with a network of Italian research institutions. It includes an opening for short term individual research fellowships: 6 young researchers will visit Trieste in September 2019 for a month. Within the project, the conference “<a href="https://indico.ectstar.eu/event/50/">Functional and Renormalization-Group methods – Italian Meeting (FRGIM 2019)</a>” will be organized, taking place at ECT*, Trento, in the days 16-20 September 2019.</div></div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link sp" href="https://www.statphys.sissa.it/wordpress/?page_id=4912"><div class="blockTextTitle">Young Investigator Training Program 2017
 </div></a></p></div>
@@ -6867,10 +7171,10 @@ Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=172
 <div class="blockText">
 
 2017
-<ul>
+
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1725">Erik Tonni</a>  obtained funds from ACRI to support young researchers through individual fellowships (within 3 000 and 4 000 € each one). For young researchers in order to attend the program <a href="http://www.ggi.infn.it/showevent.pl?id=269">Entanglement in Quantum Systems</a> at the Galileo Galilei Institute in June/July 2018 and to visit another research institute in Italy. Total budget: 48 750 €.<br/>
 <a href="https://www.acri.it/PublicFondazioniOnline/Detail/4394">More Information</a>
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -6881,11 +7185,11 @@ Hong Liu (MIT) and <a href="https://www.statphys.sissa.it/wordpress/?page_id=172
 <div class="blockText">
 
 2017
-<ul>
+
 <a href="https://www.statphys.sissa.it/wordpress/?page_id=1714">Andrea Gambassi</a><br/>
 FFABR was a special fund (active only in 2017, 3 000 €) of the Italian Ministry of University, Research and Education for supporting basic research activities. It was assigned on a competitive basis to researchers and associate professors, selected on the basis of their research achievements.<br/>
 <a href="http://www.anvur.it/attivita/ffabr/">More Information</a>
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -6895,18 +7199,22 @@ FFABR was a special fund (active only in 2017, 3 000 €) of the Italian Minis
 
 <div class="blockText">
 
-<ul>
+
 All permanent members of the group participate to the “Iniziativa specifica INFN” Statistical Field Theory (former FI 11) of which <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a> is the National coordinator since 2014.
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m app_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link app" href="https://www.sissa.it/app/research/projects.php"><strong>PRIN  - LISA - PHASE A: Gravitational Waves from Massive Black Holes in "The Gravitational Universe"</strong></a></p></div>
 <div class="block app">
-SISSA will develop theoretical and phenomenological models for testing the nature of astrophysical black holes and their correspondence to the expected solution of general relativity.<br>
-      PI Nazionale: <strong>Monica Colpi </strong> (Milano Bicocca)<br>
-      PI SISSA: <strong>Stefano Liberati</strong><br>
-      Total grant &#8364 143,000
+
+
+
+
+
+
+
+
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m app_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link app" href="https://www.sissa.it/app/research/projects.php"><strong>Elusives</strong></a></p></div>
@@ -6929,6 +7237,12 @@ SISSA will develop theoretical and phenomenological models for testing the natur
 <div class="grant_m app_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link app" href="https://www.sissa.it/app/research/projects.php"><strong> Sciama Legacy Bursary  </strong></a></p></div>
 <div class="block app">
+
+
+
+
+ 
+
 
 
 
@@ -7122,7 +7436,7 @@ MaX aims to lead the quantum materials discovery and design in frontier science 
 
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m ap_outer"><div class="grant_c">
-<div class="block ap"><p>EU-H2020-MSCA/ITN "BiD4BEST" (2020/24, studente Ph.D. + missioni)           --> Lapi</p></div></div><div class="grant_f"></div></div>
+<div class="block ap"><p>    EU-H2020-MSCA/ITN "BiD4BEST" (2020/24, studente Ph.D. + missioni)           --> Lapi</p></div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link sp" href="https://www.statphys.sissa.it/wordpress/?page_id=4912"><div class="blockTextTitle"> Out-of-equilibrium entangled many-body systems
 </div></a></p></div>
@@ -7131,10 +7445,10 @@ MaX aims to lead the quantum materials discovery and design in frontier science 
 <div class="blockText">
 
 2016–2018 
-<ul>
+
 Marie Curie Fellowship. <a href="https://www.statphys.sissa.it/wordpress/?page_id=2489">Fellow Vincenzo Alba</a>.<br/>
 <a href="https://cordis.europa.eu/project/rcn/201059/factsheet/en">More information</a>
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -7145,8 +7459,8 @@ Marie Curie Fellowship. <a href="https://www.statphys.sissa.it/wordpress/?page_i
 <div class="blockText">
 
 2013–2017
-<ul>
-<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the PI of the Italian node of the collaborative European grant STREP “MatterWave” involving four European nodes.</ul></div></div></div><div class="grant_f"></div></div>
+
+<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the PI of the Italian node of the collaborative European grant STREP “MatterWave” involving four European nodes.</div></div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link sp" href="https://www.statphys.sissa.it/wordpress/?page_id=4912"><div class="blockTextTitle">
 Entangling and Disentangling Extended Quantum Systems in and out of equilibrium (EDEQS)
@@ -7156,10 +7470,10 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 <div class="blockText">
 
 2014–2016
-<ul>
+
 <a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a> is the PI of an ERC Starting grant n. 279391 (although started at University of Pisa, SISSA was beneficiary of most of the budget ca. 1.1 million €). The main goal of the project is to disentangle many body quantum systems characterising their entanglement content.<br/>
 <a href="https://cordis.europa.eu/project/rcn/99920/factsheet/en">More Information</a>
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -7170,8 +7484,8 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 <div class="blockText">
 
 2013–2015
-<ul>
-<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Italian responsible of this Italy–Hungary Joint Project (Accordo di Cooperazione Scientifica CNR/MTA Ungheria); Hungarian responsible: Gabor Takacs. Other local participants: <a href="https://www.statphys.sissa.it/wordpress/?page_id=1727">Gesualdo Delfino</a> and <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a>.</ul></div></div></div><div class="grant_f"></div></div>
+
+<a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a> is the Italian responsible of this Italy–Hungary Joint Project (Accordo di Cooperazione Scientifica CNR/MTA Ungheria); Hungarian responsible: Gabor Takacs. Other local participants: <a href="https://www.statphys.sissa.it/wordpress/?page_id=1727">Gesualdo Delfino</a> and <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a>.</div></div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
 <div class="grant_title"><p><a class="grant_title_link sp" href="https://www.statphys.sissa.it/wordpress/?page_id=4912"><div class="blockTextTitle">Quantum Integrability, Conformal Field Theory and Topological Quantum Computation(QICFT)
 </div></a></p></div>
@@ -7180,10 +7494,10 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 <div class="blockText">
 
 2010–2015 
-<ul>
+
 <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a> is the chairman of the IRSES European Grant QICFT with nodes: Oxford (UK), Amsterdam (The Netherlands), Madrid (Spain), Brookhaven National Labs (USA), Buenos Aires (Argentina), Hangzhou (China). Total budget ca. 500 k€<br/>
 <a href="https://cordis.europa.eu/project/rcn/102431/factsheet/en">More Information</a>
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -7194,10 +7508,10 @@ Entangling and Disentangling Extended Quantum Systems in and out of equilibrium 
 <div class="blockText">
 
 2011–2014
-<ul>
+
 Marie Curie Outgoing fellowship. Fellow <a href="https://www.statphys.sissa.it/wordpress/?page_id=2183">Fabio Franchini</a>. In MIT 2011–13 and in SISSA 2013–14.<br/>
 <a href="https://cordis.europa.eu/project/rcn/98739/reporting/en?rcn=159068">More information</a>
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -7208,9 +7522,9 @@ Marie Curie Outgoing fellowship. Fellow <a href="https://www.statphys.sissa.it/w
 <div class="blockText">
 
 2008–2010
-<ul>
+
 National coordinator <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a> (other local participant <a href="https://www.statphys.sissa.it/wordpress/?page_id=1727">Gesualdo Delfino</a>).
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -7221,10 +7535,10 @@ National coordinator <a href="http://www.statphys.sissa.it/wordpress/?page_id=16
 <div class="blockText">
 
 2005–2010
-<ul>
+
 <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a> is the chairmen of an ESF collaborative project between several European Universities in ten different countries (other local participants: <a href="https://www.statphys.sissa.it/wordpress/?page_id=1727">Gesualdo Delfino</a>, <a href="http://www.statphys.sissa.it/wordpress/?page_id=1731">Pasquale  Calabrese</a>). Total budget ca. 500 k€<br/>
 <a href="http://archives.esf.org/coordinating-research/research-networking-programmes/physical-and-engineering-sciences-pen/completed-esf-research-networking-programmes-in-pesc/interdisciplinary-statistical-and-field-theory-approaches-to-nanophysics-and-low-dimensional-systems-instans.html">More Information </a>
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -7235,9 +7549,9 @@ National coordinator <a href="http://www.statphys.sissa.it/wordpress/?page_id=16
 <div class="blockText">
 
 2007–2009
-<ul>
+
 National coordinator Stefano Fantoni (SISSA) (other local participants <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a>, <a href="https://www.statphys.sissa.it/wordpress/?page_id=1722">Andrea Trombettoni</a>).
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m sp_outer"><div class="grant_c">
@@ -7248,9 +7562,9 @@ National coordinator Stefano Fantoni (SISSA) (other local participants <a href="
 <div class="blockText">
 
 2006–2008
-<ul>
+
 National coordinator A. Montorsi, local coordinator <a href="http://www.statphys.sissa.it/wordpress/?page_id=1686">Giuseppe Mussardo</a> (other local participant <a href="https://www.statphys.sissa.it/wordpress/?page_id=1727">Gesualdo Delfino</a>).
-</ul>
+
 </div>
 </div></div><div class="grant_f"></div></div>
 <div class="grant_m tpp_outer"><div class="grant_c">
@@ -7311,15 +7625,15 @@ This project has received funding from the European Union's Horizon 2020
 <div class="grant_m ap_outer"><div class="grant_c">
 <div class="block ap"><p>ASI-COSMOS (2016/21, posizione RTDa + missioni)                                        --> Baccigalupi</p></div></div><div class="grant_f"></div></div>
 <div class="grant_m ap_outer"><div class="grant_c">
-<div class="block ap"><p>ASI-LiteBIRD (2020/23, assegnista + missioni)                                                  --> Baccigalupi</p></div></div><div class="grant_f"></div></div>
+<div class="block ap"><p>    ASI-LiteBIRD (2020/23, assegnista + missioni)                                                  --> Baccigalupi</p></div></div><div class="grant_f"></div></div>
 <div class="grant_m ap_outer"><div class="grant_c">
-<div class="block ap"><p>INFN-INDARK (2020/23, missioni)                                                                     --> Baccigalupi</p></div></div><div class="grant_f"></div></div>
+<div class="block ap"><p>    INFN-INDARK (2020/23, missioni)                                                                     --> Baccigalupi</p></div></div><div class="grant_f"></div></div>
 <div class="grant_m ap_outer"><div class="grant_c">
-<div class="block ap"><p>INFN-QGSKY (2020/23, missioni)                                                                      --> Salucci/Valdarnini</p></div></div><div class="grant_f"></div></div>
+<div class="block ap"><p>    INFN-QGSKY (2020/23, missioni)                                                                      --> Salucci/Valdarnini</p></div></div><div class="grant_f"></div></div>
 <div class="grant_m ap_outer"><div class="grant_c">
-<div class="block ap"><p>PRIN2017-MIUR (2019/21, assegnista + missioni)                                          --> Lapi/Bressan</p></div></div><div class="grant_f"></div></div>
+<div class="block ap"><p>    PRIN2017-MIUR (2019/21, assegnista + missioni)                                          --> Lapi/Bressan</p></div></div><div class="grant_f"></div></div>
 <div class="grant_m ap_outer"><div class="grant_c">
-<div class="block ap"><p>FSE-FVG (2020/22, assegnista)                                                                           --> Lapi/Bressan</p></div></div><div class="grant_f"></div></div>
+<div class="block ap"><p>    FSE-FVG (2020/22, assegnista)                                                                           --> Lapi/Bressan</p></div></div><div class="grant_f"></div></div>
 </div>
 
 <button class='collapsible'>Visiting students</button>
@@ -7370,6 +7684,78 @@ You can download a draft of the convention that is possible to stipulate using t
 
 
 <script>
+
+function update_buttons_width(){
+   var btn_div=document.getElementsByClassName('button-div');
+   var i;
+   for (i=0;i<btn_div.length;i++) {
+      var btns=btn_div[i];
+      var width=btns.clientWidth;
+      var n_btn_line=(width/275.0)|0;
+      if (n_btn_line==0) return;
+      var btn_width=width/n_btn_line;
+      var btn_inner_width=btn_width-5;
+      var btn_all=btns.getElementsByClassName('container-btn');
+      var j
+      for (j=0;j<btn_all.length;j++) {
+         var btn=btn_all[j];
+         btn.style.width=(btn_inner_width|0) + 'px';
+      }
+   }
+}
+window.addEventListener('resize',update_buttons_width);
+update_buttons_width();
+
+var coll = document.getElementsByClassName('collapsible');
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener('click', function() {
+    this.classList.toggle('active');
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+    } 
+  });
+}
+
+function update_buttons_width(){
+   var btn_div=document.getElementsByClassName('button-div');
+   var i;
+   for (i=0;i<btn_div.length;i++) {
+      var btns=btn_div[i];
+      var width=btns.clientWidth;
+      var n_btn_line=(width/275.0)|0;
+      if (n_btn_line==0) return;
+      var btn_width=width/n_btn_line;
+      var btn_inner_width=btn_width-5;
+      var btn_all=btns.getElementsByClassName('container-btn');
+      var j
+      for (j=0;j<btn_all.length;j++) {
+         var btn=btn_all[j];
+         btn.style.width=(btn_inner_width|0) + 'px';
+      }
+   }
+}
+window.addEventListener('resize',update_buttons_width);
+update_buttons_width();
+
+var coll = document.getElementsByClassName('collapsible');
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener('click', function() {
+    this.classList.toggle('active');
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+    } 
+  });
+}
 
 function update_buttons_width(){
    var btn_div=document.getElementsByClassName('button-div');

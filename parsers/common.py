@@ -23,7 +23,7 @@ def absolutize_urls(base_url_,b):
 
 import pickle
 #print (resource.getrlimit(resource.RLIMIT_STACK))
-print (sys.getrecursionlimit())
+#print (sys.getrecursionlimit())
 
 max_rec = 20000
 

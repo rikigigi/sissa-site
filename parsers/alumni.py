@@ -1,33 +1,25 @@
-import argparse
+#!/usr/bin/env python3
 
-
-
-
-parser = argparse.ArgumentParser(description='Parse and generate html for alumni section of the site')
-parser.add_argument('--parse-url', help="use http requests to scan sector's sites. If not setted, the pickle file is used", action='store_true')
-parser.add_argument('--pickle-data-file', required=False, type=str, help="name of the pickle file where data to generate html tables is written to / readed from",
-                     default='alumni.pickle', dest='iofile')
-
-
-parser=parser.parse_args()
+if __name__ == "__main__":
+   import argparse
+   parser = argparse.ArgumentParser(description='Parse and generate html for alumni section of the site')
+   parser.add_argument('--parse-url', help="use http requests to scan sector's sites. If not setted, the pickle file is used", action='store_true')
+   parser.add_argument('--pickle-data-file', required=False, type=str, help="name of the pickle file where data to generate html tables is written to / readed from",
+                        default='alumni.pickle', dest='iofile')
+   parser=parser.parse_args()
 
 import urllib.request as URL
 from bs4 import BeautifulSoup
 import re
 import sys
 
-from common import *
+if __name__ == "__main__":
+    from common import *
+else:
+    from .common import *
 
 
 
-#print (resource.getrlimit(resource.RLIMIT_STACK))
-print (sys.getrecursionlimit())
-
-max_rec = 20000
-
-# May segfault without this line. 0x100 is a guess at the size of each stack frame.
-# resource.setrlimit(resource.RLIMIT_STACK, [0x100 * max_rec, resource.RLIM_INFINITY])
-sys.setrecursionlimit(max_rec)
 
 def parse(alumni, url, find_all, elaborate_entry,class_='', **kwargs):
     response=URL.urlopen(url)
@@ -76,7 +68,7 @@ def elaborate_table(url,b,class_,**kwargs):
         return
     return key,res
 
-if parser.parse_url:
+if  __name__ == "__main__" and parser.parse_url:
    alumni={}
    #sp
    parse(alumni, 'https://www.statphys.sissa.it/wordpress/?page_id=4704',
@@ -168,7 +160,7 @@ if parser.parse_url:
    
    with open(parser.iofile, 'wb') as out:
        pickle.dump(alumni, out)
-else:
+elif  __name__ == "__main__":
     #try to open pickle file
     try:
         with open(parser.iofile, 'rb') as inp:
@@ -178,23 +170,25 @@ else:
        raise
 
 #table output
-print('<table><thead><tr><th>Name</th><th>Year</th><th>Supervisor</th><th>Thesis</th><th>Position</th><th>Curriculum</th></tr></thead><tbody>')
-for y in reversed(sorted(list(alumni.keys()))):
-    for n in alumni[y]:
-        print('<tr>')
-        print(n['name'])
-        print('<td class="{}">{}</td>'.format(n['class'],y))
-        print(n['adv'])
-        if 'thesis' in n:
-            print(n['thesis'])
-        else:
-            print('<td></td>')
-        if 'affiliation' in n:
-            print(n['affiliation'])
-        else:
-            print('<td></td>')
-        print('<td class="{}" >{}</td>'.format(n['class'],n['class']))
-        print('</tr>')
-print('</tbody></table>')
+def print_table(alumni,print=print):
+    print('<table><thead><tr><th>Name</th><th>Year</th><th>Supervisor</th><th>Thesis</th><th>Position</th><th>Curriculum</th></tr></thead><tbody>')
+    for y in reversed(sorted(list(alumni.keys()))):
+        for n in alumni[y]:
+            print('<tr>')
+            print(n['name'])
+            print('<td class="{}">{}</td>'.format(n['class'],y))
+            print(n['adv'])
+            if 'thesis' in n:
+                print(n['thesis'])
+            else:
+                print('<td></td>')
+            if 'affiliation' in n:
+                print(n['affiliation'])
+            else:
+                print('<td></td>')
+            print('<td class="{}" >{}</td>'.format(n['class'],n['class']))
+            print('</tr>')
+    print('</tbody></table>')
 
-
+if  __name__ == "__main__":
+    print_table(alumni)

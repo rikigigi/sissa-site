@@ -82,6 +82,9 @@ source content.sh #output in CONTENT_HTML
 source grants_css.sh #add more css for grants section in CSS
 
 
+echo "${CSS}" | sass --scss > out.css
+echo "${JS}" > out.js
+
 cat > out.html << EOF
 <!DOCTYPE html>
 <html>

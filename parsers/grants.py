@@ -1,15 +1,12 @@
-import argparse
+#!/usr/bin/env python3
 
-
-
-
-parser = argparse.ArgumentParser(description='Parse and generate html for alumni section of the site')
-parser.add_argument('--parse-url', help="use http requests to scan sector's sites. If not setted, the pickle file is used", action='store_true')
-parser.add_argument('--pickle-data-file', required=False, type=str, help="name of the pickle file where data to generate html tables is written to / readed from",
-                     default='grants.pickle', dest='iofile')
-
-
-parser=parser.parse_args()
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description='Parse and generate html for alumni section of the site')
+    parser.add_argument('--parse-url', help="use http requests to scan sector's sites. If not setted, the pickle file is used", action='store_true')
+    parser.add_argument('--pickle-data-file', required=False, type=str, help="name of the pickle file where data to generate html tables is written to / readed from",
+                         default='grants.pickle', dest='iofile')
+    parser=parser.parse_args()
 
 
 
@@ -18,7 +15,10 @@ import urllib.request as URL
 from bs4 import BeautifulSoup
 import re
 import sys
-from common import *
+if __name__ == "__main__":
+    from common import *
+else:
+    from .common import *
 
 
 def make_key(y1,y2):
@@ -73,6 +73,14 @@ def massage_content(b, add_class=''):
             d['class']='block'
             b.replace_with(d)
 
+
+def unwrap_stuff(what, grants):
+    for g in grants.values():
+        for items in g:
+            if isinstance(items['content'],str): continue
+            ul=items['content'].find(what)
+            if ul is not None: ul.unwrap()
+
 def parse(grants, url, find_all, elaborate_entry,class_=''):
     response=URL.urlopen(url)
     html=response.read() 
@@ -94,7 +102,7 @@ def parse(grants, url, find_all, elaborate_entry,class_=''):
             title='<a class="grant_title_link {}" href="{}">{}</a>'.format(class_,url,str(title))
             grants.setdefault(key,[]).append({'class':class_,'content':h,'title':title, 'link':link})
 
-if parser.parse_url:
+if __name__ == "__main__" and parser.parse_url:
     grants={}
     
     
@@ -196,7 +204,7 @@ if parser.parse_url:
     with open(parser.iofile, 'wb') as out:
         pickle.dump(grants, out)
 
-else:
+elif __name__ == "__main__":
     #try to open pickle file
     try:
         with open(parser.iofile, 'rb') as inp:
@@ -204,13 +212,16 @@ else:
     except Exception as e:
        print ('error unpickling file "{}"'.format(parser.iofile))
        raise
+    unwrap_stuff('ul',grants)
 
-for k in grants.keys():
-    for e in grants[k]:
-        print ('<div class="grant_m {}"><div class="grant_c">'.format(e['class']+'_outer'))
-        if 'title' in e:
-            print ('<div class="grant_title"><p>{}</p></div>'.format(e['title']))
-        if 'year' in e:
-            print ('<div class="grant_year">{}</div>'.format(e['year']))
-        print ('{}</div><div class="grant_f"></div></div>'.format(e['content']))
-
+def print_table(grants,print=print): 
+    for k in grants.keys():
+        for e in grants[k]:
+            print ('<div class="grant_m {}"><div class="grant_c">'.format(e['class']+'_outer'))
+            if 'title' in e:
+                print ('<div class="grant_title"><p>{}</p></div>'.format(e['title']))
+            if 'year' in e:
+                print ('<div class="grant_year">{}</div>'.format(e['year']))
+            print ('{}</div><div class="grant_f"></div></div>'.format(e['content']))
+if __name__ == "__main__":
+    print_table(grants)
