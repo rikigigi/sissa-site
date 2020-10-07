@@ -1,3 +1,19 @@
+import argparse
+
+
+
+
+parser = argparse.ArgumentParser(description='Parse and generate html for alumni section of the site')
+parser.add_argument('--parse-url', help="use http requests to scan sector's sites. If not setted, the pickle file is used", action='store_true')
+parser.add_argument('--pickle-data-file', required=False, type=str, help="name of the pickle file where data to generate html tables is written to / readed from",
+                     default='grants.pickle', dest='iofile')
+
+
+parser=parser.parse_args()
+
+
+
+
 import urllib.request as URL
 from bs4 import BeautifulSoup
 import re
@@ -78,103 +94,117 @@ def parse(grants, url, find_all, elaborate_entry,class_=''):
             title='<a class="grant_title_link {}" href="{}">{}</a>'.format(class_,url,str(title))
             grants.setdefault(key,[]).append({'class':class_,'content':h,'title':title, 'link':link})
 
-grants={}
-
-
-#statphys
-def elaborate_sp(url,b):
-    res=re.search(r"([0-9]{4}).([0-9]{4})", b.__str__())
-    if res is not None:
-        key=make_key(res.group(1),res.group(2))
-    else:
-        key='?'
-    img=b.find('div',class_='blockimg')
-    img.decompose()
-    title=b.find('div',class_='blockTextTitle')
-    if title is None:
-        return
-    title.extract()
-    return key,b,title, None
-parse(grants,'https://www.statphys.sissa.it/wordpress/?page_id=4912',{'name':'div','class_':'block'},elaborate_sp,class_='sp')
-
-
-#tpp
-def elaborate_tpp(url,b):
-    res=re.search(r"[a-zA-Z]{0,3} *([0-9]{2,4}) */ *[a-zA-Z]{0,3} *([0-9]{2,4})", b.__str__())
-    if res is not None:
-        key=make_key(res.group(1),res.group(2))
-    else:
-        key='?'
-    title=b.find('strong')
-    link=b.find('span')
-    if title is None:
-        return
-    title.extract()
-    link.extract()
-    return key,b,title, link
-parse(grants,'https://www.sissa.it/tpp/research/projects.php',{'name':'tbody'},elaborate_tpp,class_='tpp')
-
-
-#app
-h2_found=False
-def elaborate_app(url,b):
-    global h2_found
-    if b.find_all('h2'):
-        #print('found <h2>: breaking')
-        h2_found=True
-    if h2_found:
-        return
-    title=b.find('strong')
-    if title is None:
-        return
-    title.extract()
-#    if 'LISA' in str(title):
-#        import pdb
-#        pdb.set_trace()
-    link=b.find('a')
-    #check for words that indicate that it is a grant -- are they all grants?
-    res=re.search(r"€|\$|[Gg]grant|ERC|PRINN", b.__str__())
-    if True: # res is not None:
-        return '?',b,title,link
-parse(grants,'https://www.sissa.it/app/research/projects.php',{'name':'tbody'},elaborate_app,class_='app')
-
-
-#cm
-def elaborate_cm(url,b):
-    #check for words that indicate that it is a grant
-    #res=re.search(r"€|\$|[Gg]grant|ERC", b.__str__())
-    #if res is not None:
-    title=b.find('strong')
-    if title is None:
-        return
-    title.extract()
-    link=b.find('a')
-    if link is not None:
+if parser.parse_url:
+    grants={}
+    
+    
+    #statphys
+    def elaborate_sp(url,b):
+        res=re.search(r"([0-9]{4}).([0-9]{4})", b.__str__())
+        if res is not None:
+            key=make_key(res.group(1),res.group(2))
+        else:
+            key='?'
+        img=b.find('div',class_='blockimg')
+        img.decompose()
+        title=b.find('div',class_='blockTextTitle')
+        if title is None:
+            return
+        title.extract()
+        return key,b,title, None
+    parse(grants,'https://www.statphys.sissa.it/wordpress/?page_id=4912',{'name':'div','class_':'block'},elaborate_sp,class_='sp')
+    
+    
+    #tpp
+    def elaborate_tpp(url,b):
+        res=re.search(r"[a-zA-Z]{0,3} *([0-9]{2,4}) */ *[a-zA-Z]{0,3} *([0-9]{2,4})", b.__str__())
+        if res is not None:
+            key=make_key(res.group(1),res.group(2))
+        else:
+            key='?'
+        title=b.find('strong')
+        link=b.find('span')
+        if title is None:
+            return
+        title.extract()
         link.extract()
-    return '?',b,title,link
-parse(grants,'https://www.cm.sissa.it/research/projects',{'name':'tbody'},elaborate_cm,class_='cm')
-
-
-#ap
-ap=r'''ASI-COSMOS (2016/21, posizione RTDa + missioni)                                        --> Baccigalupi
-ASI-LiteBIRD (2020/23, assegnista + missioni)                                                  --> Baccigalupi
-ASI-Euclid (2018/21, missioni)                                                                            --> Baccigalupi
-INFN-INDARK (2020/23, missioni)                                                                     --> Baccigalupi
-EU-H2020-MSCA/ITN "BiD4BEST" (2020/24, studente Ph.D. + missioni)           --> Lapi
-PRIN2017-MIUR (2019/21, assegnista + missioni)                                          --> Lapi/Bressan
-FSE-FVG (2020/22, assegnista)                                                                           --> Lapi/Bressan
-INFN-QGSKY (2020/23, missioni)                                                                      --> Salucci/Valdarnini'''
-for b in ap.splitlines():
-    res=re.search(r"\(([0-9]{2,4}) */ *([0-9]{2,4}) *, *[a-zA-Z \-+]*\)",b
-)
-    bb={'class':'ap','content':r'<div class="block ap"><p>'+b+r'</p></div>'}
-    if res is not None:
-        key=make_key(res.group(1),res.group(2))
-        grants.setdefault(key,[]).append(bb)
-    else:
-        grants.setdefault('?',[]).append(bb)
-
+        return key,b,title, link
+    parse(grants,'https://www.sissa.it/tpp/research/projects.php',{'name':'tbody'},elaborate_tpp,class_='tpp')
+    
+    
+    #app
+    h2_found=False
+    def elaborate_app(url,b):
+        global h2_found
+        if b.find_all('h2'):
+            #print('found <h2>: breaking')
+            h2_found=True
+        if h2_found:
+            return
+        title=b.find('strong')
+        if title is None:
+            return
+        title.extract()
+    #    if 'LISA' in str(title):
+    #        import pdb
+    #        pdb.set_trace()
+        link=b.find('a')
+        #check for words that indicate that it is a grant -- are they all grants?
+        res=re.search(r"€|\$|[Gg]grant|ERC|PRINN", b.__str__())
+        if True: # res is not None:
+            return '?',b,title,link
+    parse(grants,'https://www.sissa.it/app/research/projects.php',{'name':'tbody'},elaborate_app,class_='app')
+    
+    
+    #cm
+    def elaborate_cm(url,b):
+        #check for words that indicate that it is a grant
+        #res=re.search(r"€|\$|[Gg]grant|ERC", b.__str__())
+        #if res is not None:
+        title=b.find('strong')
+        if title is None:
+            return
+        title.extract()
+        link=b.find('a')
+        if link is not None:
+            link.extract()
+        return '?',b,title,link
+    parse(grants,'https://www.cm.sissa.it/research/projects',{'name':'tbody'},elaborate_cm,class_='cm')
+    
+    
+    #ap
+    ap=r'''ASI-COSMOS (2016/21, posizione RTDa + missioni)                                        --> Baccigalupi
+    ASI-LiteBIRD (2020/23, assegnista + missioni)                                                  --> Baccigalupi
+    ASI-Euclid (2018/21, missioni)                                                                            --> Baccigalupi
+    INFN-INDARK (2020/23, missioni)                                                                     --> Baccigalupi
+    EU-H2020-MSCA/ITN "BiD4BEST" (2020/24, studente Ph.D. + missioni)           --> Lapi
+    PRIN2017-MIUR (2019/21, assegnista + missioni)                                          --> Lapi/Bressan
+    FSE-FVG (2020/22, assegnista)                                                                           --> Lapi/Bressan
+    INFN-QGSKY (2020/23, missioni)                                                                      --> Salucci/Valdarnini'''
+    for b in ap.splitlines():
+        res=re.search(r"\(([0-9]{2,4}) */ *([0-9]{2,4}) *, *[a-zA-Z \-+]*\)",b
+    )
+        bb={'class':'ap','content':r'<div class="block ap"><p>'+b+r'</p></div>'}
+        if res is not None:
+            key=make_key(res.group(1),res.group(2))
+            grants.setdefault(key,[]).append(bb)
+        else:
+            grants.setdefault('?',[]).append(bb) 
 #sbp: ??
+
+#save pickle
+    with open(parser.iofile, 'wb') as out:
+        pickle.dump(grants, out)
+
+else:
+    #try to open pickle file
+    try:
+        with open(parser.iofile, 'rb') as inp:
+            grants = pickle.load(inp)
+    except Exception as e:
+       print ('error unpickling file "{}"'.format(parser.iofile))
+       raise
+
 for k in grants.keys():
     for e in grants[k]:
         print ('<div class="grant_m {}"><div class="grant_c">'.format(e['class']+'_outer'))
