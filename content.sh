@@ -97,7 +97,7 @@ a.grant_title_link {
 }
 "
 
-JS="
+JS="${JS}
 var coll = document.getElementsByClassName('collapsible');
 var i;
 

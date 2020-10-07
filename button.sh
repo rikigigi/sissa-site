@@ -25,7 +25,7 @@ CSS="${CSS}
   text-align: center;
   justify-content: center;
   margin: 0;
-  /*min-height: 10vh;*/
+  min-height: 10vh;
   background: \$bg;
 }
 
@@ -122,3 +122,25 @@ CONTENT_BUTTONS="${CONTENT_BUTTONS}
 <span class=\"clear\"></span></div>
 "
 
+JS="${JS}
+function update_buttons_width(){
+   var btn_div=document.getElementsByClassName('button-div');
+   var i;
+   for (i=0;i<btn_div.length;i++) {
+      var btns=btn_div[i];
+      var width=btns.clientWidth;
+      var n_btn_line=(width/275.0)|0;
+      if (n_btn_line==0) return;
+      var btn_width=width/n_btn_line;
+      var btn_inner_width=btn_width-5;
+      var btn_all=btns.getElementsByClassName('container-btn');
+      var j
+      for (j=0;j<btn_all.length;j++) {
+         var btn=btn_all[j];
+         btn.style.width=(btn_inner_width|0) + 'px';
+      }
+   }
+}
+window.addEventListener('resize',update_buttons_width);
+update_buttons_width();
+"
