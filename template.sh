@@ -18,7 +18,7 @@ BUTTON_TXT=(
 "Condensed Matter"
 "Biological Systems"
 "Statistical Physics"
-"Teoretical Particle"
+"Theoretical Particle"
 )
 BUTTON_IMG=(
 "img/bannerAPP_2.png"
