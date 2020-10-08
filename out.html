@@ -144,7 +144,7 @@ div .ap {
   height: 75px; }
 
 .grant_c {
-  height: 150px;
+  /*height: $grant_height;*/
   overflow: hidden; }
 
 .grant_title {
@@ -7422,6 +7422,29 @@ for (i = 0; i < coll.length; i++) {
 }
 }
 document.addEventListener('DOMContentLoaded', collapsible);
+
+
+function grant_layout(){
+  var coll = document.getElementsByClassName('grant_m');
+  var i;
+  for (i=0;i<coll.length;i++) {
+    all=coll[i];
+    content=all.getElementsByClassName('grant_c')[0]
+    hider=all.getElementsByClassName('grant_f')[0]
+    if (content.scrollHeight < 150 ) {
+       all.style.height = content.scrollHeight + 'px';
+       hider.style.display = 'none';
+    } else {
+       content.style.height = '150px';
+    }
+
+  }
+}
+
+document.addEventListener('DOMContentLoaded', grant_layout);
+
+
+
 
 </script>
 

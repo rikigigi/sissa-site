@@ -82,7 +82,7 @@ background: linear-gradient(0deg, \$content_bkg, transparent);
 height: \$grad_height;
 }
 .grant_c{
-height: \$grant_height;
+/*height: \$grant_height;*/
 overflow: hidden;
 }
 .grant_title{
@@ -116,5 +116,29 @@ for (i = 0; i < coll.length; i++) {
 }
 }
 document.addEventListener('DOMContentLoaded', collapsible);
+
+
+function grant_layout(){
+  var coll = document.getElementsByClassName('grant_m');
+  var i;
+  for (i=0;i<coll.length;i++) {
+    all=coll[i];
+    content=all.getElementsByClassName('grant_c')[0]
+    hider=all.getElementsByClassName('grant_f')[0]
+    if (content.scrollHeight < 150 ) {
+       all.style.height = content.scrollHeight + 'px';
+       hider.style.display = 'none';
+    } else {
+       content.style.height = '150px';
+    }
+
+  }
+}
+
+document.addEventListener('DOMContentLoaded', grant_layout);
+
+
+
 "
+
 

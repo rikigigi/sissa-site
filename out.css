@@ -138,7 +138,7 @@ div .ap {
   height: 75px; }
 
 .grant_c {
-  height: 150px;
+  /*height: $grant_height;*/
   overflow: hidden; }
 
 .grant_title {
