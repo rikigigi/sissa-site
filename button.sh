@@ -62,7 +62,7 @@ CSS="${CSS}
   }
 }
   .container-btn {
-  /*float: left;*/
+  float: left;
   display: inline-block;
   /*
     grid-area: main;

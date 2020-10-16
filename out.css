@@ -48,7 +48,7 @@
       /*letter-spacing: 0.125rem;*/ }
 
 .container-btn {
-  /*float: left;*/
+  float: left;
   display: inline-block;
   /*
     grid-area: main;
@@ -96,7 +96,7 @@ span.clear {
   background-color: rgba(101, 128, 180, 0.75); }
 
 .content {
-  width: 100%;
+  /*width: 100%;*/
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
