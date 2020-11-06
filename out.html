@@ -7508,13 +7508,13 @@ function update_buttons_width(){
       var width=btns.clientWidth;
       var n_btn_line=(width/275.0)|0;
       if (n_btn_line==0) return;
-      var btn_width=width/n_btn_line;
-      var btn_inner_width=btn_width-5;
+      var btn_width=100.0/n_btn_line;
+      var btn_inner_width=btn_width-0.1;
       var btn_all=btns.getElementsByClassName('container-btn');
       var j
       for (j=0;j<btn_all.length;j++) {
          var btn=btn_all[j];
-         btn.style.width=(btn_inner_width|0) + 'px';
+         btn.style.width=btn_inner_width + '%';
       }
    }
 }
