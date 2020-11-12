@@ -19,7 +19,7 @@ BUTTON_TXT=(
 "Biological Systems"
 "Statistical Physics"
 "Theoretical Particle"
-"Data Science"
+"Data Science Excellence Department Initiative"
 )
 BUTTON_IMG=(
 "img/bannerAPP_2.png"

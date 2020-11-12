@@ -70,8 +70,8 @@ CSS="${CSS}
     justify-self: center;*/
   }
 .container-btn2 {
-  height: 10ch;
-  width: 30ch;
+  height: 11ch;
+  /*width: 30ch;*/
   text-align: center;
   display: table;
 }
