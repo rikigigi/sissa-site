@@ -134,10 +134,20 @@ function update_buttons_width(){
       var btn_width=100.0/n_btn_line;
       var btn_inner_width=btn_width-0.1;
       var btn_all=btns.getElementsByClassName('container-btn');
+      var n_btn_last_line = btn_all.length % n_btn_line;
+      if (n_btn_last_line == 0) {
+          n_btn_last_line=n_btn_line;
+      }
+      var btn_width_last=100.0/n_btn_last_line;
+      var btn_inner_width_last=btn_width_last-0.1;
       var j
       for (j=0;j<btn_all.length;j++) {
          var btn=btn_all[j];
-         btn.style.width=btn_inner_width + '%';
+	 if (btn_all.length-j <= n_btn_last_line){
+             btn.style.width=btn_inner_width_last + '%';
+	 } else {
+             btn.style.width=btn_inner_width + '%';
+         }
       }
    }
 }

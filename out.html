@@ -189,12 +189,16 @@ a.grant_title_link {
 <div class='inside-btn'><a class='area-button-a' href='http://www.sissa.it/tpp/index.php' target='_blank' ><button class="area-button" >Theoretical Particle</button></a>
 </div></div></div>
 
+
+<div class="container-btn" style="background: url('img/datascience.png') no-repeat center center;background-size: cover;"><div class='container-btn2'> 
+<div class='inside-btn'><a class='area-button-a' href='https://www.sissa.it/dipartimento-di-eccellenza' target='_blank' ><button class="area-button" >Data Science</button></a>
+</div></div></div>
+
 <span class="clear"></span></div>
 
 
 <button class='collapsible'>General info</button>
 <div class='content'>
-<p><strong><a href="https://www.sissa.it/dipartimento-di-eccellenza" target="_blank">Data Science Excellence Department Initiative (DS)</a></strong></p>
 <p><strong><a href="https://www.sissa.it/physics-teaching-offer" target="_blank">Teaching Offer</a></strong><br>
 <strong><a href="https://www.sissa.it/scientific-secretariat" target="_blank">Scientific Secretariat</a></strong></p>
 <p> 42 faculty members, 41 postdocs, 20 researchers, 131 PhD students, and infinite interacting possibilities</p>
@@ -7511,10 +7515,20 @@ function update_buttons_width(){
       var btn_width=100.0/n_btn_line;
       var btn_inner_width=btn_width-0.1;
       var btn_all=btns.getElementsByClassName('container-btn');
+      var n_btn_last_line = btn_all.length % n_btn_line;
+      if (n_btn_last_line == 0) {
+          n_btn_last_line=n_btn_line;
+      }
+      var btn_width_last=100.0/n_btn_last_line;
+      var btn_inner_width_last=btn_width_last-0.1;
       var j
       for (j=0;j<btn_all.length;j++) {
          var btn=btn_all[j];
-         btn.style.width=btn_inner_width + '%';
+	 if (btn_all.length-j <= n_btn_last_line){
+             btn.style.width=btn_inner_width_last + '%';
+	 } else {
+             btn.style.width=btn_inner_width + '%';
+         }
       }
    }
 }

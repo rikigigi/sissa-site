@@ -19,6 +19,7 @@ BUTTON_TXT=(
 "Biological Systems"
 "Statistical Physics"
 "Theoretical Particle"
+"Data Science"
 )
 BUTTON_IMG=(
 "img/bannerAPP_2.png"
@@ -27,8 +28,10 @@ BUTTON_IMG=(
 "img/logo_SBP.jpg"
 "img/cropped-cropped-bannerOfficial3.png"
 "img/cloudchamber.png"
+"img/datascience.png"
 )
 BUTTON_IMG_POS=(
+"center center"
 "center center"
 "center center"
 "center center"
@@ -45,6 +48,7 @@ BUTTON_LINKS=(
 "https://www.sissa.it/sbp/"
 "http://www.statphys.sissa.it/wordpress/"
 "http://www.sissa.it/tpp/index.php"
+"https://www.sissa.it/dipartimento-di-eccellenza"
 )
 
 
