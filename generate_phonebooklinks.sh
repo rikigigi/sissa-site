@@ -8,14 +8,12 @@ function link() {
 
 LIST=( 
 
-
- "Kevin Wolz (APC)"
- "Alessandro Granelli (APP)"
- "Nicola Calonaci (SBP)"
- "Alessandro Galvani (FS)"
- "Fabio Caleffi (CM)"
- "Saman Soltani (TPP)"
- "Sophie Renner (PR)"
+  "Alessandro Silva (CM)"
+  "Marco Serone (TPP)"
+  "Annalisa Celotti ()"
+  "Sergio Cecotti ()"
+  "Cristian Micheletti ()" 
+  "Roberto Trotta ()"
   )
 
 for name_ in "${LIST[@]}"
