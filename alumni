@@ -1,5 +1,536 @@
 <table><thead><tr><th>Name</th><th>Year</th><th>Supervisor</th><th>Thesis</th><th>Position</th><th>Curriculum</th></tr></thead><tbody>
 <tr>
+<td class="sp">Xhek Turkeshi</td>
+<td class="sp">2021</td>
+<td class="sp">Marcello Dalmonte</td>
+<td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/124591">Entanglement, correlations and data-structure in many-body quantum systems</a></td>
+<td class="sp">Postdoc at JEIP CNRS, Paris, France</td>
+<td class="sp" >sp</td>
+</tr>
+<tr>
+<td class="sp">Giuseppe Di Giulio</td>
+<td class="sp">2021</td>
+<td class="sp">Erik Tonni</td>
+<td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/124589#.YanZHtDMLic">Circuit complexity and entanglement in many-body quantum systems</a></td>
+<td class="sp">Postdoc at University of Würzburg, Germany</td>
+<td class="sp" >sp</td>
+</tr>
+<tr>
+<td class="sp">Vanja Maric</td>
+<td class="sp">2021</td>
+<td class="sp">Fabio Franchini</td>
+<td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/124978#.YanYcNDMLic">Topologically Frustrated Quantum Spin Chains</a></td>
+<td class="sp">Postdoc at Paris-Saclay University in the lab LPTMS (Orsay, France)</td>
+<td class="sp" >sp</td>
+</tr>
+<tr>
+<td class="sp">Riccarda Bonsignori</td>
+<td class="sp">2021</td>
+<td class="sp">Pasquale Calabrese</td>
+<td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/124976#.YanWmdDMLic">Symmetry Resolution of Entanglement Measures in Free Fermionic Systems and Conformal Field Theories</a></td>
+<td class="sp">Postdoc at Ruder Boskovič Institute of Zagreb, Croatia</td>
+<td class="sp" >sp</td>
+</tr>
+<tr>
+<td class="ap">
+        Lara Pantoni 
+      </td>
+<td class="ap">2021</td>
+<td class="ap">
+        A. Lapi, M. Massardi      </td>
+<td class="ap">
+        High-redshift Dusty Star Forming
+Galaxies: a panchromatic approach to
+constrain massive galaxy evolution      </td>
+<td class="ap"> 
+      CEA Saclay, France      </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="ap">
+        Lumen Boco 
+      </td>
+<td class="ap">2021</td>
+<td class="ap">
+        A. Lapi, C. Baccigalupi      </td>
+<td class="ap">
+        Gravitational waves throughout
+galaxy evolution: stellar BH
+mergers and heavy SMBH seeds      </td>
+<td class="ap"> 
+      SISSA Trieste, Italy      </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="ap">
+        Gauri Sharma 
+      </td>
+<td class="ap">2021</td>
+<td class="ap">
+        P. Salucci      </td>
+<td class="ap">
+        Nature of Dark Matter from Astrophysics of
+High Redshift Star-forming Galaxies      </td>
+<td class="ap"> 
+      N/A      </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="ap">
+        Samuele Campitiello 
+      </td>
+<td class="ap">2021</td>
+<td class="ap">
+        A. Celotti, G. Ghisellini      </td>
+<td class="ap">
+        Relativistic accretion disk models
+for Active Galactic Nuclei:
+mass and spin of Supermassive black holes      </td>
+<td class="ap"> 
+      N/A      </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="ap">
+        Hasti Khoraminezhad 
+      </td>
+<td class="ap">2021</td>
+<td class="ap">
+        C. Baccigalupi, M. Viel      </td>
+<td class="ap">
+        New avenues for investigating
+the Large-Scale Structure of our Universe      </td>
+<td class="ap"> 
+      Univ. Missouri, USA      </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="app">
+        Alexandru  Dima       </td>
+<td class="app">2021</td>
+<td class="app">
+        E. Barausse      </td>
+<td class="app">
+        Testing the gravitational phenomenology of compact objects: superradiance, scalarization and
+screening mechanisms      </td>
+<td class="app">
+        postdoc at Urbana Champaign Univ. (United States)      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="app">
+        Pavel Novichkov      </td>
+<td class="app">2021</td>
+<td class="app">
+        S. Petcov      </td>
+<td class="app">
+        Aspects of the Modular Symmetry Approach to Lepton Flavour      </td>
+<td class="app">
+        postdoc at CEA - Saclay (France)      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="app">
+        Vicharit  Yingcharoen      </td>
+<td class="app">2021</td>
+<td class="app">
+        P. Creminelli      </td>
+<td class="app">
+        Beyond Perturbation Theory in Cosmology      </td>
+<td class="app">
+        postdoc at Kavli IPMU Tokyo (Japan)      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="app">
+         Jan Tristram  Acuna      </td>
+<td class="app">2021</td>
+<td class="app">
+        P. Ullio      </td>
+<td class="app">
+        Complementary probes of the nature of dark matter      </td>
+<td class="app">
+        postdoc at Nanjing Normal Univ (China)      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="sp">Gabriele Perfetto</td>
+<td class="sp">2020</td>
+<td class="sp">Andrea Gambassi</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/114649">Non-equilibrium fluctuations and dynamics in isolated quantum many-body systems</a></td>
+<td class="sp">Postdoc at University of Tübingen, Germany</td>
+<td class="sp" >sp</td>
+</tr>
+<tr>
+<td class="sp">Noel Lamsen</td>
+<td class="sp">2020</td>
+<td class="sp">Gesualdo Delfino</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/114629">Exact results for critical systems with and without quenched disorder</a></td>
+<td class="sp">Postdoc at IIP, Natal, Brazil</td>
+<td class="sp" >sp</td>
+</tr>
+<tr>
+<td class="sp">Giuliano Giudici</td>
+<td class="sp">2020</td>
+<td class="sp">Marcello Dalmonte</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/114623">Entanglement and constrained dynamics in strongly correlated systems</a></td>
+<td class="sp">Postdoc at IQOQI, Innsbruck, Austria</td>
+<td class="sp" >sp</td>
+</tr>
+<tr>
+<td class="sp">Tommaso Parolini</td>
+<td class="sp">2020</td>
+<td class="sp">Antonello Scardicchio</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/114627">Non-ergodic phenomena in many-body quantum systems</a></td>
+<td class="sp">Quant strategist at TickUp AB</td>
+<td class="sp" >sp</td>
+</tr>
+<tr>
+<td class="sp">Andrea Colcelli</td>
+<td class="sp">2020</td>
+<td class="sp">Andrea Trombettoni, Giuseppe Mussardo</td>
+<td class="sp"><a href="http://hdl.handle.net/20.500.11767/114625">Scaling properties and Floquet engineering for low dimensional Bose gases</a></td>
+<td class="sp">Consultant at SDG Group</td>
+<td class="sp" >sp</td>
+</tr>
+<tr>
+<td class="ap">
+        Gabriele Parimbelli 
+      </td>
+<td class="ap">2020</td>
+<td class="ap">
+        M. Viel      </td>
+<td class="ap">
+        The impact of cosmological neutrinos on large-scale structure observables      </td>
+<td class="ap"> 
+      INAF-OATS      </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="ap">
+        Tommaso Ronconi 
+      </td>
+<td class="ap">2020</td>
+<td class="ap">
+        A. Lapi, M. Viel      </td>
+<td class="ap">
+        From cosmic voids to collapsed structures: HPC methods for Astrophysics and Cosmology	      </td>
+<td class="ap"> 
+      SISSA      </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="ap">
+        Paolo Campeti 
+      </td>
+<td class="ap">2020</td>
+<td class="ap">
+        C. Baccigalupi, D. Poletti      </td>
+<td class="ap">
+        Towards Precision Measurements of the Primordial Power Spectrum of Gravitational Waves: Combining B-mode Cosmic Microwave Background and Direct Gravitational Waves Observations      </td>
+<td class="ap"> 
+            </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="ap">
+        Farida Farsian 
+      </td>
+<td class="ap">2020</td>
+<td class="ap">
+        N. Krachmalnicoff
+<br/>C. Baccigalupi      </td>
+<td class="ap">
+        Foreground Challenge to CMB Polarization: Present Methodologies and New Concepts      </td>
+<td class="ap"> 
+      Univ. Bologna      </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="ap">
+        Sabyasachi Goswami 
+      </td>
+<td class="ap">2020</td>
+<td class="ap">
+        A. Bressan, A. Lapi, L. Silva      </td>
+<td class="ap">
+        On the eects of the Initial Mass Function on galactic chemical enrichment: the role of Pair Instability Supernovae      </td>
+<td class="ap"> 
+            </td>
+<td class="ap" >ap</td>
+</tr>
+<tr>
+<td class="cm">
+				Mattia Angeli
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Michele Fabrizio		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/mangeli"> Emergent phenomena in twisted Van der Waals materials</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Karla Baumann
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Massimo Capone		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/kbaumann"> Mott transition, topology, and magnetism
+of interacting fermions in confined geometries</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Lorenzo Crippa
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Massimo Capone
+<br/>Adriano Amaricci		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/lcrippa"> Local and non-local correlations in Topological Insulators and Weyl Semimetals</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Matteo Ferri
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Simone Piccinin
+<br/>Stefano Fabris
+<br/>Stefano De Gironcoli		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/mferri"> Ab-initio Characterization of a Novel Photocathode for Water Splitting: Bulk and Surface Properties of CuFeO2</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Claudio Genovese
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Sandro Sorella		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/cgenoves"> Geminal Power in QMC</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Jacopo Marcheselli
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Stefano Baroni
+<br/>Marco Garavelli
+<br/>Stefano Corni		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/jmarches"> Simulating Plasmon Enhancement of Optical Properties in Hybrid Metal-Organic Nanoparticles</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Silvia Pappalardi
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Rosario Fazio
+<br/>Alessandro Silva		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/spappala"> Entanglement dynamics and chaos in long-range quantum systems</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Giulia Piccitto
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Alessandro Silva		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/gpiccitto"> Cluster mean-field dynamics of the long-range interacting Ising chain</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Yusuf Shaidu
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Stefano De Gironcoli		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/yshaidu"> Interatomic Potential for Li-C Systems from Cluster Expansion to Artificial Neural Network Techniques</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Andrea Urru
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Andrea Dal Corso		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/aurru"> Lattice dynamics with Fully Relativistic Pseudopotentials for magnetic systems, with selected applications</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="cm">
+				Matteo Wauters
+		      </td>
+<td class="cm">2020</td>
+<td class="cm">
+				Giuseppe Santoro		      </td>
+<td class="cm">
+				<a href="https://www.cm.sissa.it/thesis/2020/mwauters"> Adiabatic approaches to non-equilibrium systems: Topology, Optimization, and Learning</a>
+			  </td>
+<td></td>
+<td class="cm" >cm</td>
+</tr>
+<tr>
+<td class="app">
+        Dimitar Ivanov      </td>
+<td class="app">2020</td>
+<td class="app">
+        S. Liberati, M. Viel      </td>
+<td class="app">
+        Testing deviations from LCDM model with electromagnetic and gravitational waves      </td>
+<td class="app">
+        working for private company Data Science      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="app">
+        Andrea  Oddo      </td>
+<td class="app">2020</td>
+<td class="app">
+        E. Sefusatti      </td>
+<td class="app">
+        Toward a complete cosmological analysis of galaxy clustering measurements from spectroscopic redshift surveys      </td>
+<td class="app">
+        outreach activities - SISSA Medialab      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="app">
+        Giovanni Tambalo      </td>
+<td class="app">2020</td>
+<td class="app">
+        P. Creminelli      </td>
+<td class="app">
+        Gravitational wave decay: implications for cosmological scalar-tensor theories      </td>
+<td class="app">
+        postdoctoral researcher at Max Planck Institute for Gravitational physics      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="app">
+        Alessandro Morandini      </td>
+<td class="app">2020</td>
+<td class="app">
+        A. De Simone      </td>
+<td class="app">
+        Tackling the dark matter problem: a phenomenologist's perspective      </td>
+<td class="app">
+        postdoctoral researcher in Aachen University      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="app">
+        Francesco Di Filippo      </td>
+<td class="app">2020</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        Beyond General Relativity: modified theories and non-singular Black Holes      </td>
+<td class="app">
+        Postdoctoral Researcher presso Yukawa Institute for Theoretical Physics.      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="app">
+        Giovanni Tricella      </td>
+<td class="app">2020</td>
+<td class="app">
+        S. Liberati      </td>
+<td class="app">
+        Analogue gravity: between analogy and emergence      </td>
+<td class="app">
+        private company      </td>
+<td class="app" >app</td>
+</tr>
+<tr>
+<td class="tpp">
+        Fabrizio Del Monte
+      </td>
+<td class="tpp">2020</td>
+<td class="tpp">
+        G.Bonelli, A. Tanzini      </td>
+<td class="tpp">
+        Supersymmetric Field Theories and Isomonodromic Deformations      </td>
+<td class="tpp">
+        Postdoc at Centre de recherches mathematiques (CRM) Monteal      </td>
+<td class="tpp" >tpp</td>
+</tr>
+<tr>
+<td class="sbp">
+            Nicola Calonaci          </td>
+<td class="sbp">2020</td>
+<td class="sbp">G. Bussi</td>
+<td class="sbp">Computational investigations of structure probing experiments for RNA structure prediction </td>
+<td class="sbp"> Insegnante scuola superiore</td>
+<td class="sbp" >sbp</td>
+</tr>
+<tr>
+<td class="sbp">
+            Giulia Amici          </td>
+<td class="sbp">2020</td>
+<td class="sbp">C. Micheletti</td>
+<td class="sbp">Statics and dynamics of physical linking: from confined polymers to chromatin filaments </td>
+<td class="sbp"> Postdoc presso l'�cole normale sup�rieure di Parigi, Francia</td>
+<td class="sbp" >sbp</td>
+</tr>
+<tr>
+<td class="sbp">
+            Elena Tea Russo          </td>
+<td class="sbp">2020</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">Unsupervised protein family classification by Density Peak clustering </td>
+<td class="sbp"> Insegnante scuola superiore e co.co.co presso la SISSA</td>
+<td class="sbp" >sbp</td>
+</tr>
+<tr>
+<td class="sbp">
+            Giulia Sormani          </td>
+<td class="sbp">2020</td>
+<td class="sbp">A. Laio</td>
+<td class="sbp">An unsupervised approach to the analysis of free energy landscapes and to protein design </td>
+<td class="sbp"> Postdoc presso ICTP, Trieste</td>
+<td class="sbp" >sbp</td>
+</tr>
+<tr>
 <td class="sp">Paola Ruggiero</td>
 <td class="sp">2019</td>
 <td class="sp">Pasquale Calabrese</td>
@@ -10,7 +541,8 @@
 <tr>
 <td class="sp">Riccardo Ben Alì Zinati</td>
 <td class="sp">2019</td>
-<td class="sp">Andrea Gambassi,<br/>Alessandro Codello</td>
+<td class="sp">Andrea Gambassi,<br/>
+Alessandro Codello</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/103476">Universality: from discrete symmetry models to active matter systems</a></td>
 <td class="sp">Postdoc at Sorbonne Université, Paris, France</td>
 <td class="sp" >sp</td>
@@ -36,14 +568,13 @@
 <td class="sp">2019</td>
 <td class="sp">Andrea Gambassi</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/103452">Non-equilibrium dynamics in one-dimensional constrained quantum statistical systems</a></td>
-<td class="sp">Postdoc at University of Tübingen, Germany</td>
+<td class="sp">Data scientist at Rachael-SWG, Trieste</td>
 <td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Alessio Lerose</td>
 <td class="sp">2019</td>
-<td class="sp">Andrea Gambassi, <br/>
-Alessandro Silva</td>
+<td class="sp">Andrea Gambassi,Alessandro Silva</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/103470">Nonequilibrium phenomena in quantum many-body systems with long-range interactions</a></td>
 <td class="sp">Postdoc at University of Geneva, Switzerland</td>
 <td class="sp" >sp</td>
@@ -332,6 +863,15 @@ and low energy colliders      </td>
 <td class="tpp" >tpp</td>
 </tr>
 <tr>
+<td class="sbp">
+            Francesca Cuturello          </td>
+<td class="sbp">2019</td>
+<td class="sbp">G. Bussi</td>
+<td class="sbp">Covariance models for RNA structure prediction </td>
+<td class="sbp"> post-doc, area science park, Trieste</td>
+<td class="sbp" >sbp</td>
+</tr>
+<tr>
 <td class="sp">Alberto Pezzotta</td>
 <td class="sp">2018</td>
 <td class="sp">Antonio Celani</td>
@@ -342,7 +882,8 @@ and low energy colliders      </td>
 <tr>
 <td class="sp">Ryan Cubero</td>
 <td class="sp">2018</td>
-<td class="sp"> Matteo Marsili,<br/> Roudi Yasser</td>
+<td class="sp">Matteo Marsili,<br/>
+Roudi Yasser</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/90676">Statistical mechanics of samples, efficient representations and criticality</a></td>
 <td class="sp">Postdoc at Kavli Institute for Systems Neuroscience, Trondheim, Norway</td>
 <td class="sp" >sp</td>
@@ -350,15 +891,17 @@ and low energy colliders      </td>
 <tr>
 <td class="sp">Alvise Bastianello</td>
 <td class="sp">2018</td>
-<td class="sp">Giuseppe Mussardo,<br/>Andrea De Luca</td>
+<td class="sp">Giuseppe Mussardo,<br/>
+Andrea De Luca</td>
 <td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/83616">Aspects of quantum integrability: non-equilibrium dynamics, defects and hydrodynamics</a></td>
-<td class="sp">Postdoc at University of Amsterdam, Netherlands</td>
+<td class="sp">Potsdoc a TUM, Munich, Germany</td>
 <td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Estelle Inack</td>
 <td class="sp">2018</td>
-<td class="sp">Giuseppe Santoro,<br/>Sebastiano Pilati</td>
+<td class="sp">Giuseppe Santoro,<br/>
+Sebastiano Pilati</td>
 <td class="sp"><a href="https://iris.sissa.it/handle/20.500.11767/83714">Simulating quantum annealing via projective quantum Monte Carlo algorithms</a></td>
 <td class="sp">Postdoc at Perimeter Institute, Waterloo, Canada</td>
 <td class="sp" >sp</td>
@@ -729,13 +1272,14 @@ on Native Membranes </td>
 <td class="sbp">2018</td>
 <td class="sbp">A. Celani</td>
 <td class="sbp">Search, navigation and foraging: an optimal decision-making perspective </td>
-<td class="sbp">?</td>
+<td class="sbp"> Insegnante scuola superiore</td>
 <td class="sbp" >sbp</td>
 </tr>
 <tr>
 <td class="sp">João Pinto Barros</td>
 <td class="sp">2017</td>
-<td class="sp">Andrea Trombettoni,<br/>Marcello Dalmonte</td>
+<td class="sp">Andrea Trombettoni,<br/>
+Marcello Dalmonte</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/57731">Field and Gauge Theories with Ultracold Gauge Potentials and Fields</a></td>
 <td class="sp">Postdoc at University of Bern, Switzerland</td>
 <td class="sp" >sp</td>
@@ -1051,9 +1595,10 @@ Heterogeneous Dynamics </td>
 <tr>
 <td class="sp">Valentina Ros</td>
 <td class="sp">2016</td>
-<td class="sp">Markus Müller,<br/>Antonello Scardicchio</td>
+<td class="sp">Markus Müller,<br/>
+Antonello Scardicchio</td>
 <td class="sp"><a href="https://hdl.handle.net/20.500.11767/4906">Aspects of localization in disordered many-body quantum systems</a></td>
-<td class="sp">Postdoc at ENS, Paris, France</td>
+<td class="sp">Permanent researcher at CNRS, University of Paris Sud, France</td>
 <td class="sp" >sp</td>
 </tr>
 <tr>
@@ -1384,13 +1929,14 @@ xtfu[at]sissa.it      </td>
 <td class="sp">2015</td>
 <td class="sp">Antonello Scardicchio</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4911">Investigating localization transitions with the forward approximation</a></td>
-<td class="sp">Postdoc at LPT Toulouse, France</td>
+<td class="sp">Marie Curie fellow at Trinity College, Dublin, Eire</td>
 <td class="sp" >sp</td>
 </tr>
 <tr>
 <td class="sp">Mauro Schiulaz</td>
 <td class="sp">2015</td>
-<td class="sp">Alessandro Silva<br/>Markus Müller</td>
+<td class="sp">Alessandro Silva<br/>
+Markus Müller</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4908">Ideal quantum glass transition: many-body localization without quenched disorder?</a></td>
 <td class="sp">Assistant Editor for PRX at the APS, New York, USA</td>
 <td class="sp" >sp</td>
@@ -1695,10 +2241,10 @@ hyperscaling violating backgrounds      </td>
 <tr>
 <td class="sp">Pierangelo Lombardo</td>
 <td class="sp">2014</td>
-<td class="sp">Andrea Gambassi<br/>Luca Dall’Asta</td>
+<td class="sp">Andrea Gambassi<br/>
+Luca Dall’Asta</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/wordpress/ http:/hdl.handle.net/20.500.11767/3864">Fluctuations effects in population genetics and in protein translation</a></td>
-<td class="sp">Data Scientist at aizoOn Technology Consulting, Turin, Italy
-</td>
+<td class="sp">Data Scientist at aizoOn Technology Consulting, Turin, Italy</td>
 <td class="sp" >sp</td>
 </tr>
 <tr>
@@ -1999,7 +2545,9 @@ hyperscaling violating backgrounds      </td>
 <tr>
 <td class="sp">Marco Beria</td>
 <td class="sp">2013</td>
-<td class="sp">Mussardo Giuseppe,<br/>Robert M. Konik<br/>Markus Müller</td>
+<td class="sp">Mussardo Giuseppe,<br/>
+Robert M. Konik<br/>
+Markus Müller</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4798">Numerical methods for quantum systems with infinite-dimensional space of states: two examples, two approaches</a></td>
 <td class="sp">Global Data Scientist at Allianz, Munich, Germany</td>
 <td class="sp" >sp</td>
@@ -2023,7 +2571,7 @@ hyperscaling violating backgrounds      </td>
 <tr>
 <td class="sp">Matteo Marcuzzi</td>
 <td class="sp">2013</td>
-<td class="sp"> Andrea Gambassi</td>
+<td class="sp">Andrea Gambassi</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4805">A study on non-equilibrium dynamics in classical and quantum systems</a></td>
 <td class="sp">Research Fellow at The University of Nottingham, UK</td>
 <td class="sp" >sp</td>
@@ -2031,7 +2579,7 @@ hyperscaling violating backgrounds      </td>
 <tr>
 <td class="sp">Jamir Marino</td>
 <td class="sp">2013</td>
-<td class="sp"> Alessandro Silva</td>
+<td class="sp">Alessandro Silva</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4109">Pre-Thermalization in Quantum Spin Chains</a></td>
 <td class="sp">Junior Professor at Mainz University,Germany</td>
 <td class="sp" >sp</td>
@@ -2323,7 +2871,8 @@ Rare Events </td>
 <tr>
 <td class="sp">Francesco Mancarella</td>
 <td class="sp">2012</td>
-<td class="sp">Giuseppe Mussardo,<br/>Andrea Trombettoni</td>
+<td class="sp">Giuseppe Mussardo,<br/>
+Andrea Trombettoni</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd1/thesis_mancarella.pdf">Some Aspects of Anyon Thermodynamics and Chern–Simons Theory</a></td>
 <td class="sp">Senior Analyst at Danske Bank Corporates and Institutions, Denmark</td>
 <td class="sp" >sp</td>
@@ -2331,7 +2880,7 @@ Rare Events </td>
 <tr>
 <td class="sp">Iacopo Mastromatteo</td>
 <td class="sp">2012</td>
-<td class="sp"> Matteo Marsil</td>
+<td class="sp">Matteo Marsil</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd1/thesis_mastromatteo.pdf">On the typical properties of inverse problems in statistical mechanics</a></td>
 <td class="sp">Associated Researcher at CFM, France</td>
 <td class="sp" >sp</td>
@@ -2349,7 +2898,7 @@ Rare Events </td>
 <td class="sp">2012</td>
 <td class="sp">Markus Müller</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4785">Superfluidity and localization in Bosonic glasses</a></td>
-<td class="sp">Postdoc at University of Otago, New Zealand</td>
+<td class="sp">Assistant Professor, Graduate School of China Academy of Engineering Physics, Beijing, China</td>
 <td class="sp" >sp</td>
 </tr>
 <tr>
@@ -2676,7 +3225,8 @@ Rare Events </td>
 <tr>
 <td class="sp">Laura Foini</td>
 <td class="sp">2011</td>
-<td class="sp">Francesco Zamponi, <br/>Andrea Gambassi</td>
+<td class="sp">Francesco Zamponi,<br/>
+Andrea Gambassi</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd1/thesis_foini.pdf">Quantum optimization problems and glassy systems</a></td>
 <td class="sp">Permanent researcher at CNRS, IPhT Saclay, France</td>
 <td class="sp" >sp</td>
@@ -2692,7 +3242,8 @@ Rare Events </td>
 <tr>
 <td class="sp">Michele Burrello</td>
 <td class="sp">2011</td>
-<td class="sp">Giuseppe Mussardo,<br/>Andrea Trombettoni</td>
+<td class="sp">Giuseppe Mussardo,<br/>
+Andrea Trombettoni</td>
 <td class="sp"><a href="http://hdl.handle.net/20.500.11767/4127">Topological Quantum Computation, Anyons and non-Abelian Gauge Potentials</a></td>
 <td class="sp">Professor (Assistant) at University of Copenhagen , Denmark</td>
 <td class="sp" >sp</td>
@@ -2974,9 +3525,10 @@ theory and phenomenology      </td>
 <tr>
 <td class="sp">Serena Bradde</td>
 <td class="sp">2010</td>
-<td class="sp">Riccardo Zecchina, <br/> Giuseppe Mussardo</td>
+<td class="sp">Riccardo Zecchina,<br/>
+Giuseppe Mussardo</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/bradde.pdf">The Isomorphism Problem: A Belief Propagation Approach</a></td>
-<td class="sp">Editor for PRE  at APS, New York, USA</td>
+<td class="sp">Editor for PRE at APS, New York, USA</td>
 <td class="sp" >sp</td>
 </tr>
 <tr>
@@ -2990,7 +3542,9 @@ theory and phenomenology      </td>
 <tr>
 <td class="sp">Elena Canovi</td>
 <td class="sp">2010</td>
-<td class="sp">Giuseppe Santoro,<br/>Rosario Fazio,<br/>Alessandro Silva</td>
+<td class="sp">Giuseppe Santoro,<br/>
+Rosario Fazio,<br/>
+Alessandro Silva</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/canovi.pdf">Quench dynamics of many-body systems</a></td>
 <td class="sp">Software developer at Sinapsi, L’Aquila, Italy</td>
 <td class="sp" >sp</td>
@@ -3006,7 +3560,8 @@ theory and phenomenology      </td>
 <tr>
 <td class="sp">Luca Lepori</td>
 <td class="sp">2010</td>
-<td class="sp">Giuseppe Mussardo,<br/>Andrea Trombettoni</td>
+<td class="sp">Giuseppe Mussardo,<br/>
+Andrea Trombettoni</td>
 <td class="sp"><a href="https://www.statphys.sissa.it/statistical/tesi_phd/lepori.pdf">QFT emerging models in condensed matter systems</a></td>
 <td class="sp">Postdoc at IIT (Genova), Italy</td>
 <td class="sp" >sp</td>
